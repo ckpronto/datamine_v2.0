@@ -1,0 +1,19 @@
+<View>
+  <Header value="Truck: $truck_id — Date: $date" />
+
+  <TimeSeries
+    name="ts"
+    value="$csv_url"
+    valueType="url"
+    timeColumn="timestamp"
+    timeFormat="%Y-%m-%dT%H:%M:%S.%f"
+    sep=",">
+    <Channel column="current_speed" title="Current Speed" />
+    <Channel column="load_weight"   title="Load Weight" />
+  </TimeSeries>
+
+  <TimeSeriesLabels name="phase" toName="ts">
+    <Label value="load_event" />
+    <Label value="dump_event" />
+  </TimeSeriesLabels>
+</View>

@@ -1,0 +1,85 @@
+2025-09-02 03:22:25,587 - __main__ - INFO - 🚀 Starting ENHANCED XGBoost Load/Dump Event Detection Training
+2025-09-02 03:22:25,587 - __main__ - INFO - 🎯 Objective: Include STATE features to dramatically improve accuracy
+2025-09-02 03:22:25,587 - __main__ - INFO - V1.3: Extracting training data with ALL Label Studio files from database...
+2025-09-02 03:22:35,229 - __main__ - INFO - V1.3 Extracted 1,744,043 samples from ALL label files
+2025-09-02 03:22:35,229 - __main__ - INFO - V1.3 Class distribution:
+2025-09-02 03:22:35,329 - __main__ - INFO -   - background: 1,345,585 (77.2%)
+2025-09-02 03:22:35,329 - __main__ - INFO -   - load_event: 296,950 (17.0%)
+2025-09-02 03:22:35,329 - __main__ - INFO -   - dump_event: 101,508 (5.8%)
+2025-09-02 03:22:35,329 - __main__ - INFO - 
+State distribution:
+2025-09-02 03:22:35,426 - __main__ - INFO -   - hauling: 1,014,170 (58.2%)
+2025-09-02 03:22:35,426 - __main__ - INFO -   - loading: 355,402 (20.4%)
+2025-09-02 03:22:35,426 - __main__ - INFO -   - unknown: 176,115 (10.1%)
+2025-09-02 03:22:35,426 - __main__ - INFO -   - dumping: 122,372 (7.0%)
+2025-09-02 03:22:35,426 - __main__ - INFO -   - idle: 46,878 (2.7%)
+2025-09-02 03:22:35,426 - __main__ - INFO -   - stopped: 29,106 (1.7%)
+2025-09-02 03:22:35,426 - __main__ - INFO - 
+Software state distribution:
+2025-09-02 03:22:35,525 - __main__ - INFO -   - autonomous: 966,726 (55.4%)
+2025-09-02 03:22:35,525 - __main__ - INFO -   - fault: 386,138 (22.1%)
+2025-09-02 03:22:35,526 - __main__ - INFO -   - intervention: 275,407 (15.8%)
+2025-09-02 03:22:35,526 - __main__ - INFO -   - manual: 115,772 (6.6%)
+2025-09-02 03:22:35,526 - __main__ - INFO - Engineering features for load/dump detection WITH STATE...
+2025-09-02 03:22:36,780 - __main__ - INFO - 🚀 ONE-HOT ENCODING STATE - The Missing Feature!
+2025-09-02 03:22:37,016 - __main__ - INFO - 🚀 ONE-HOT ENCODING SOFTWARE_STATE
+2025-09-02 03:22:37,263 - __main__ - INFO - V1.3 feature engineering complete. Total features: 33
+2025-09-02 03:22:37,315 - __main__ - INFO - Preparing features and labels WITH STATE...
+2025-09-02 03:22:37,315 - __main__ - INFO - 🎯 Added STATE features: ['state_dumping', 'state_hauling', 'state_idle', 'state_loading', 'state_stopped', 'state_unknown']
+2025-09-02 03:22:37,315 - __main__ - INFO - 🎯 Added SOFTWARE_STATE features: ['sw_state_autonomous', 'sw_state_fault', 'sw_state_intervention', 'sw_state_manual']
+2025-09-02 03:22:37,315 - __main__ - INFO - ENHANCED feature set: 26 features
+2025-09-02 03:22:37,315 - __main__ - INFO - State-related features: 10 out of 26
+2025-09-02 03:22:38,266 - __main__ - INFO - Label mapping: {'background': 0, 'dump_event': 1, 'load_event': 2})
+2025-09-02 03:22:39,552 - __main__ - INFO - Data split: 1,395,234 train, 348,809 test
+2025-09-02 03:22:39,612 - __main__ - INFO - 🚀 Training ENHANCED XGBoost model with STATE features...
+2025-09-02 03:22:39,612 - __main__ - INFO - Enhanced hyperparameters: {'objective': 'multi:softprob', 'num_class': 3, 'max_depth': 8, 'learning_rate': 0.1, 'n_estimators': 500, 'subsample': 0.8, 'colsample_bytree': 0.8, 'random_state': 42, 'tree_method': 'hist', 'enable_categorical': False, 'n_jobs': 100}
+2025-09-02 03:23:39,673 - __main__ - INFO - Enhanced training completed in 60.06 seconds
+2025-09-02 03:23:39,674 - __main__ - INFO - Evaluating ENHANCED model with STATE features...
+2025-09-02 03:23:41,303 - __main__ - INFO - 🎉 ENHANCED Test Accuracy: 0.9652 (96.52%)
+2025-09-02 03:23:41,392 - __main__ - INFO - 
+🎯 ENHANCED MODEL COMPARISON:
+2025-09-02 03:23:41,392 - __main__ - INFO -   Enhanced XGBoost: 0.9652 (96.52%)
+2025-09-02 03:23:41,392 - __main__ - INFO -   Original XGBoost:  0.9555 (95.55%)
+2025-09-02 03:23:41,392 - __main__ - INFO -   State Machine:     0.6035 (60.35%)
+2025-09-02 03:23:41,392 - __main__ - INFO -   Improvement vs Original: +0.0097 (+0.97 pp)
+2025-09-02 03:23:41,392 - __main__ - INFO -   Improvement vs Baseline: +0.3617 (+36.17 pp)
+2025-09-02 03:23:41,392 - __main__ - INFO - 🎉 SUCCESS: Enhanced model exceeds original XGBoost!
+2025-09-02 03:23:41,392 - __main__ - INFO - 
+Enhanced Per-class Performance:
+2025-09-02 03:23:41,392 - __main__ - INFO -   background:
+2025-09-02 03:23:41,392 - __main__ - INFO -     Precision: 0.9726
+2025-09-02 03:23:41,392 - __main__ - INFO -     Recall:    0.9826
+2025-09-02 03:23:41,392 - __main__ - INFO -     F1-Score:  0.9776
+2025-09-02 03:23:41,392 - __main__ - INFO -     Support:   269117.0
+2025-09-02 03:23:41,392 - __main__ - INFO -   dump_event:
+2025-09-02 03:23:41,392 - __main__ - INFO -     Precision: 0.8723
+2025-09-02 03:23:41,392 - __main__ - INFO -     Recall:    0.8196
+2025-09-02 03:23:41,392 - __main__ - INFO -     F1-Score:  0.8452
+2025-09-02 03:23:41,393 - __main__ - INFO -     Support:   20302.0
+2025-09-02 03:23:41,393 - __main__ - INFO -   load_event:
+2025-09-02 03:23:41,393 - __main__ - INFO -     Precision: 0.9609
+2025-09-02 03:23:41,393 - __main__ - INFO -     Recall:    0.9363
+2025-09-02 03:23:41,393 - __main__ - INFO -     F1-Score:  0.9484
+2025-09-02 03:23:41,393 - __main__ - INFO -     Support:   59390.0
+2025-09-02 03:23:41,393 - __main__ - INFO - Generating ENHANCED feature importance plot...
+2025-09-02 03:23:42,033 - __main__ - INFO - 🎯 Top 15 Most Important Features (Enhanced Model):
+2025-09-02 03:23:42,033 - __main__ - INFO -    1. 🔴 STATE state_loading: 0.545759
+2025-09-02 03:23:42,033 - __main__ - INFO -    2. 🔴 STATE sw_state_intervention: 0.093957
+2025-09-02 03:23:42,033 - __main__ - INFO -    3. 🔴 STATE sw_state_autonomous: 0.072082
+2025-09-02 03:23:42,033 - __main__ - INFO -    4. 🔵 PRNDL prndl_drive: 0.034103
+2025-09-02 03:23:42,033 - __main__ - INFO -    5. 🔴 STATE state_hauling: 0.026607
+2025-09-02 03:23:42,034 - __main__ - INFO -    6. 🔵 PRNDL prndl_reverse: 0.024192
+2025-09-02 03:23:42,034 - __main__ - INFO -    7. 🔴 STATE state_stopped: 0.021429
+2025-09-02 03:23:42,034 - __main__ - INFO -    8. 🟢 SENSOR latitude: 0.021023
+2025-09-02 03:23:42,034 - __main__ - INFO -    9. 🟢 SENSOR load_squared: 0.021014
+2025-09-02 03:23:42,034 - __main__ - INFO -   10. 🔴 STATE sw_state_fault: 0.020397
+2025-09-02 03:23:42,034 - __main__ - INFO -   11. 🔴 STATE state_dumping: 0.020377
+2025-09-02 03:23:42,034 - __main__ - INFO -   12. 🔵 PRNDL prndl_neutral: 0.020141
+2025-09-02 03:23:42,034 - __main__ - INFO -   13. 🟢 SENSOR system_engaged: 0.013541
+2025-09-02 03:23:42,034 - __main__ - INFO -   14. 🟢 SENSOR longitude: 0.011512
+2025-09-02 03:23:42,034 - __main__ - INFO -   15. 🟢 SENSOR altitude: 0.010779
+2025-09-02 03:23:42,034 - __main__ - INFO - Generating enhanced confusion matrix plot...
+2025-09-02 03:23:42,581 - __main__ - INFO - Model V1.3 saved to: /home/ck/DataMine/APPLICATION/NN MODELS/2.1 Load Dump XGBoost/xgboost_enhanced_model_v1.3.json
+2025-09-02 03:23:42,581 - __main__ - INFO - 🎉 V1.3 stable velocity model training completed successfully!
+2025-09-02 03:23:42,581 - __main__ - INFO - 🎉 ENHANCED XGBoost Load/Dump Detection training completed successfully!
+2025-09-02 03:23:42,581 - __main__ - INFO - 🏆 Final Enhanced Accuracy: 0.9652

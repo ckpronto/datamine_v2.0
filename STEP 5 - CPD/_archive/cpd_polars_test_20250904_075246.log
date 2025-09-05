@@ -1,0 +1,29 @@
+2025-09-04 07:52:46,952 - INFO - Starting UDF-Free Polars Performance Test...
+2025-09-04 07:52:46,952 - INFO - ================================================================================
+2025-09-04 07:52:46,952 - INFO - TICKET-133: UDF-Free Polars Performance Benchmark
+2025-09-04 07:52:46,952 - INFO - ================================================================================
+2025-09-04 07:52:46,952 - INFO - Test chunk: 8 device-dates
+2025-09-04 07:52:46,952 - INFO - Device range: lake-605-10-0050_2025-07-30 to lake-605-10-0050_2025-08-06
+2025-09-04 07:52:46,952 - INFO - Connecting to database...
+2025-09-04 07:52:46,962 - INFO - Target table 05_candidate_events verified
+2025-09-04 07:52:46,962 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 07:52:46,962 - INFO - Extracting data for 8 device-dates using COPY
+2025-09-04 07:52:47,867 - INFO - COPY extraction completed in 0.89s, extracted 46931049 bytes
+2025-09-04 07:52:47,867 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 07:52:47,867 - INFO - Processing data with Polars vectorized engine
+2025-09-04 07:52:48,023 - INFO - Polars CSV parsing completed in 0.16s, loaded 770212 rows
+2025-09-04 07:52:48,276 - ERROR - Polars processing failed: time data "2025-08-04 13:43:58+00" doesn't match format "%Y-%m-%d %H:%M:%S.%f%z", at position 18536. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-09-04 07:52:48,277 - ERROR - Performance benchmark failed: time data "2025-08-04 13:43:58+00" doesn't match format "%Y-%m-%d %H:%M:%S.%f%z", at position 18536. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-09-04 07:52:48,277 - INFO - Database connection closed
+2025-09-04 07:52:48,277 - ERROR - Benchmark execution failed: time data "2025-08-04 13:43:58+00" doesn't match format "%Y-%m-%d %H:%M:%S.%f%z", at position 18536. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.

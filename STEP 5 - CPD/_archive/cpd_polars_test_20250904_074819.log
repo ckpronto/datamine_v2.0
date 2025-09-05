@@ -1,0 +1,24 @@
+2025-09-04 07:48:19,098 - INFO - Starting UDF-Free Polars Performance Test...
+2025-09-04 07:48:19,099 - INFO - ================================================================================
+2025-09-04 07:48:19,099 - INFO - TICKET-133: UDF-Free Polars Performance Benchmark
+2025-09-04 07:48:19,099 - INFO - ================================================================================
+2025-09-04 07:48:19,099 - INFO - Test chunk: 8 device-dates
+2025-09-04 07:48:19,099 - INFO - Device range: lake-605-10-0050_2025-07-30 to lake-605-10-0050_2025-08-06
+2025-09-04 07:48:19,099 - INFO - Connecting to database...
+2025-09-04 07:48:19,109 - INFO - Target table 05_candidate_events verified
+2025-09-04 07:48:19,109 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 07:48:19,109 - INFO - Extracting data for 8 device-dates using COPY
+2025-09-04 07:48:19,109 - ERROR - Data extraction failed: syntax error at or near "%"
+LINE 5:                     WHERE device_date = ANY(%s) AND load_wei...
+                                                    ^
+
+2025-09-04 07:48:19,109 - ERROR - Performance benchmark failed: syntax error at or near "%"
+LINE 5:                     WHERE device_date = ANY(%s) AND load_wei...
+                                                    ^
+
+2025-09-04 07:48:19,110 - INFO - Database connection closed
+2025-09-04 07:48:19,110 - ERROR - Benchmark execution failed: syntax error at or near "%"
+LINE 5:                     WHERE device_date = ANY(%s) AND load_wei...
+                                                    ^
+

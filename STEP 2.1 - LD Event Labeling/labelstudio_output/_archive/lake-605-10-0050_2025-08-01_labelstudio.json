@@ -1,0 +1,8 @@
+{
+  "data": {
+    "csv": "lake-605-10-0050_2025-08-01_data.csv",
+    "truck_id": "lake-605-10-0050",
+    "date": "2025-08-01",
+    "task_type": "loading_dumping_events"
+  }
+}

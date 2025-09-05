@@ -1,0 +1,6 @@
+2025-08-27 21:41:53,932 - INFO - Logging to file: /home/ck/DataMine/labelstudio_output/lsprep_20250827_214153.log
+2025-08-27 21:41:53,932 - INFO - Script started successfully
+2025-08-27 21:41:53,932 - INFO - Connecting to database...
+2025-08-27 21:41:54,394 - INFO - Source table verified: 8,831,277 rows available
+2025-08-27 21:41:55,290 - INFO - Found 7 unique trucks: lake-605-10-0050, lake-605-8-0883, lake-605-8-0896, lake-605-8-0898, lake-605-8-0902, lake-775g-2-2262, lake-775g-2-2266
+2025-08-27 21:41:55,290 - ERROR - Script execution failed: Invalid truck IDs: ['T2262', 'T0883']. Available trucks: ['lake-605-10-0050', 'lake-605-8-0883', 'lake-605-8-0896', 'lake-605-8-0898', 'lake-605-8-0902', 'lake-775g-2-2262', 'lake-775g-2-2266']

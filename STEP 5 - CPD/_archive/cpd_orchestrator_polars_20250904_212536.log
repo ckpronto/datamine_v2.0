@@ -1,0 +1,9 @@
+2025-09-04 21:25:36,582 - MainProcess - INFO - ================================================================================
+2025-09-04 21:25:36,582 - MainProcess - INFO - MASSIVELY PARALLEL CPD ORCHESTRATOR - PRODUCTION SCALE
+2025-09-04 21:25:36,582 - MainProcess - INFO - ================================================================================
+2025-09-04 21:25:36,582 - MainProcess - INFO - Target: Process entire telemetry dataset with sub-hour performance
+2025-09-04 21:25:36,582 - MainProcess - INFO - Architecture: Parquet -> Parallel Workers -> PELT -> Aggregated Results
+2025-09-04 21:25:36,582 - MainProcess - INFO - Detection method: polars_parallel_v2
+2025-09-04 21:25:36,582 - MainProcess - INFO - Start time: 2025-09-04 21:25:36.582519
+2025-09-04 21:25:36,582 - MainProcess - ERROR - Orchestrator execution failed after 0.00 minutes: name 'logger' is not defined
+2025-09-04 21:25:36,582 - MainProcess - INFO - Cleaned up temp_results directory after failure

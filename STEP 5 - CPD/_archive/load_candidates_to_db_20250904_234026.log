@@ -1,0 +1,23 @@
+2025-09-04 23:40:26,181 - INFO - ================================================================================
+2025-09-04 23:40:26,181 - INFO - CPD CANDIDATE EVENTS DATABASE LOADER - PRODUCTION
+2025-09-04 23:40:26,181 - INFO - ================================================================================
+2025-09-04 23:40:26,181 - INFO - Start time: 2025-09-04 23:40:26.181572
+2025-09-04 23:40:26,190 - INFO - Database connection established successfully
+2025-09-04 23:40:26,196 - INFO - Schema validation passed - 4 columns found
+2025-09-04 23:40:26,196 - INFO - Current table row count: 0
+2025-09-04 23:40:26,203 - INFO - CSV validation passed - 3 columns, 46,083 rows
+2025-09-04 23:40:26,203 - INFO - Ready to load 46,083 records
+2025-09-04 23:40:26,203 - INFO - Truncating 05_candidate_events table...
+2025-09-04 23:40:26,242 - INFO - Table truncated successfully
+2025-09-04 23:40:26,242 - INFO - Starting COPY operation from: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_final.csv
+2025-09-04 23:40:26,801 - INFO - COPY completed successfully:
+2025-09-04 23:40:26,801 - INFO -   Rows loaded: 46,083
+2025-09-04 23:40:26,801 - INFO -   Load time: 0.56 seconds
+2025-09-04 23:40:26,801 - INFO -   Rate: 82,508 rows/second
+2025-09-04 23:40:26,801 - INFO - Performing post-load validation...
+2025-09-04 23:40:26,824 - ERROR - Data validation failed: column "cpd_confidence_score" does not exist
+LINE 7:                     AVG(cpd_confidence_score) as avg_confide...
+                                ^
+
+2025-09-04 23:40:26,824 - ERROR - Data validation failed - rolling back transaction
+2025-09-04 23:40:26,824 - INFO - Database connection closed

@@ -1,0 +1,18 @@
+2025-09-04 23:39:16,252 - INFO - ================================================================================
+2025-09-04 23:39:16,252 - INFO - CPD CANDIDATE EVENTS DATABASE LOADER - PRODUCTION
+2025-09-04 23:39:16,252 - INFO - ================================================================================
+2025-09-04 23:39:16,252 - INFO - Start time: 2025-09-04 23:39:16.252697
+2025-09-04 23:39:16,261 - INFO - Database connection established successfully
+2025-09-04 23:39:16,267 - INFO - Schema validation passed - 4 columns found
+2025-09-04 23:39:16,267 - INFO - Current table row count: 0
+2025-09-04 23:39:16,274 - INFO - CSV validation passed - 3 columns, 46,083 rows
+2025-09-04 23:39:16,275 - INFO - Ready to load 46,083 records
+2025-09-04 23:39:16,275 - INFO - Truncating 05_candidate_events table...
+2025-09-04 23:39:16,297 - INFO - Table truncated successfully
+2025-09-04 23:39:16,297 - INFO - Starting COPY operation from: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_final.csv
+2025-09-04 23:39:16,299 - ERROR - COPY operation failed: permission denied to COPY from a file
+DETAIL:  Only roles with privileges of the "pg_read_server_files" role may COPY from a file.
+HINT:  Anyone can COPY to stdout or from stdin. psql's \copy command also works for anyone.
+
+2025-09-04 23:39:16,299 - ERROR - COPY operation failed or loaded 0 rows
+2025-09-04 23:39:16,299 - INFO - Database connection closed

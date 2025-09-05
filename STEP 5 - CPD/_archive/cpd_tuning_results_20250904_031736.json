@@ -1,0 +1,158 @@
+{
+  "timestamp": "2025-09-04T03:17:36.644363",
+  "system_cores": 100,
+  "workload_tested": 24,
+  "total_workload": 96,
+  "results": [
+    {
+      "num_workers": 32,
+      "chunk_size": 4,
+      "workload_size": 24,
+      "num_chunks": 6,
+      "total_duration": 34.8363254070282,
+      "successful_chunks": 0,
+      "failed_chunks": 6,
+      "total_events": 0,
+      "total_devices": 0,
+      "device_dates_per_second": 0.6889360378737885,
+      "chunks_per_second": 0.17223400946844714,
+      "avg_chunk_duration": 0,
+      "max_chunk_duration": 0,
+      "min_chunk_duration": 0,
+      "efficiency_score": 0.6889360378737885,
+      "parallelization_effectiveness": 0
+    },
+    {
+      "num_workers": 32,
+      "chunk_size": 8,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 32,
+      "chunk_size": 16,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 32,
+      "chunk_size": 32,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 50,
+      "chunk_size": 4,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 50,
+      "chunk_size": 8,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 50,
+      "chunk_size": 16,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 50,
+      "chunk_size": 32,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 100,
+      "chunk_size": 4,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 100,
+      "chunk_size": 8,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 100,
+      "chunk_size": 16,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 100,
+      "chunk_size": 32,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 150,
+      "chunk_size": 4,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 150,
+      "chunk_size": 8,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 150,
+      "chunk_size": 16,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 150,
+      "chunk_size": 32,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 200,
+      "chunk_size": 4,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 200,
+      "chunk_size": 8,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 200,
+      "chunk_size": 16,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    },
+    {
+      "num_workers": 200,
+      "chunk_size": 32,
+      "error": "connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+      "efficiency_score": 0
+    }
+  ],
+  "optimal_config": {
+    "num_workers": 32,
+    "chunk_size": 4,
+    "workload_size": 24,
+    "num_chunks": 6,
+    "total_duration": 34.8363254070282,
+    "successful_chunks": 0,
+    "failed_chunks": 6,
+    "total_events": 0,
+    "total_devices": 0,
+    "device_dates_per_second": 0.6889360378737885,
+    "chunks_per_second": 0.17223400946844714,
+    "avg_chunk_duration": 0,
+    "max_chunk_duration": 0,
+    "min_chunk_duration": 0,
+    "efficiency_score": 0.6889360378737885,
+    "parallelization_effectiveness": 0
+  }
+}

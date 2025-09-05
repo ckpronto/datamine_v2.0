@@ -1,0 +1,105 @@
+2025-09-02 06:01:22,144 - INFO - Logging to file: /home/ck/DataMine/APPLICATION/V2/STEP 2.1 - LD Event Labeling/label_recombine_20250902_060122.log
+2025-09-02 06:01:22,144 - INFO - Label recombination script started successfully
+2025-09-02 06:01:22,144 - INFO - Found 5 Label Studio JSON files in /home/ck/DataMine/APPLICATION/V2/STEP 2.1 - LD Event Labeling/labelstudio_output
+2025-09-02 06:01:22,144 - INFO -   - labels_lake-605-10-0902_round1.json
+2025-09-02 06:01:22,144 - INFO -   - labels_lake-605-10-0050_round1.json
+2025-09-02 06:01:22,144 - INFO -   - labels_lake-605-10-0050_stockpile.json
+2025-09-02 06:01:22,144 - INFO -   - labels_lake-605-8-0883_round1.json
+2025-09-02 06:01:22,144 - INFO -   - labels_new_batch_2025-08-31.json
+2025-09-02 06:01:22,145 - INFO - Extracted 194 annotations from labels_lake-605-10-0902_round1.json
+2025-09-02 06:01:22,146 - INFO - Extracted 281 annotations from labels_lake-605-10-0050_round1.json
+2025-09-02 06:01:22,146 - INFO - Extracted 114 annotations from labels_lake-605-10-0050_stockpile.json
+2025-09-02 06:01:22,147 - INFO - Extracted 227 annotations from labels_lake-605-8-0883_round1.json
+2025-09-02 06:01:22,148 - INFO - Extracted 246 annotations from labels_new_batch_2025-08-31.json
+2025-09-02 06:01:22,148 - INFO - Total annotations extracted: 1062
+2025-09-02 06:01:22,148 - INFO - Found 20 unique truck-date combinations:
+2025-09-02 06:01:22,148 - INFO -   - lake-605-10-0050 on 2025-07-30
+2025-09-02 06:01:22,148 - INFO -   - lake-605-10-0050 on 2025-07-31
+2025-09-02 06:01:22,148 - INFO -   - lake-605-10-0050 on 2025-08-01
+2025-09-02 06:01:22,148 - INFO -   - lake-605-10-0050 on 2025-08-02
+2025-09-02 06:01:22,148 - INFO -   - lake-605-10-0050 on 2025-08-03
+2025-09-02 06:01:22,148 - INFO -   - lake-605-10-0050 on 2025-08-05
+2025-09-02 06:01:22,148 - INFO -   - lake-605-10-0050 on 2025-08-11
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0883 on 2025-07-31
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0883 on 2025-08-01
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0883 on 2025-08-02
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0883 on 2025-08-03
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0883 on 2025-08-05
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0883 on 2025-08-11
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0896 on 2025-08-11
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0898 on 2025-08-11
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0902 on 2025-07-30
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0902 on 2025-08-02
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0902 on 2025-08-03
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0902 on 2025-08-04
+2025-09-02 06:01:22,148 - INFO -   - lake-605-8-0902 on 2025-08-05
+2025-09-02 06:01:22,148 - INFO - Connecting to database...
+2025-09-02 06:01:22,474 - INFO - Source table verified: 8,831,277 rows available
+2025-09-02 06:01:22,475 - INFO - Creating labeled training data table...
+2025-09-02 06:01:22,511 - INFO - Created labeled training data table with indexes
+2025-09-02 06:01:22,511 - INFO - Creating temporary label mappings...
+2025-09-02 06:01:22,525 - INFO - Created temporary label mappings table with 1062 entries
+2025-09-02 06:01:22,525 - INFO - Inserting labeled training data...
+2025-09-02 06:01:22,525 - INFO - Processing 1/20: lake-605-10-0050 on 2025-08-11
+2025-09-02 06:01:27,633 - INFO -   Inserted 96,433 labeled records
+2025-09-02 06:01:27,634 - INFO - Processing 2/20: lake-605-8-0883 on 2025-08-11
+2025-09-02 06:01:29,306 - INFO -   Inserted 19,315 labeled records
+2025-09-02 06:01:29,306 - INFO - Processing 3/20: lake-605-10-0050 on 2025-08-05
+2025-09-02 06:01:33,932 - INFO -   Inserted 96,815 labeled records
+2025-09-02 06:01:33,932 - INFO - Processing 4/20: lake-605-8-0883 on 2025-08-05
+2025-09-02 06:01:37,798 - INFO -   Inserted 87,900 labeled records
+2025-09-02 06:01:37,799 - INFO - Processing 5/20: lake-605-8-0902 on 2025-08-03
+2025-09-02 06:01:40,834 - INFO -   Inserted 90,351 labeled records
+2025-09-02 06:01:40,835 - INFO - Processing 6/20: lake-605-8-0902 on 2025-07-30
+2025-09-02 06:01:43,623 - INFO -   Inserted 93,054 labeled records
+2025-09-02 06:01:43,623 - INFO - Processing 7/20: lake-605-8-0902 on 2025-08-02
+2025-09-02 06:01:46,700 - INFO -   Inserted 88,115 labeled records
+2025-09-02 06:01:46,700 - INFO - Processing 8/20: lake-605-10-0050 on 2025-08-01
+2025-09-02 06:01:50,743 - INFO -   Inserted 103,902 labeled records
+2025-09-02 06:01:50,744 - INFO - Processing 9/20: lake-605-8-0898 on 2025-08-11
+2025-09-02 06:01:54,047 - INFO -   Inserted 95,848 labeled records
+2025-09-02 06:01:54,048 - INFO - Processing 10/20: lake-605-8-0883 on 2025-08-01
+2025-09-02 06:01:57,444 - INFO -   Inserted 92,319 labeled records
+2025-09-02 06:01:57,444 - INFO - Processing 11/20: lake-605-8-0902 on 2025-08-04
+2025-09-02 06:02:00,983 - INFO -   Inserted 94,433 labeled records
+2025-09-02 06:02:00,983 - INFO - Processing 12/20: lake-605-10-0050 on 2025-08-03
+2025-09-02 06:02:05,451 - INFO -   Inserted 92,506 labeled records
+2025-09-02 06:02:05,452 - INFO - Processing 13/20: lake-605-10-0050 on 2025-07-31
+2025-09-02 06:02:09,048 - INFO -   Inserted 103,968 labeled records
+2025-09-02 06:02:09,048 - INFO - Processing 14/20: lake-605-10-0050 on 2025-08-02
+2025-09-02 06:02:13,077 - INFO -   Inserted 93,092 labeled records
+2025-09-02 06:02:13,077 - INFO - Processing 15/20: lake-605-10-0050 on 2025-07-30
+2025-09-02 06:02:16,489 - INFO -   Inserted 89,677 labeled records
+2025-09-02 06:02:16,490 - INFO - Processing 16/20: lake-605-8-0883 on 2025-08-03
+2025-09-02 06:02:20,673 - INFO -   Inserted 88,847 labeled records
+2025-09-02 06:02:20,673 - INFO - Processing 17/20: lake-605-8-0883 on 2025-07-31
+2025-09-02 06:02:24,347 - INFO -   Inserted 113,910 labeled records
+2025-09-02 06:02:24,347 - INFO - Processing 18/20: lake-605-8-0883 on 2025-08-02
+2025-09-02 06:02:28,321 - INFO -   Inserted 96,158 labeled records
+2025-09-02 06:02:28,322 - INFO - Processing 19/20: lake-605-8-0902 on 2025-08-05
+2025-09-02 06:02:32,051 - INFO -   Inserted 87,250 labeled records
+2025-09-02 06:02:32,051 - INFO - Processing 20/20: lake-605-8-0896 on 2025-08-11
+2025-09-02 06:02:33,713 - INFO -   Inserted 20,150 labeled records
+2025-09-02 06:02:33,714 - INFO - Successfully inserted 1,744,043 total labeled training records
+2025-09-02 06:02:33,714 - INFO - === LABELED TRAINING DATA STATISTICS ===
+2025-09-02 06:02:34,733 - INFO - Total Records: 1,744,043
+2025-09-02 06:02:34,733 - INFO - Unique Trucks: 5
+2025-09-02 06:02:34,733 - INFO - Unique Truck-Dates: 20
+2025-09-02 06:02:34,733 - INFO - Time Range: 2025-07-30 00:00:00.103835+00:00 to 2025-08-11 23:58:00.397182+00:00
+2025-09-02 06:02:35,807 - INFO - 
+Label Distribution:
+2025-09-02 06:02:35,807 - INFO -   background  : 1,345,585 records ( 77.2%)
+2025-09-02 06:02:35,808 - INFO -                    5 trucks, 20 truck-dates
+2025-09-02 06:02:35,808 - INFO -   load_event  :  296,950 records ( 17.0%)
+2025-09-02 06:02:35,808 - INFO -                    5 trucks, 20 truck-dates
+2025-09-02 06:02:35,808 - INFO -   dump_event  :  101,508 records (  5.8%)
+2025-09-02 06:02:35,808 - INFO -                    5 trucks, 20 truck-dates
+2025-09-02 06:02:35,808 - INFO - === DATA QUALITY VALIDATION ===
+2025-09-02 06:02:35,808 - INFO - Null Labels: PASSED
+2025-09-02 06:02:35,919 - INFO - Invalid Labels: PASSED
+2025-09-02 06:02:35,920 - INFO - Missing Truck Dates: PASSED
+2025-09-02 06:02:36,808 - INFO - Duplicate Hash IDs: PASSED
+2025-09-02 06:02:36,808 - INFO - All data quality checks PASSED
+2025-09-02 06:02:36,809 - INFO - Database connection closed.
+2025-09-02 06:02:36,809 - INFO - === SCRIPT COMPLETED SUCCESSFULLY ===
+2025-09-02 06:02:36,809 - INFO - Created labeled training dataset with 1,744,043 records

@@ -1,0 +1,11 @@
+2025-08-27 18:51:11,166 - INFO - Logging to file: /home/ck/DataMine/labelstudio_output/lsprep_20250827_185111.log
+2025-08-27 18:51:11,166 - INFO - Script started successfully
+2025-08-27 18:51:11,166 - INFO - Connecting to database...
+2025-08-27 18:51:11,639 - INFO - Source table verified: 8,831,277 rows available
+2025-08-27 18:51:12,518 - INFO - Found 7 unique trucks: lake-605-10-0050, lake-605-8-0883, lake-605-8-0896, lake-605-8-0898, lake-605-8-0902, lake-775g-2-2262, lake-775g-2-2266
+2025-08-27 18:51:12,518 - INFO - All specified trucks validated: ['lake-605-10-0050']
+2025-08-27 18:51:12,521 - INFO - Planning to process 1 truck-date combinations:
+2025-08-27 18:51:12,521 - INFO - Trucks (1): lake-605-10-0050
+2025-08-27 18:51:12,522 - INFO - Dates (1): 2025-08-01 to 2025-08-01
+2025-08-27 18:51:12,522 - INFO - DRY RUN - No files will be generated
+2025-08-27 18:51:12,522 - INFO - Would process: lake-605-10-0050 on 2025-08-01

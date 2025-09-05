@@ -1,0 +1,23 @@
+2025-08-27 23:23:11,566 - INFO - Logging to file: /home/ck/DataMine/labelstudio_output/lsprep_20250827_232311.log
+2025-08-27 23:23:11,566 - INFO - Script started successfully
+2025-08-27 23:23:11,566 - INFO - Connecting to database...
+2025-08-27 23:23:12,032 - INFO - Source table verified: 8,831,277 rows available
+2025-08-27 23:23:12,909 - INFO - Found 7 unique trucks: lake-605-10-0050, lake-605-8-0883, lake-605-8-0896, lake-605-8-0898, lake-605-8-0902, lake-775g-2-2262, lake-775g-2-2266
+2025-08-27 23:23:12,909 - INFO - All specified trucks validated: ['lake-775g-2-2262']
+2025-08-27 23:23:12,911 - INFO - Planning to process 1 truck-date combinations:
+2025-08-27 23:23:12,911 - INFO - Trucks (1): lake-775g-2-2262
+2025-08-27 23:23:12,911 - INFO - Dates (1): 2025-08-01 to 2025-08-01
+2025-08-27 23:23:12,911 - INFO - Starting data extraction and file generation...
+2025-08-27 23:23:12,911 - INFO - Processing truck 1/1: lake-775g-2-2262
+2025-08-27 23:23:12,911 - INFO -   Processing date 1/1: 2025-08-01
+2025-08-27 23:23:14,266 - INFO - Extracted 99272 records for truck lake-775g-2-2262 on 2025-08-01 00:00:00
+2025-08-27 23:23:14,937 - INFO - Created Label Studio inline task file: /home/ck/DataMine/labelstudio_output/lake-775g-2-2262_2025-08-01_labelstudio.json (99272 records)
+2025-08-27 23:23:14,958 - INFO -     SUCCESS: 99272 records -> /home/ck/DataMine/labelstudio_output/lake-775g-2-2262_2025-08-01_labelstudio.json
+2025-08-27 23:23:14,958 - INFO - === PROCESSING SUMMARY ===
+2025-08-27 23:23:14,958 - INFO - Total truck-date combinations processed: 1
+2025-08-27 23:23:14,958 - INFO - Successful: 1
+2025-08-27 23:23:14,958 - INFO - Failed/No Data: 0
+2025-08-27 23:23:14,958 - INFO - Total telemetry records processed: 99,272
+2025-08-27 23:23:14,958 - INFO - Summary report created: /home/ck/DataMine/labelstudio_output/processing_summary_20250827_232314.json
+2025-08-27 23:23:14,958 - INFO - Database connection closed.
+2025-08-27 23:23:14,959 - INFO - === SCRIPT COMPLETED SUCCESSFULLY ===

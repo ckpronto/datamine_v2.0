@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-27T18:51:59.033716",
+  "total_combinations": 1,
+  "successful": 1,
+  "failed": 0,
+  "total_records": 96158,
+  "output_directory": "/home/ck/DataMine/labelstudio_output",
+  "results": [
+    {
+      "truck_id": "lake-605-8-0883",
+      "date": "2025-08-02",
+      "csv_file": "/home/ck/DataMine/labelstudio_output/lake-605-8-0883_2025-08-02_data.csv",
+      "json_file": "/home/ck/DataMine/labelstudio_output/lake-605-8-0883_2025-08-02_labelstudio.json",
+      "record_count": 96158,
+      "status": "success"
+    }
+  ]
+}

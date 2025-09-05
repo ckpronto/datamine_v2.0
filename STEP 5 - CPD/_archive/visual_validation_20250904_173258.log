@@ -1,0 +1,34 @@
+2025-09-04 17:32:58,013 - INFO - Starting visual validation of candidate events
+2025-09-04 17:32:58,013 - INFO - ============================================================
+2025-09-04 17:32:58,013 - INFO - Target: lake-605-10-0050 on 2025-07-30
+2025-09-04 17:32:58,022 - INFO - 
+--- Loading Data ---
+2025-09-04 17:32:58,022 - INFO - Loading ground-truth events for lake-605-10-0050 on 2025-07-30
+2025-09-04 17:32:58,366 - INFO - Loaded 23265 ground-truth labeled events
+2025-09-04 17:32:59,498 - INFO - Created 50 ground-truth event windows
+2025-09-04 17:32:59,499 - INFO - Loading load_weight signal for lake-605-10-0050 on 2025-07-30
+2025-09-04 17:32:59,713 - INFO - Loaded 89677 load_weight signal points
+2025-09-04 17:32:59,713 - INFO - Loading candidate events from /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_export.csv
+2025-09-04 17:32:59,719 - INFO - Loaded 666 candidate events
+2025-09-04 17:32:59,719 - INFO - 
+--- Creating Visualization ---
+2025-09-04 17:32:59,719 - INFO - Creating visual validation plot
+2025-09-04 17:33:03,322 - INFO - Visual validation plot saved to: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/visual_validation_lake-605-10-0050_2025-07-30.png
+2025-09-04 17:33:03,322 - INFO - 
+--- Analyzing Results ---
+2025-09-04 17:33:03,322 - INFO - Analyzing candidate event clustering
+2025-09-04 17:33:03,359 - INFO - === CANDIDATE EVENT CLUSTERING ANALYSIS ===
+2025-09-04 17:33:03,359 - INFO - Total candidates detected: 666
+2025-09-04 17:33:03,359 - INFO - Total ground truth windows: 50
+2025-09-04 17:33:03,359 - INFO - Candidates directly in GT windows: 204
+2025-09-04 17:33:03,359 - INFO - Candidates near GT windows (±2min): 404
+2025-09-04 17:33:03,359 - INFO - Ground truth windows with nearby candidates: 50/50
+2025-09-04 17:33:03,359 - INFO - Window hit rate: 100.0%
+2025-09-04 17:33:03,359 - INFO - ==================================================
+2025-09-04 17:33:03,359 - INFO - 
+============================================================
+2025-09-04 17:33:03,359 - INFO - VISUAL VALIDATION COMPLETED SUCCESSFULLY
+2025-09-04 17:33:03,359 - INFO - ============================================================
+2025-09-04 17:33:03,359 - INFO - Plot saved: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/visual_validation_lake-605-10-0050_2025-07-30.png
+2025-09-04 17:33:03,359 - INFO - Log saved: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/visual_validation_20250904_173258.log
+2025-09-04 17:33:03,359 - INFO - Database connection closed

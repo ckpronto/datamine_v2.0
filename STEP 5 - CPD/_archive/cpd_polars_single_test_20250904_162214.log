@@ -1,0 +1,40 @@
+2025-09-04 16:22:14,764 - INFO - Starting Focused Single Device-Date Performance Test...
+2025-09-04 16:22:14,765 - INFO - ================================================================================
+2025-09-04 16:22:14,765 - INFO - TICKET-135: Final Fix - Algorithmic Bottleneck Solution Test
+2025-09-04 16:22:14,765 - INFO - ================================================================================
+2025-09-04 16:22:14,765 - INFO - Test device-date: lake-605-10-0050_2025-07-30
+2025-09-04 16:22:14,765 - INFO - Architecture: PostgreSQL COPY -> Polars -> Downsampling -> Ruptures PELT -> Bulk Insert
+2025-09-04 16:22:14,765 - INFO - Downsampling: 5-second rolling mean to solve O(n²) complexity
+2025-09-04 16:22:14,765 - INFO - Connecting to database...
+2025-09-04 16:22:14,775 - INFO - Target table 05_candidate_events verified
+2025-09-04 16:22:14,775 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 16:22:14,775 - INFO - Extracting data for device-date: lake-605-10-0050_2025-07-30
+2025-09-04 16:22:14,894 - INFO - COPY extraction completed in 0.116s
+2025-09-04 16:22:14,894 - INFO - Extracted 5474641 bytes (5.22 MB)
+2025-09-04 16:22:14,894 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 16:22:14,894 - INFO - Processing lake-605-10-0050_2025-07-30 with Polars vectorized engine
+2025-09-04 16:22:14,948 - INFO - Polars CSV parsing: 0.054s, loaded 89676 rows
+2025-09-04 16:22:14,948 - INFO - Data sample - first 5 rows:
+2025-09-04 16:22:14,948 - INFO -   shape: (5, 3)
+┌─────────────────────────────┬───────────────────────────────┬────────────────────────────┐
+│ device_date                 ┆ timestamp                     ┆ load_weight_rate_of_change │
+│ ---                         ┆ ---                           ┆ ---                        │
+│ str                         ┆ str                           ┆ f64                        │
+╞═════════════════════════════╪═══════════════════════════════╪════════════════════════════╡
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:00.605166+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:01.105714+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:01.606285+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:02.106961+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:02.60728+00  ┆ 0.0                        │
+└─────────────────────────────┴───────────────────────────────┴────────────────────────────┘
+2025-09-04 16:22:14,949 - INFO - Load weight stats: min=-9140.0, max=3220.0, null_count=0
+2025-09-04 16:22:15,056 - INFO - Starting downsampling process to reduce O(n²) complexity...
+2025-09-04 16:22:15,070 - INFO - Downsampling completed: 0.013s
+2025-09-04 16:22:15,070 - INFO - Data reduced from 89676 to 80772 points (90.1%)
+2025-09-04 16:22:15,113 - INFO - Data conversion completed: 0.043s
+2025-09-04 16:22:15,113 - INFO - Skipping timestamp conversion for PELT performance
+2025-09-04 16:22:15,113 - INFO - Starting PELT algorithm on 80772 data points
+2025-09-04 16:22:15,113 - INFO - Fitting PELT model...
+2025-09-04 16:22:15,113 - INFO - Predicting change points...

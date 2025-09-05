@@ -1,0 +1,78 @@
+{
+  "data": {
+    "truck_id": "lake-775g-2-2262",
+    "date": "2025-08-01",
+    "time_series": [
+      {
+        "timestamp": "2025-08-01T00:00:00.123336",
+        "current_speed": 0.005066145281256387,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "b4e59f7a162106601900275a2c0255cf3212b9117858056b20405e85385610fe"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:00.624012",
+        "current_speed": 0.0383672772587394,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "3e924ad4dad6b03e6d4273fe62712b8934b5ccf5085d690607e936392e289925"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:01.124552",
+        "current_speed": 0.040228384756513025,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "7ce6813ee72151f53d04e7fab9f3bf8d12d50bf464c848fd21d9d616070bcd92"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:01.624577",
+        "current_speed": 0.001092886138528186,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "dc7ceb02531aadac3522fc9c60715ead5edf50cf51c3ba004f7ecd4090f4459f"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:02.125122",
+        "current_speed": 0.01074865483673056,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "27dcc8d568abe43ee8929627c1ab77ecd1e0b4253ee950db09d34a37a72e8f2c"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:02.625289",
+        "current_speed": 0.0032597183426472543,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "a722b825c0991279202a657e41d129653307b1818ee1a758ac470bbb0cc72a0e"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:03.125835",
+        "current_speed": 0.005105529068242288,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "185c27fd3cefc55bf84e214073c5102453fcfcd95fda298d47923fb368b4b391"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:03.626243",
+        "current_speed": 0.02265031329216622,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "144fe9cf2a546969c95493297d7b09607c491e5ddecca5465b76d556ab9c0ab9"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:04.126663",
+        "current_speed": 0.015309081914297638,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "56bc07c94dfe4e1d17a4b3db3aedf6bcc69471ffc60d892d231b042b9edae2a8"
+      },
+      {
+        "timestamp": "2025-08-01T00:00:04.627232",
+        "current_speed": 0.02810770164413136,
+        "load_weight": null,
+        "state": "stopped",
+        "hash_id": "f21090d3a4b74fb01ba7590cfa62ae6c0f9e36f4326dee6dbd3702aa3bf2452c"
+      }
+    ]
+  }
+}

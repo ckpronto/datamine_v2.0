@@ -1,0 +1,16 @@
+2025-09-04 07:50:07,474 - INFO - Starting UDF-Free Polars Performance Test...
+2025-09-04 07:50:07,474 - INFO - ================================================================================
+2025-09-04 07:50:07,474 - INFO - TICKET-133: UDF-Free Polars Performance Benchmark
+2025-09-04 07:50:07,474 - INFO - ================================================================================
+2025-09-04 07:50:07,474 - INFO - Test chunk: 8 device-dates
+2025-09-04 07:50:07,474 - INFO - Device range: lake-605-10-0050_2025-07-30 to lake-605-10-0050_2025-08-06
+2025-09-04 07:50:07,474 - INFO - Connecting to database...
+2025-09-04 07:50:07,485 - INFO - Target table 05_candidate_events verified
+2025-09-04 07:50:07,485 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 07:50:07,485 - INFO - Extracting data for 8 device-dates using COPY
+2025-09-04 07:50:08,497 - INFO - COPY extraction completed in 0.99s, extracted 46931049 bytes
+2025-09-04 07:50:08,497 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 07:50:08,497 - INFO - Processing data with Polars vectorized engine
+2025-09-04 07:50:08,647 - INFO - Polars CSV parsing completed in 0.15s, loaded 770212 rows

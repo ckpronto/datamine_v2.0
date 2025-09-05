@@ -1,0 +1,56 @@
+2025-09-04 22:51:18,119 - INFO - Starting Production-Scale Parquet Export...
+2025-09-04 22:51:18,119 - INFO - ================================================================================
+2025-09-04 22:51:18,119 - INFO - PRODUCTION-SCALE PARQUET EXPORT PIPELINE
+2025-09-04 22:51:18,119 - INFO - ================================================================================
+2025-09-04 22:51:18,119 - INFO - TICKET-139 Part 1: Feature Export for CPD Pipeline
+2025-09-04 22:51:18,119 - INFO - Target: Export ALL 04_primary_feature_table data to partitioned Parquet
+2025-09-04 22:51:18,119 - INFO - Architecture: PostgreSQL COPY -> PyArrow -> Partitioned Parquet
+2025-09-04 22:51:18,119 - INFO - 
+--- Phase 1: Database Connection & Validation ---
+2025-09-04 22:51:18,128 - INFO - Database connection established for bulk export
+2025-09-04 22:51:18,128 - INFO - Validating source table: 04_primary_feature_table
+2025-09-04 22:51:22,595 - INFO - Source table validation completed:
+2025-09-04 22:51:22,595 - INFO -   Total records: 8,831,277
+2025-09-04 22:51:22,595 - INFO -   Unique device-dates: 96
+2025-09-04 22:51:22,595 - INFO -   Unique devices: 7
+2025-09-04 22:51:22,595 - INFO -   Date range: 2025-07-30 00:00:00.103835+00:00 to 2025-08-12 23:59:59.994766+00:00
+2025-09-04 22:51:22,595 - INFO -   Total columns: 33
+2025-09-04 22:51:22,595 - INFO - 
+--- Phase 2: Streaming Data Extraction ---
+2025-09-04 22:51:22,595 - INFO - Starting streaming data extraction with PostgreSQL COPY
+2025-09-04 22:51:22,595 - INFO - Executing bulk COPY extraction...
+2025-09-04 22:52:44,534 - INFO - COPY extraction completed in 78.69s
+2025-09-04 22:52:44,534 - INFO - Extracted data size: 7764.4 MB
+2025-09-04 22:52:44,535 - INFO - Converting CSV to PyArrow Table...
+2025-09-04 22:54:08,573 - INFO - Pandas DataFrame loaded: 8,831,277 rows x 33 columns
+2025-09-04 22:54:20,271 - INFO - Arrow Table conversion completed in 95.74s
+2025-09-04 22:54:20,271 - INFO - Table shape: 8,831,277 rows x 33 columns
+2025-09-04 22:54:20,966 - INFO - 
+--- Phase 3: Partitioned Parquet Export ---
+2025-09-04 22:54:20,966 - INFO - Starting partitioned Parquet export...
+2025-09-04 22:54:20,966 - INFO - Output directory: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/features.parquet
+2025-09-04 22:54:20,966 - INFO - Partition column: device_date
+2025-09-04 22:54:20,966 - INFO - Writing partitioned Parquet dataset...
+2025-09-04 22:54:23,772 - INFO - Validating export results...
+2025-09-04 22:54:23,928 - INFO - Parquet validation results:
+2025-09-04 22:54:23,928 - INFO -   Partitions created: 96
+2025-09-04 22:54:23,928 - INFO -   Sample records read: 8,831,277
+2025-09-04 22:54:23,928 - INFO -   Schema columns: 33
+2025-09-04 22:54:23,928 - INFO -   Sample partitions: ['device_date=lake-605-8-0896_2025-08-10', 'device_date=lake-605-10-0050_2025-08-01', 'device_date=lake-605-8-0902_2025-08-07', 'device_date=lake-605-10-0050_2025-08-04', 'device_date=lake-605-8-0896_2025-08-06']
+2025-09-04 22:54:23,936 - INFO - Partitioned Parquet export completed in 2.81s
+2025-09-04 22:54:23,936 - INFO - Export validation: 96 partitions created
+2025-09-04 22:54:23,936 - INFO - 
+--- Phase 4: Export Report Generation ---
+2025-09-04 22:54:23,937 - INFO - 
+================================================================================
+2025-09-04 22:54:23,937 - INFO - EXPORT PIPELINE COMPLETED SUCCESSFULLY
+2025-09-04 22:54:23,937 - INFO - ================================================================================
+2025-09-04 22:54:23,937 - INFO - Total pipeline time: 185.82s
+2025-09-04 22:54:23,937 - INFO - Records exported: 8,831,277
+2025-09-04 22:54:23,937 - INFO - Partitions created: 96
+2025-09-04 22:54:23,937 - INFO - Output location: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/features.parquet
+2025-09-04 22:54:23,937 - INFO - Data ready for parallel CPD processing!
+2025-09-04 22:54:23,937 - INFO - ================================================================================
+2025-09-04 22:54:23,937 - INFO - Detailed export report saved: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/export_report_20250904_225423.json
+2025-09-04 22:54:23,937 - INFO - Database connection closed
+2025-09-04 22:54:24,150 - INFO - Export pipeline completed successfully!

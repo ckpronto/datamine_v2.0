@@ -1,0 +1,70 @@
+{
+  "device_id": "lake-605-8-0896",
+  "timestamp": "20250903_190701",
+  "best_penalty": 1,
+  "best_recall": 0.5,
+  "all_results": [
+    {
+      "penalty": 1,
+      "num_change_points": 31,
+      "recall": 0.5,
+      "detected_events": 50,
+      "total_events": 100
+    },
+    {
+      "penalty": 2,
+      "num_change_points": 31,
+      "recall": 0.5,
+      "detected_events": 50,
+      "total_events": 100
+    },
+    {
+      "penalty": 5,
+      "num_change_points": 30,
+      "recall": 0.5,
+      "detected_events": 50,
+      "total_events": 100
+    },
+    {
+      "penalty": 10,
+      "num_change_points": 30,
+      "recall": 0.5,
+      "detected_events": 50,
+      "total_events": 100
+    },
+    {
+      "penalty": 20,
+      "num_change_points": 30,
+      "recall": 0.5,
+      "detected_events": 50,
+      "total_events": 100
+    },
+    {
+      "penalty": 50,
+      "num_change_points": 30,
+      "recall": 0.5,
+      "detected_events": 50,
+      "total_events": 100
+    },
+    {
+      "penalty": 100,
+      "num_change_points": 29,
+      "recall": 0.5,
+      "detected_events": 50,
+      "total_events": 100
+    }
+  ],
+  "summary": {
+    "total_feature_samples": 2000,
+    "total_event_windows": 100,
+    "penalty_range_tested": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100
+    ]
+  }
+}

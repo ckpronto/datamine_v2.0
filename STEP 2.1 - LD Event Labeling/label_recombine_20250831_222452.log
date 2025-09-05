@@ -1,0 +1,42 @@
+2025-08-31 22:24:52,693 - INFO - Logging to file: /home/ck/DataMine/APPLICATION/STEP 2.1 - LD Neural Net Training/label_recombine_20250831_222452.log
+2025-08-31 22:24:52,694 - INFO - Label recombination script started successfully
+2025-08-31 22:24:52,694 - INFO - Found 4 Label Studio JSON files in labelstudio_output
+2025-08-31 22:24:52,694 - INFO -   - labels_lake-605-10-0902_round1.json
+2025-08-31 22:24:52,694 - INFO -   - labels_lake-605-10-0050_round1.json
+2025-08-31 22:24:52,694 - INFO -   - labels_lake-605-10-0050_stockpile.json
+2025-08-31 22:24:52,694 - INFO -   - labels_lake-605-8-0883_round1.json
+2025-08-31 22:24:52,695 - INFO - Extracted 194 annotations from labels_lake-605-10-0902_round1.json
+2025-08-31 22:24:52,695 - INFO - Extracted 281 annotations from labels_lake-605-10-0050_round1.json
+2025-08-31 22:24:52,696 - INFO - Extracted 114 annotations from labels_lake-605-10-0050_stockpile.json
+2025-08-31 22:24:52,696 - INFO - Extracted 227 annotations from labels_lake-605-8-0883_round1.json
+2025-08-31 22:24:52,696 - INFO - Total annotations extracted: 816
+2025-08-31 22:24:52,696 - INFO - Found 17 unique truck-date combinations:
+2025-08-31 22:24:52,696 - INFO -   - lake-605-10-0050 on 2025-07-30
+2025-08-31 22:24:52,696 - INFO -   - lake-605-10-0050 on 2025-07-31
+2025-08-31 22:24:52,696 - INFO -   - lake-605-10-0050 on 2025-08-01
+2025-08-31 22:24:52,696 - INFO -   - lake-605-10-0050 on 2025-08-02
+2025-08-31 22:24:52,696 - INFO -   - lake-605-10-0050 on 2025-08-03
+2025-08-31 22:24:52,697 - INFO -   - lake-605-10-0050 on 2025-08-05
+2025-08-31 22:24:52,697 - INFO -   - lake-605-10-0050 on 2025-08-11
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0883 on 2025-07-31
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0883 on 2025-08-01
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0883 on 2025-08-02
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0883 on 2025-08-03
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0883 on 2025-08-05
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0902 on 2025-07-30
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0902 on 2025-08-02
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0902 on 2025-08-03
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0902 on 2025-08-04
+2025-08-31 22:24:52,697 - INFO -   - lake-605-8-0902 on 2025-08-05
+2025-08-31 22:24:52,697 - INFO - Connecting to database...
+2025-08-31 22:24:52,834 - INFO - Source table verified: 8,831,277 rows available
+2025-08-31 22:24:52,835 - INFO - Creating temporary label mappings...
+2025-08-31 22:24:52,847 - INFO - Created temporary label mappings table with 816 entries
+2025-08-31 22:24:52,847 - INFO - Inserting labeled training data...
+2025-08-31 22:24:52,847 - INFO - Processing 1/17: lake-605-10-0050 on 2025-07-31
+2025-08-31 22:24:53,788 - ERROR - Failed to insert labeled training data: duplicate key value violates unique constraint "02.1_labeled_training_data_loaddump_pkey"
+DETAIL:  Key (raw_event_hash_id)=(6a674d8b392478cb018149adc9ad4237eba3f9b808293175c4a3e385be669800) already exists.
+
+2025-08-31 22:24:53,788 - ERROR - Script execution failed: duplicate key value violates unique constraint "02.1_labeled_training_data_loaddump_pkey"
+DETAIL:  Key (raw_event_hash_id)=(6a674d8b392478cb018149adc9ad4237eba3f9b808293175c4a3e385be669800) already exists.
+

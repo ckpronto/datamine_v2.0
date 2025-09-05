@@ -1,0 +1,23 @@
+2025-08-27 23:20:10,947 - INFO - Logging to file: /home/ck/DataMine/labelstudio_output/lsprep_20250827_232010.log
+2025-08-27 23:20:10,948 - INFO - Script started successfully
+2025-08-27 23:20:10,948 - INFO - Connecting to database...
+2025-08-27 23:20:11,410 - INFO - Source table verified: 8,831,277 rows available
+2025-08-27 23:20:12,293 - INFO - Found 7 unique trucks: lake-605-10-0050, lake-605-8-0883, lake-605-8-0896, lake-605-8-0898, lake-605-8-0902, lake-775g-2-2262, lake-775g-2-2266
+2025-08-27 23:20:12,294 - INFO - All specified trucks validated: ['lake-775g-2-2262']
+2025-08-27 23:20:12,295 - INFO - Planning to process 1 truck-date combinations:
+2025-08-27 23:20:12,296 - INFO - Trucks (1): lake-775g-2-2262
+2025-08-27 23:20:12,296 - INFO - Dates (1): 2025-08-01 to 2025-08-01
+2025-08-27 23:20:12,296 - INFO - Starting data extraction and file generation...
+2025-08-27 23:20:12,296 - INFO - Processing truck 1/1: lake-775g-2-2262
+2025-08-27 23:20:12,296 - INFO -   Processing date 1/1: 2025-08-01
+2025-08-27 23:20:13,656 - INFO - Extracted 99272 records for truck lake-775g-2-2262 on 2025-08-01 00:00:00
+2025-08-27 23:20:13,880 - INFO - Created Label Studio JSONL file: /home/ck/DataMine/labelstudio_output/lake-775g-2-2262_2025-08-01_labelstudio.jsonl (100 tasks, 99272 total records)
+2025-08-27 23:20:13,900 - INFO -     SUCCESS: 99272 records -> /home/ck/DataMine/labelstudio_output/lake-775g-2-2262_2025-08-01_labelstudio.json
+2025-08-27 23:20:13,900 - INFO - === PROCESSING SUMMARY ===
+2025-08-27 23:20:13,900 - INFO - Total truck-date combinations processed: 1
+2025-08-27 23:20:13,900 - INFO - Successful: 1
+2025-08-27 23:20:13,900 - INFO - Failed/No Data: 0
+2025-08-27 23:20:13,900 - INFO - Total telemetry records processed: 99,272
+2025-08-27 23:20:13,900 - INFO - Summary report created: /home/ck/DataMine/labelstudio_output/processing_summary_20250827_232013.json
+2025-08-27 23:20:13,900 - INFO - Database connection closed.
+2025-08-27 23:20:13,900 - INFO - === SCRIPT COMPLETED SUCCESSFULLY ===

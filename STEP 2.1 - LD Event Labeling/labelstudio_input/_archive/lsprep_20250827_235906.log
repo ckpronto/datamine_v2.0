@@ -1,0 +1,25 @@
+2025-08-27 23:59:06,041 - INFO - Logging to file: /home/ck/DataMine/labelstudio_input/lsprep_20250827_235906.log
+2025-08-27 23:59:06,041 - INFO - Script started successfully
+2025-08-27 23:59:06,041 - INFO - Connecting to database...
+2025-08-27 23:59:06,477 - INFO - Source table verified: 8,831,277 rows available
+2025-08-27 23:59:07,375 - INFO - Found 7 unique trucks: lake-605-10-0050, lake-605-8-0883, lake-605-8-0896, lake-605-8-0898, lake-605-8-0902, lake-775g-2-2262, lake-775g-2-2266
+2025-08-27 23:59:07,375 - INFO - All specified trucks validated: ['lake-605-10-0050']
+2025-08-27 23:59:07,377 - INFO - Planning to process 1 truck-date combinations:
+2025-08-27 23:59:07,377 - INFO - Trucks (1): lake-605-10-0050
+2025-08-27 23:59:07,377 - INFO - Dates (1): 2025-08-01 to 2025-08-01
+2025-08-27 23:59:07,377 - INFO - Starting data extraction and file generation...
+2025-08-27 23:59:07,377 - INFO - Processing truck 1/1: lake-605-10-0050
+2025-08-27 23:59:07,377 - INFO -   Processing date 1/1: 2025-08-01
+2025-08-27 23:59:08,741 - INFO - Extracted 103902 records for truck lake-605-10-0050 on 2025-08-01 00:00:00
+2025-08-27 23:59:09,030 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-10-0050_2025-08-01.csv (103902 records)
+2025-08-27 23:59:09,030 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-10-0050_2025-08-01_task.json
+2025-08-27 23:59:09,050 - INFO -     SUCCESS: 103902 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-10-0050_2025-08-01.csv
+2025-08-27 23:59:09,050 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-10-0050_2025-08-01_task.json
+2025-08-27 23:59:09,050 - INFO - === PROCESSING SUMMARY ===
+2025-08-27 23:59:09,050 - INFO - Total truck-date combinations processed: 1
+2025-08-27 23:59:09,050 - INFO - Successful: 1
+2025-08-27 23:59:09,050 - INFO - Failed/No Data: 0
+2025-08-27 23:59:09,050 - INFO - Total telemetry records processed: 103,902
+2025-08-27 23:59:09,051 - INFO - Summary report created: /home/ck/DataMine/labelstudio_input/processing_summary_20250827_235909.json
+2025-08-27 23:59:09,051 - INFO - Database connection closed.
+2025-08-27 23:59:09,051 - INFO - === SCRIPT COMPLETED SUCCESSFULLY ===

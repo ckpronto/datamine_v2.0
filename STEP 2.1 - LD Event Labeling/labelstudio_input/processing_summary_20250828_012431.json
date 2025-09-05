@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-08-28T01:24:31.317545",
+  "total_combinations": 8,
+  "successful": 8,
+  "failed": 0,
+  "total_records": 509961,
+  "output_directory": "/home/ck/DataMine/labelstudio_input",
+  "results": [
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-07-30",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-07-30.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-07-30_task.json",
+      "record_count": 93054,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-07-31",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-07-31.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-07-31_task.json",
+      "record_count": 15728,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-08-01",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-01.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-01_task.json",
+      "record_count": 18664,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-08-02",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-02.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-02_task.json",
+      "record_count": 88115,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-08-03",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-03.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-03_task.json",
+      "record_count": 90351,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-08-04",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-04.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-04_task.json",
+      "record_count": 94433,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-08-05",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-05.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-05_task.json",
+      "record_count": 87250,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0902",
+      "date": "2025-08-06",
+      "csv_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-06.csv",
+      "task_file": "/home/ck/DataMine/labelstudio_input/lake-605-8-0902_2025-08-06_task.json",
+      "record_count": 22366,
+      "status": "success"
+    }
+  ]
+}

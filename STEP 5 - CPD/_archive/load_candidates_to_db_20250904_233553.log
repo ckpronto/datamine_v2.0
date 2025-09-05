@@ -1,0 +1,6 @@
+2025-09-04 23:35:53,951 - INFO - ================================================================================
+2025-09-04 23:35:53,951 - INFO - CPD CANDIDATE EVENTS DATABASE LOADER - PRODUCTION
+2025-09-04 23:35:53,951 - INFO - ================================================================================
+2025-09-04 23:35:53,951 - INFO - Start time: 2025-09-04 23:35:53.951939
+2025-09-04 23:35:53,952 - ERROR - CSV file not found: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_final.csv
+2025-09-04 23:35:53,952 - ERROR - Please ensure the CPD orchestrator has completed successfully

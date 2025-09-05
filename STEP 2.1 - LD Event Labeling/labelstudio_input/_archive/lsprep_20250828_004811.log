@@ -1,0 +1,104 @@
+2025-08-28 00:48:11,566 - INFO - Logging to file: /home/ck/DataMine/labelstudio_input/lsprep_20250828_004811.log
+2025-08-28 00:48:11,566 - INFO - Script started successfully
+2025-08-28 00:48:11,566 - INFO - Connecting to database...
+2025-08-28 00:48:12,000 - INFO - Source table verified: 8,831,277 rows available
+2025-08-28 00:48:12,882 - INFO - Found 7 unique trucks: lake-605-10-0050, lake-605-8-0883, lake-605-8-0896, lake-605-8-0898, lake-605-8-0902, lake-775g-2-2262, lake-775g-2-2266
+2025-08-28 00:48:12,882 - INFO - All specified trucks validated: ['lake-605-8-0883']
+2025-08-28 00:48:12,884 - INFO - Date range validated: 2025-07-30 00:00:00 to 2025-08-12 00:00:00 (14 days)
+2025-08-28 00:48:12,884 - INFO - Planning to process 14 truck-date combinations:
+2025-08-28 00:48:12,884 - INFO - Trucks (1): lake-605-8-0883
+2025-08-28 00:48:12,884 - INFO - Dates (14): 2025-07-30 to 2025-08-12
+2025-08-28 00:48:12,884 - INFO - Starting data extraction and file generation...
+2025-08-28 00:48:12,885 - INFO - Processing truck 1/1: lake-605-8-0883
+2025-08-28 00:48:12,885 - INFO -   Processing date 1/14: 2025-07-30
+2025-08-28 00:48:14,188 - INFO - Extracted 97429 records for truck lake-605-8-0883 on 2025-07-30 00:00:00
+2025-08-28 00:48:14,453 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-30.csv (97429 records)
+2025-08-28 00:48:14,453 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-30_task.json
+2025-08-28 00:48:14,470 - INFO -     SUCCESS: 97429 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-30.csv
+2025-08-28 00:48:14,470 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-30_task.json
+2025-08-28 00:48:14,470 - INFO -   Processing date 2/14: 2025-07-31
+2025-08-28 00:48:15,906 - INFO - Extracted 113910 records for truck lake-605-8-0883 on 2025-07-31 00:00:00
+2025-08-28 00:48:16,219 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-31.csv (113910 records)
+2025-08-28 00:48:16,219 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-31_task.json
+2025-08-28 00:48:16,239 - INFO -     SUCCESS: 113910 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-31.csv
+2025-08-28 00:48:16,239 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-07-31_task.json
+2025-08-28 00:48:16,239 - INFO -   Processing date 3/14: 2025-08-01
+2025-08-28 00:48:17,496 - INFO - Extracted 92319 records for truck lake-605-8-0883 on 2025-08-01 00:00:00
+2025-08-28 00:48:17,755 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-01.csv (92319 records)
+2025-08-28 00:48:17,755 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-01_task.json
+2025-08-28 00:48:17,771 - INFO -     SUCCESS: 92319 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-01.csv
+2025-08-28 00:48:17,771 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-01_task.json
+2025-08-28 00:48:17,771 - INFO -   Processing date 4/14: 2025-08-02
+2025-08-28 00:48:19,070 - INFO - Extracted 96158 records for truck lake-605-8-0883 on 2025-08-02 00:00:00
+2025-08-28 00:48:19,344 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-02.csv (96158 records)
+2025-08-28 00:48:19,344 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-02_task.json
+2025-08-28 00:48:19,361 - INFO -     SUCCESS: 96158 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-02.csv
+2025-08-28 00:48:19,362 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-02_task.json
+2025-08-28 00:48:19,362 - INFO -   Processing date 5/14: 2025-08-03
+2025-08-28 00:48:20,618 - INFO - Extracted 88847 records for truck lake-605-8-0883 on 2025-08-03 00:00:00
+2025-08-28 00:48:20,860 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-03.csv (88847 records)
+2025-08-28 00:48:20,861 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-03_task.json
+2025-08-28 00:48:20,876 - INFO -     SUCCESS: 88847 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-03.csv
+2025-08-28 00:48:20,876 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-03_task.json
+2025-08-28 00:48:20,876 - INFO -   Processing date 6/14: 2025-08-04
+2025-08-28 00:48:22,110 - INFO - Extracted 84331 records for truck lake-605-8-0883 on 2025-08-04 00:00:00
+2025-08-28 00:48:22,341 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-04.csv (84331 records)
+2025-08-28 00:48:22,341 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-04_task.json
+2025-08-28 00:48:22,355 - INFO -     SUCCESS: 84331 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-04.csv
+2025-08-28 00:48:22,356 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-04_task.json
+2025-08-28 00:48:22,356 - INFO -   Processing date 7/14: 2025-08-05
+2025-08-28 00:48:23,628 - INFO - Extracted 87900 records for truck lake-605-8-0883 on 2025-08-05 00:00:00
+2025-08-28 00:48:23,869 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-05.csv (87900 records)
+2025-08-28 00:48:23,870 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-05_task.json
+2025-08-28 00:48:23,885 - INFO -     SUCCESS: 87900 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-05.csv
+2025-08-28 00:48:23,885 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-05_task.json
+2025-08-28 00:48:23,885 - INFO -   Processing date 8/14: 2025-08-06
+2025-08-28 00:48:25,125 - INFO - Extracted 90566 records for truck lake-605-8-0883 on 2025-08-06 00:00:00
+2025-08-28 00:48:25,388 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-06.csv (90566 records)
+2025-08-28 00:48:25,388 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-06_task.json
+2025-08-28 00:48:25,404 - INFO -     SUCCESS: 90566 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-06.csv
+2025-08-28 00:48:25,404 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-06_task.json
+2025-08-28 00:48:25,404 - INFO -   Processing date 9/14: 2025-08-07
+2025-08-28 00:48:26,677 - INFO - Extracted 94073 records for truck lake-605-8-0883 on 2025-08-07 00:00:00
+2025-08-28 00:48:26,938 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-07.csv (94073 records)
+2025-08-28 00:48:26,938 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-07_task.json
+2025-08-28 00:48:26,954 - INFO -     SUCCESS: 94073 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-07.csv
+2025-08-28 00:48:26,954 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-07_task.json
+2025-08-28 00:48:26,954 - INFO -   Processing date 10/14: 2025-08-08
+2025-08-28 00:48:28,422 - INFO - Extracted 115497 records for truck lake-605-8-0883 on 2025-08-08 00:00:00
+2025-08-28 00:48:28,740 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-08.csv (115497 records)
+2025-08-28 00:48:28,740 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-08_task.json
+2025-08-28 00:48:28,761 - INFO -     SUCCESS: 115497 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-08.csv
+2025-08-28 00:48:28,761 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-08_task.json
+2025-08-28 00:48:28,761 - INFO -   Processing date 11/14: 2025-08-09
+2025-08-28 00:48:30,074 - INFO - Extracted 99893 records for truck lake-605-8-0883 on 2025-08-09 00:00:00
+2025-08-28 00:48:30,348 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-09.csv (99893 records)
+2025-08-28 00:48:30,349 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-09_task.json
+2025-08-28 00:48:30,366 - INFO -     SUCCESS: 99893 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-09.csv
+2025-08-28 00:48:30,366 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-09_task.json
+2025-08-28 00:48:30,366 - INFO -   Processing date 12/14: 2025-08-10
+2025-08-28 00:48:31,606 - INFO - Extracted 90063 records for truck lake-605-8-0883 on 2025-08-10 00:00:00
+2025-08-28 00:48:31,854 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-10.csv (90063 records)
+2025-08-28 00:48:31,854 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-10_task.json
+2025-08-28 00:48:31,869 - INFO -     SUCCESS: 90063 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-10.csv
+2025-08-28 00:48:31,869 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-10_task.json
+2025-08-28 00:48:31,869 - INFO -   Processing date 13/14: 2025-08-11
+2025-08-28 00:48:32,653 - INFO - Extracted 19315 records for truck lake-605-8-0883 on 2025-08-11 00:00:00
+2025-08-28 00:48:32,707 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-11.csv (19315 records)
+2025-08-28 00:48:32,707 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-11_task.json
+2025-08-28 00:48:32,709 - INFO -     SUCCESS: 19315 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-11.csv
+2025-08-28 00:48:32,709 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-11_task.json
+2025-08-28 00:48:32,709 - INFO -   Processing date 14/14: 2025-08-12
+2025-08-28 00:48:33,934 - INFO - Extracted 84269 records for truck lake-605-8-0883 on 2025-08-12 00:00:00
+2025-08-28 00:48:34,164 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-12.csv (84269 records)
+2025-08-28 00:48:34,165 - INFO - Created JSON task file: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-12_task.json
+2025-08-28 00:48:34,180 - INFO -     SUCCESS: 84269 records -> CSV: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-12.csv
+2025-08-28 00:48:34,180 - INFO -                                                    -> JSON: /home/ck/DataMine/labelstudio_input/lake-605-8-0883_2025-08-12_task.json
+2025-08-28 00:48:34,180 - INFO - === PROCESSING SUMMARY ===
+2025-08-28 00:48:34,180 - INFO - Total truck-date combinations processed: 14
+2025-08-28 00:48:34,180 - INFO - Successful: 14
+2025-08-28 00:48:34,180 - INFO - Failed/No Data: 0
+2025-08-28 00:48:34,180 - INFO - Total telemetry records processed: 1,254,570
+2025-08-28 00:48:34,180 - INFO - Summary report created: /home/ck/DataMine/labelstudio_input/processing_summary_20250828_004834.json
+2025-08-28 00:48:34,180 - INFO - Database connection closed.
+2025-08-28 00:48:34,180 - INFO - === SCRIPT COMPLETED SUCCESSFULLY ===

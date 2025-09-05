@@ -1,0 +1,24 @@
+2025-09-04 23:28:18,987 - INFO - Starting Production-Scale Parquet Export...
+2025-09-04 23:28:18,987 - INFO - ================================================================================
+2025-09-04 23:28:18,987 - INFO - PRODUCTION-SCALE PARQUET EXPORT PIPELINE
+2025-09-04 23:28:18,987 - INFO - ================================================================================
+2025-09-04 23:28:18,987 - INFO - TICKET-139 Part 1: Feature Export for CPD Pipeline
+2025-09-04 23:28:18,987 - INFO - Target: Export ALL 04_primary_feature_table data to partitioned Parquet
+2025-09-04 23:28:18,987 - INFO - Architecture: PostgreSQL COPY -> PyArrow -> Partitioned Parquet
+2025-09-04 23:28:18,987 - INFO - 
+--- Phase 1: Database Connection & Validation ---
+2025-09-04 23:28:18,996 - INFO - Database connection established for bulk export
+2025-09-04 23:28:18,996 - INFO - Validating source table: 04_primary_feature_table
+2025-09-04 23:28:23,473 - INFO - Source table validation completed:
+2025-09-04 23:28:23,473 - INFO -   Total records: 8,831,277
+2025-09-04 23:28:23,473 - INFO -   Unique device-dates: 96
+2025-09-04 23:28:23,474 - INFO -   Unique devices: 7
+2025-09-04 23:28:23,474 - INFO -   Date range: 2025-07-30 00:00:00.103835+00:00 to 2025-08-12 23:59:59.994766+00:00
+2025-09-04 23:28:23,474 - INFO -   Total columns: 33
+2025-09-04 23:28:23,474 - INFO - 
+--- Phase 2: Streaming Data Extraction ---
+2025-09-04 23:28:23,474 - INFO - Starting streaming data extraction with PostgreSQL COPY
+2025-09-04 23:28:23,474 - INFO - Executing bulk COPY extraction...
+2025-09-04 23:29:43,875 - INFO - COPY extraction completed in 77.44s
+2025-09-04 23:29:43,875 - INFO - Extracted data size: 7764.4 MB
+2025-09-04 23:29:43,875 - INFO - Converting CSV to PyArrow Table...

@@ -1,0 +1,43 @@
+2025-09-04 20:35:52,402 - MainProcess - INFO - ================================================================================
+2025-09-04 20:35:52,402 - MainProcess - INFO - MASSIVELY PARALLEL CPD ORCHESTRATOR - PRODUCTION SCALE
+2025-09-04 20:35:52,402 - MainProcess - INFO - ================================================================================
+2025-09-04 20:35:52,402 - MainProcess - INFO - Target: Process entire telemetry dataset with sub-hour performance
+2025-09-04 20:35:52,402 - MainProcess - INFO - Architecture: Parquet -> Parallel Workers -> PELT -> Aggregated Results
+2025-09-04 20:35:52,402 - MainProcess - INFO - Detection method: polars_parallel_v2
+2025-09-04 20:35:52,402 - MainProcess - INFO - Start time: 2025-09-04 20:35:52.402534
+2025-09-04 20:35:52,402 - MainProcess - INFO - --- Environment Validation ---
+2025-09-04 20:35:52,426 - MainProcess - INFO - Environment validation passed
+2025-09-04 20:35:52,426 - MainProcess - INFO - Schema validated with 32 columns
+2025-09-04 20:35:52,426 - MainProcess - INFO - Test partition: device_date=lake-605-8-0896_2025-08-10
+2025-09-04 20:35:52,426 - MainProcess - INFO - Cleaned existing temp_results directory
+2025-09-04 20:35:52,426 - MainProcess - INFO - Created temp_results directory: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/temp_results
+2025-09-04 20:35:52,426 - MainProcess - INFO - 
+--- System Resource Analysis ---
+2025-09-04 20:35:52,429 - MainProcess - INFO - CPU cores (logical): 100
+2025-09-04 20:35:52,429 - MainProcess - INFO - CPU cores (physical): 100
+2025-09-04 20:35:52,429 - MainProcess - INFO - Total memory: 288.1 GB
+2025-09-04 20:35:52,429 - MainProcess - INFO - Available memory: 282.8 GB
+2025-09-04 20:35:52,429 - MainProcess - INFO - Optimal worker count: 24
+2025-09-04 20:35:52,429 - MainProcess - INFO - Memory per worker: 11.8 GB
+2025-09-04 20:35:52,429 - MainProcess - INFO - ================================================================================
+2025-09-04 20:35:52,429 - MainProcess - INFO - WORKLOAD DISCOVERY PHASE
+2025-09-04 20:35:52,429 - MainProcess - INFO - ================================================================================
+2025-09-04 20:35:52,429 - MainProcess - INFO - Scanning Parquet directory: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/features.parquet
+2025-09-04 20:35:52,430 - MainProcess - INFO - Discovered 96 device_date partitions
+2025-09-04 20:35:52,430 - MainProcess - INFO - Partition range: lake-605-10-0050_2025-07-30 to lake-775g-2-2266_2025-08-12
+2025-09-04 20:35:52,430 - MainProcess - INFO - Sample partitions: ['lake-605-10-0050_2025-07-30', 'lake-605-10-0050_2025-07-31', 'lake-605-10-0050_2025-08-01', 'lake-605-10-0050_2025-08-02', 'lake-605-10-0050_2025-08-03']
+2025-09-04 20:35:52,430 - MainProcess - INFO - 
+--- Workload Estimation ---
+2025-09-04 20:35:52,430 - MainProcess - INFO - Total partitions: 96
+2025-09-04 20:35:52,430 - MainProcess - INFO - Estimated per-partition time: 2-10 seconds (based on single-test)
+2025-09-04 20:35:52,430 - MainProcess - INFO - Sequential processing time: 8.0 minutes
+2025-09-04 20:35:52,430 - MainProcess - INFO - Parallel processing target: <60 minutes
+2025-09-04 20:35:52,430 - MainProcess - INFO - 
+================================================================================
+2025-09-04 20:35:52,430 - MainProcess - INFO - PARALLEL CPD EXECUTION PHASE
+2025-09-04 20:35:52,430 - MainProcess - INFO - ================================================================================
+2025-09-04 20:35:52,430 - MainProcess - INFO - Partitions to process: 96
+2025-09-04 20:35:52,430 - MainProcess - INFO - Worker processes: 24
+2025-09-04 20:35:52,431 - MainProcess - INFO - Target architecture: ProcessPoolExecutor with isolated Polars processing
+2025-09-04 20:35:52,431 - MainProcess - INFO - Submitting 96 parallel jobs...
+2025-09-04 20:35:52,622 - MainProcess - INFO - Processing results as they complete...

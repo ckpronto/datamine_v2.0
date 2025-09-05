@@ -1,0 +1,31 @@
+2025-09-04 07:49:28,515 - INFO - Starting UDF-Free Polars Performance Test...
+2025-09-04 07:49:28,515 - INFO - ================================================================================
+2025-09-04 07:49:28,515 - INFO - TICKET-133: UDF-Free Polars Performance Benchmark
+2025-09-04 07:49:28,515 - INFO - ================================================================================
+2025-09-04 07:49:28,515 - INFO - Test chunk: 8 device-dates
+2025-09-04 07:49:28,515 - INFO - Device range: lake-605-10-0050_2025-07-30 to lake-605-10-0050_2025-08-06
+2025-09-04 07:49:28,515 - INFO - Connecting to database...
+2025-09-04 07:49:28,526 - INFO - Target table 05_candidate_events verified
+2025-09-04 07:49:28,526 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 07:49:28,526 - INFO - Extracting data for 8 device-dates using COPY
+2025-09-04 07:49:29,550 - INFO - COPY extraction completed in 1.00s, extracted 46931049 bytes
+2025-09-04 07:49:29,550 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 07:49:29,550 - INFO - Processing data with Polars vectorized engine
+2025-09-04 07:49:29,711 - ERROR - Polars processing failed: conversion from `str` to `datetime[μs, UTC]` failed in column 'timestamp' for 481 out of 481 values: ["2025-07-31 17:29:00.215391+00", "2025-07-31 17:29:00.715689+00", … "2025-07-31 17:29:04.719414+00"]
+
+You might want to try:
+- setting `strict=False` to set values that cannot be converted to `null`
+- using `str.strptime`, `str.to_date`, or `str.to_datetime` and providing a format string
+2025-09-04 07:49:29,711 - ERROR - Performance benchmark failed: conversion from `str` to `datetime[μs, UTC]` failed in column 'timestamp' for 481 out of 481 values: ["2025-07-31 17:29:00.215391+00", "2025-07-31 17:29:00.715689+00", … "2025-07-31 17:29:04.719414+00"]
+
+You might want to try:
+- setting `strict=False` to set values that cannot be converted to `null`
+- using `str.strptime`, `str.to_date`, or `str.to_datetime` and providing a format string
+2025-09-04 07:49:29,711 - INFO - Database connection closed
+2025-09-04 07:49:29,711 - ERROR - Benchmark execution failed: conversion from `str` to `datetime[μs, UTC]` failed in column 'timestamp' for 481 out of 481 values: ["2025-07-31 17:29:00.215391+00", "2025-07-31 17:29:00.715689+00", … "2025-07-31 17:29:04.719414+00"]
+
+You might want to try:
+- setting `strict=False` to set values that cannot be converted to `null`
+- using `str.strptime`, `str.to_date`, or `str.to_datetime` and providing a format string

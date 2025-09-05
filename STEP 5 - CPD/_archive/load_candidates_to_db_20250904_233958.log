@@ -1,0 +1,16 @@
+2025-09-04 23:39:58,947 - INFO - ================================================================================
+2025-09-04 23:39:58,947 - INFO - CPD CANDIDATE EVENTS DATABASE LOADER - PRODUCTION
+2025-09-04 23:39:58,947 - INFO - ================================================================================
+2025-09-04 23:39:58,947 - INFO - Start time: 2025-09-04 23:39:58.947498
+2025-09-04 23:39:58,956 - INFO - Database connection established successfully
+2025-09-04 23:39:58,962 - INFO - Schema validation passed - 4 columns found
+2025-09-04 23:39:58,962 - INFO - Current table row count: 0
+2025-09-04 23:39:58,970 - INFO - CSV validation passed - 3 columns, 46,083 rows
+2025-09-04 23:39:58,970 - INFO - Ready to load 46,083 records
+2025-09-04 23:39:58,970 - INFO - Truncating 05_candidate_events table...
+2025-09-04 23:39:58,993 - INFO - Table truncated successfully
+2025-09-04 23:39:58,993 - INFO - Starting COPY operation from: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_final.csv
+2025-09-04 23:39:58,994 - ERROR - COPY operation failed: relation ""05_candidate_events"" does not exist
+
+2025-09-04 23:39:58,994 - ERROR - COPY operation failed or loaded 0 rows
+2025-09-04 23:39:58,994 - INFO - Database connection closed

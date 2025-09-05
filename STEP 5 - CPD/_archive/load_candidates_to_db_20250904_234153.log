@@ -1,0 +1,33 @@
+2025-09-04 23:41:53,260 - INFO - ================================================================================
+2025-09-04 23:41:53,260 - INFO - CPD CANDIDATE EVENTS DATABASE LOADER - PRODUCTION
+2025-09-04 23:41:53,260 - INFO - ================================================================================
+2025-09-04 23:41:53,260 - INFO - Start time: 2025-09-04 23:41:53.260368
+2025-09-04 23:41:53,269 - INFO - Database connection established successfully
+2025-09-04 23:41:53,274 - INFO - Schema validation passed - 4 columns found
+2025-09-04 23:41:53,275 - INFO - Current table row count: 0
+2025-09-04 23:41:53,282 - INFO - CSV validation passed - 3 columns, 46,083 rows
+2025-09-04 23:41:53,282 - INFO - Ready to load 46,083 records
+2025-09-04 23:41:53,282 - INFO - Truncating 05_candidate_events table...
+2025-09-04 23:41:53,302 - INFO - Table truncated successfully
+2025-09-04 23:41:53,302 - INFO - Starting COPY operation from: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_final.csv
+2025-09-04 23:41:53,711 - INFO - COPY completed successfully:
+2025-09-04 23:41:53,711 - INFO -   Rows loaded: 46,083
+2025-09-04 23:41:53,711 - INFO -   Load time: 0.41 seconds
+2025-09-04 23:41:53,711 - INFO -   Rate: 112,785 rows/second
+2025-09-04 23:41:53,711 - INFO - Performing post-load validation...
+2025-09-04 23:41:53,740 - INFO - Data validation results:
+2025-09-04 23:41:53,741 - INFO -   Total events: 46,083
+2025-09-04 23:41:53,741 - INFO -   Unique devices: 7
+2025-09-04 23:41:53,741 - INFO -   Time range: 2025-07-30 00:00:50+00:00 to 2025-08-12 23:58:50+00:00
+2025-09-04 23:41:53,741 - INFO -   CPD processing completed successfully
+2025-09-04 23:41:53,746 - INFO - All data validation checks passed!
+2025-09-04 23:41:53,809 - INFO - ================================================================================
+2025-09-04 23:41:53,809 - INFO - DATABASE LOADING COMPLETED SUCCESSFULLY!
+2025-09-04 23:41:53,809 - INFO - ================================================================================
+2025-09-04 23:41:53,809 - INFO - Records loaded: 46,083
+2025-09-04 23:41:53,809 - INFO - Load time: 0.41 seconds
+2025-09-04 23:41:53,809 - INFO - Performance: 112,785 rows/second
+2025-09-04 23:41:53,809 - INFO - End time: 2025-09-04 23:41:53.809783
+2025-09-04 23:41:53,809 - INFO - Metrics saved to: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/load_metrics_20250904_234153.json
+2025-09-04 23:41:53,810 - INFO - Database connection closed
+2025-09-04 23:41:53,810 - INFO - CPD candidate events are now loaded and ready for production use!

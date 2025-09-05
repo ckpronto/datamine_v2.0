@@ -1,0 +1,76 @@
+2025-09-04 17:17:30,730 - INFO - Starting Focused Single Device-Date Performance Test...
+2025-09-04 17:17:30,730 - INFO - ================================================================================
+2025-09-04 17:17:30,730 - INFO - TICKET-135: Final Fix - Algorithmic Bottleneck Solution Test
+2025-09-04 17:17:30,730 - INFO - ================================================================================
+2025-09-04 17:17:30,730 - INFO - Test device-date: lake-605-10-0050_2025-07-30
+2025-09-04 17:17:30,730 - INFO - Architecture: PostgreSQL COPY -> Polars -> Downsampling -> Ruptures PELT -> Bulk Insert
+2025-09-04 17:17:30,730 - INFO - Downsampling: 5-second rolling mean to solve O(n²) complexity
+2025-09-04 17:17:30,731 - INFO - Connecting to database...
+2025-09-04 17:17:30,741 - INFO - Target table 05_candidate_events verified
+2025-09-04 17:17:30,741 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 17:17:30,741 - INFO - Extracting data for device-date: lake-605-10-0050_2025-07-30
+2025-09-04 17:17:30,887 - INFO - COPY extraction completed in 0.141s
+2025-09-04 17:17:30,887 - INFO - Extracted 11303599 bytes (10.78 MB)
+2025-09-04 17:17:30,887 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 17:17:30,887 - INFO - Processing lake-605-10-0050_2025-07-30 with Polars vectorized engine
+2025-09-04 17:17:30,958 - INFO - Polars CSV parsing: 0.071s, loaded 89676 rows
+2025-09-04 17:17:30,958 - INFO - Data sample - first 5 rows:
+2025-09-04 17:17:30,958 - INFO -   shape: (5, 4)
+┌─────────────────────────┬────────────────────┬─────────────────────────┬─────────────────────────┐
+│ device_date             ┆ timestamp          ┆ load_weight_rate_of_cha ┆ raw_event_hash_id       │
+│ ---                     ┆ ---                ┆ nge                     ┆ ---                     │
+│ str                     ┆ str                ┆ ---                     ┆ str                     │
+│                         ┆                    ┆ f64                     ┆                         │
+╞═════════════════════════╪════════════════════╪═════════════════════════╪═════════════════════════╡
+│ lake-605-10-0050_2025-0 ┆ 2025-07-30         ┆ 0.0                     ┆ 5cc06a50df5963d7fb3cb79 │
+│ 7-30                    ┆ 00:00:00.605166+00 ┆                         ┆ 268c32c…                │
+│ lake-605-10-0050_2025-0 ┆ 2025-07-30         ┆ 0.0                     ┆ 7cc88098e2144314117e919 │
+│ 7-30                    ┆ 00:00:01.105714+00 ┆                         ┆ 710554e…                │
+│ lake-605-10-0050_2025-0 ┆ 2025-07-30         ┆ 0.0                     ┆ 6258ace91c51d1d84ce47b5 │
+│ 7-30                    ┆ 00:00:01.606285+00 ┆                         ┆ 2be2a77…                │
+│ lake-605-10-0050_2025-0 ┆ 2025-07-30         ┆ 0.0                     ┆ c967ba9d954fc694b1cf1fe │
+│ 7-30                    ┆ 00:00:02.106961+00 ┆                         ┆ 7dbfa14…                │
+│ lake-605-10-0050_2025-0 ┆ 2025-07-30         ┆ 0.0                     ┆ ca353453ccc3d54da5bf2d9 │
+│ 7-30                    ┆ 00:00:02.60728+00  ┆                         ┆ bddb799…                │
+└─────────────────────────┴────────────────────┴─────────────────────────┴─────────────────────────┘
+2025-09-04 17:17:30,959 - INFO - Load weight stats: min=-9140.0, max=3220.0, null_count=0
+2025-09-04 17:17:31,058 - INFO - Starting downsampling process to reduce O(n²) complexity...
+2025-09-04 17:17:31,059 - INFO - Original data frequency: ~2Hz, target: 5-second intervals (0.2Hz)
+2025-09-04 17:17:31,085 - INFO - Downsampling completed: 0.026s
+2025-09-04 17:17:31,085 - INFO - Data reduced from 89676 to 8981 points (10.0%)
+2025-09-04 17:17:31,091 - INFO - Data conversion completed: 0.006s
+2025-09-04 17:17:31,091 - INFO - Skipping timestamp conversion for PELT performance
+2025-09-04 17:17:31,091 - INFO - Starting PELT algorithm on 8981 data points
+2025-09-04 17:17:31,091 - INFO - Fitting PELT model...
+2025-09-04 17:17:31,091 - INFO - Predicting change points...
+2025-09-04 17:17:40,332 - INFO - Raw change point indices: 666
+2025-09-04 17:17:40,726 - INFO - PELT processed 8981 points for lake-605-10-0050_2025-07-30
+2025-09-04 17:17:40,726 - INFO - Found 666 change points
+2025-09-04 17:17:40,726 - INFO - PELT algorithm completed: 9.635s
+2025-09-04 17:17:40,727 - INFO - Polars processing completed: 9.839s
+2025-09-04 17:17:40,727 - INFO -   - Parsing: 0.071s
+2025-09-04 17:17:40,727 - INFO -   - Downsampling: 0.026s
+2025-09-04 17:17:40,727 - INFO -   - PELT algorithm: 9.642s
+2025-09-04 17:17:40,727 - INFO -   - Change points detected: 666
+2025-09-04 17:17:40,727 - INFO -   - Data reduction: 89676 -> 8981 points (10.0%)
+2025-09-04 17:17:40,730 - INFO - 
+--- Phase 3: Bulk Insert ---
+2025-09-04 17:17:40,730 - INFO - Bulk inserting 666 change points
+2025-09-04 17:17:40,770 - INFO - Bulk insert completed in 0.040s
+2025-09-04 17:17:40,770 - INFO - 
+================================================================================
+2025-09-04 17:17:40,770 - INFO - SINGLE DEVICE-DATE PERFORMANCE RESULTS
+2025-09-04 17:17:40,770 - INFO - ================================================================================
+2025-09-04 17:17:40,770 - INFO - Device-date tested: lake-605-10-0050_2025-07-30
+2025-09-04 17:17:40,770 - INFO - Total execution time: 10.039s
+2025-09-04 17:17:40,770 - INFO - Data extraction (COPY): 0.141s (1.4%)
+2025-09-04 17:17:40,770 - INFO - Polars processing: 9.839s (98.0%)
+2025-09-04 17:17:40,770 - INFO - Bulk insert: 0.040s (0.4%)
+2025-09-04 17:17:40,770 - INFO - Change points detected: 666
+2025-09-04 17:17:40,770 - INFO - ================================================================================
+2025-09-04 17:17:40,770 - INFO - 
+Precise metrics: {'device_date': 'lake-605-10-0050_2025-07-30', 'total_time_seconds': 10.039, 'extraction_time_seconds': 0.141, 'processing_time_seconds': 9.839, 'insert_time_seconds': 0.04, 'change_points_detected': 666, 'extraction_percentage': 1.4, 'processing_percentage': 98.0, 'insert_percentage': 0.4, 'architecture': 'polars_single_device', 'test_timestamp': '2025-09-04T17:17:40.770753+00:00'}
+2025-09-04 17:17:40,771 - INFO - Database connection closed
+2025-09-04 17:17:40,771 - INFO - Performance test completed successfully!

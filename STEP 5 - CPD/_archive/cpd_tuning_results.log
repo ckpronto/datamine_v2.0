@@ -1,0 +1,153 @@
+
+====================================================================================================
+TICKET-122 PHASE 2: TWO-PHASE VALIDATION STRATEGY
+Advanced CPD Parameter Tuning with Statistical Robustness
+====================================================================================================
+ARCHITECTURE:
+  ✓ Bulk data loading (eliminates N+1 query problem)
+  ✓ Parallel processing (uses all CPU cores)
+  ✓ Coarse-to-fine penalty optimization
+  ✓ Dual-dataset validation (large + high-precision)
+  ✓ Statistical robustness with gold standard validation
+====================================================================================================
+Multivariate signals: load_weight_rate_of_change, altitude_rate_of_change, is_stationary
+Target: 95%+ recall with statistical validation
+
+
+================================================================================
+PHASE 2.1: COARSE TUNING (LARGE DATASET VALIDATION)
+================================================================================
+Testing 40 penalty values from 0.05 to 2.0 (step 0.05)
+Sample range: [0.05, 0.1, 0.15, 0.2, 0.25] ... [1.8, 1.85, 1.9, 1.95, 2.0]
+
+================================================================================
+CPD PARAMETER TUNING - COARSE PHASE (OPTIMIZED)
+================================================================================
+Device: lake-605-8-0896
+Data source: loaddump
+Testing 40 penalty values: [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.55, 1.6, 1.65, 1.7, 1.75, 1.8, 1.85, 1.9, 1.95, 2.0]
+Max workers: 100 (available CPUs: 100)
+Sample limit: 75,000
+
+[GROUND TRUTH] Fetching loaddump ground truth events...
+[GROUND TRUTH] Found 200 events in 0.14 seconds
+[GROUND TRUTH] Sources: {'loaddump': np.int64(200)}
+[GROUND TRUTH] Events: {'load_event': np.int64(100), 'dump_event': np.int64(100)}
+
+[BULK LOADING] Fetching ALL required data in single query...
+[BULK LOADING] Time range: 2025-08-11 20:52:25.579057+00:00 to 2025-08-11 22:05:03.447903+00:00
+[BULK LOADING] Loaded 8,443 records in 0.06 seconds
+[BULK LOADING] Data rate: 132056 records/second
+
+[DATA SUMMARY] Using 8,443 feature records
+[DATA SUMMARY] Testing against 200 event windows
+
+[PREPROCESSING] Preparing multivariate signals...
+[PREPROCESSING] Completed in 0.00 seconds
+[PREPROCESSING] Signal shape: (8443, 3)
+[PREPROCESSING] Signal 1 (load_weight_roc) - Mean: 0.0000, Std: 1.0000
+[PREPROCESSING] Signal 2 (altitude_roc) - Mean: 0.0000, Std: 1.0000
+[PREPROCESSING] Signal 3 (is_stationary) - Mean: -0.0000, Std: 1.0000
+
+[PARALLEL PROCESSING] Starting coarse parallel penalty testing...
+[COARSE] Penalty   0.05 | CPs: 423 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.1 | CPs: 408 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.15 | CPs: 398 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.2 | CPs: 384 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.25 | CPs: 372 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.3 | CPs: 358 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.35 | CPs: 349 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.4 | CPs: 340 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.45 | CPs: 330 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.5 | CPs: 325 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.55 | CPs: 314 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.6 | CPs: 308 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.65 | CPs: 298 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.7 | CPs: 285 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.75 | CPs: 278 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.8 | CPs: 276 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.85 | CPs: 274 | Recall: 1.000 (200/200)
+[COARSE] Penalty    0.9 | CPs: 268 | Recall: 1.000 (200/200)
+[COARSE] Penalty   0.95 | CPs: 262 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.0 | CPs: 257 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.05 | CPs: 252 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.1 | CPs: 245 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.15 | CPs: 244 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.2 | CPs: 243 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.25 | CPs: 240 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.3 | CPs: 240 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.35 | CPs: 236 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.4 | CPs: 236 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.45 | CPs: 234 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.5 | CPs: 228 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.55 | CPs: 225 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.6 | CPs: 222 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.65 | CPs: 221 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.7 | CPs: 220 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.75 | CPs: 220 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.8 | CPs: 217 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.85 | CPs: 217 | Recall: 1.000 (200/200)
+[COARSE] Penalty    1.9 | CPs: 216 | Recall: 1.000 (200/200)
+[COARSE] Penalty   1.95 | CPs: 216 | Recall: 1.000 (200/200)
+[COARSE] Penalty    2.0 | CPs: 212 | Recall: 1.000 (200/200)
+
+[PARALLEL PROCESSING] COARSE phase completed 40 tests in 226.35 seconds
+[PARALLEL PROCESSING] Average: 5.659 seconds per penalty
+[PARALLEL PROCESSING] Speedup: ~40x compared to sequential
+
+[COARSE PHASE] Completed in 226.55 seconds
+[COARSE PHASE] Processed 8,443 feature samples
+[COARSE PHASE] Validated against 200 event windows
+[COARSE PHASE] Successful tests: 40/40
+
+
+================================================================================
+PHASE 2.2: OPTIMAL RANGE IDENTIFICATION
+================================================================================
+
+[CANDIDATE SELECTION] Identifying top 5 penalty candidates...
+[CANDIDATE SELECTION] Found 40 results above threshold 0.7
+[CANDIDATE SELECTION] Selected top 5 candidates:
+[CANDIDATE SELECTION]   1. Penalty:   0.05 | Recall: 1.000 | CPs: 423 | Detected: 200/200
+[CANDIDATE SELECTION]   2. Penalty:    0.1 | Recall: 1.000 | CPs: 408 | Detected: 200/200
+[CANDIDATE SELECTION]   3. Penalty:   0.15 | Recall: 1.000 | CPs: 398 | Detected: 200/200
+[CANDIDATE SELECTION]   4. Penalty:    0.2 | Recall: 1.000 | CPs: 384 | Detected: 200/200
+[CANDIDATE SELECTION]   5. Penalty:   0.25 | Recall: 1.000 | CPs: 372 | Detected: 200/200
+
+[CANDIDATE SELECTION] Selected 5 candidates for fine-grained tuning
+
+
+================================================================================
+PHASE 2.3: FINE-GRAINED TUNING (HIGH-PRECISION VALIDATION)
+================================================================================
+
+================================================================================
+CPD PARAMETER TUNING - FINE-GRAINED PHASE (OPTIMIZED)
+================================================================================
+Device: lake-605-8-0896
+Data source: hand_labeled
+Testing 5 penalty values: [0.05, 0.1, 0.15, 0.2, 0.25]
+Max workers: 100 (available CPUs: 100)
+Sample limit: 50,000
+
+[GROUND TRUTH] Fetching hand_labeled ground truth events...
+[GROUND TRUTH] Found 50 events in 0.02 seconds
+[GROUND TRUTH] Sources: {'hand_labeled': np.int64(50)}
+[GROUND TRUTH] Events: {'load_event': np.int64(25), 'dump_event': np.int64(25)}
+
+[BULK LOADING] Fetching ALL required data in single query...
+[BULK LOADING] Time range: 2025-08-01 11:48:28.375184+00:00 to 2025-08-01 13:23:48.818932+00:00
+[BULK LOADING] Loaded 11,427 records in 0.06 seconds
+[BULK LOADING] Data rate: 187817 records/second
+
+[DATA SUMMARY] Using 11,427 feature records
+[DATA SUMMARY] Testing against 50 event windows
+
+[PREPROCESSING] Preparing multivariate signals...
+[PREPROCESSING] Completed in 0.00 seconds
+[PREPROCESSING] Signal shape: (11427, 3)
+[PREPROCESSING] Signal 1 (load_weight_roc) - Mean: -0.0000, Std: 1.0000
+[PREPROCESSING] Signal 2 (altitude_roc) - Mean: 0.0000, Std: 1.0000
+[PREPROCESSING] Signal 3 (is_stationary) - Mean: 0.0000, Std: 1.0000
+
+[PARALLEL PROCESSING] Starting fine-grained parallel penalty testing...

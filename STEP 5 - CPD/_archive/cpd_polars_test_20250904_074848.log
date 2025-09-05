@@ -1,0 +1,49 @@
+2025-09-04 07:48:48,047 - INFO - Starting UDF-Free Polars Performance Test...
+2025-09-04 07:48:48,047 - INFO - ================================================================================
+2025-09-04 07:48:48,047 - INFO - TICKET-133: UDF-Free Polars Performance Benchmark
+2025-09-04 07:48:48,047 - INFO - ================================================================================
+2025-09-04 07:48:48,047 - INFO - Test chunk: 8 device-dates
+2025-09-04 07:48:48,047 - INFO - Device range: lake-605-10-0050_2025-07-30 to lake-605-10-0050_2025-08-06
+2025-09-04 07:48:48,047 - INFO - Connecting to database...
+2025-09-04 07:48:48,058 - INFO - Target table 05_candidate_events verified
+2025-09-04 07:48:48,058 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 07:48:48,058 - INFO - Extracting data for 8 device-dates using COPY
+2025-09-04 07:48:49,052 - INFO - COPY extraction completed in 0.97s, extracted 46931049 bytes
+2025-09-04 07:48:49,052 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 07:48:49,052 - INFO - Processing data with Polars vectorized engine
+2025-09-04 07:48:49,192 - ERROR - Polars processing failed: could not parse `2025-07-30 00:00:02.60728+00` as dtype `datetime[μs]` at column 'timestamp' (column number 2)
+
+The current offset in the file is 268 bytes.
+
+You might want to try:
+- increasing `infer_schema_length` (e.g. `infer_schema_length=10000`),
+- specifying correct dtype with the `schema_overrides` argument
+- setting `ignore_errors` to `True`,
+- adding `2025-07-30 00:00:02.60728+00` to the `null_values` list.
+
+Original error: ```could not parse '2025-07-30 00:00:02.60728+00' with pattern 'DatetimeYMDZ'```
+2025-09-04 07:48:49,193 - ERROR - Performance benchmark failed: could not parse `2025-07-30 00:00:02.60728+00` as dtype `datetime[μs]` at column 'timestamp' (column number 2)
+
+The current offset in the file is 268 bytes.
+
+You might want to try:
+- increasing `infer_schema_length` (e.g. `infer_schema_length=10000`),
+- specifying correct dtype with the `schema_overrides` argument
+- setting `ignore_errors` to `True`,
+- adding `2025-07-30 00:00:02.60728+00` to the `null_values` list.
+
+Original error: ```could not parse '2025-07-30 00:00:02.60728+00' with pattern 'DatetimeYMDZ'```
+2025-09-04 07:48:49,193 - INFO - Database connection closed
+2025-09-04 07:48:49,193 - ERROR - Benchmark execution failed: could not parse `2025-07-30 00:00:02.60728+00` as dtype `datetime[μs]` at column 'timestamp' (column number 2)
+
+The current offset in the file is 268 bytes.
+
+You might want to try:
+- increasing `infer_schema_length` (e.g. `infer_schema_length=10000`),
+- specifying correct dtype with the `schema_overrides` argument
+- setting `ignore_errors` to `True`,
+- adding `2025-07-30 00:00:02.60728+00` to the `null_values` list.
+
+Original error: ```could not parse '2025-07-30 00:00:02.60728+00' with pattern 'DatetimeYMDZ'```

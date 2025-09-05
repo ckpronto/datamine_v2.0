@@ -1,0 +1,10 @@
+2025-09-04 21:24:08,428 - MainProcess - INFO - ================================================================================
+2025-09-04 21:24:08,428 - MainProcess - INFO - DEBUGGING WORKER FUNCTION: process_single_partition
+2025-09-04 21:24:08,428 - MainProcess - INFO - ================================================================================
+2025-09-04 21:24:08,428 - MainProcess - INFO - Target Partition: lake-605-10-0050_2025-07-30
+2025-09-04 21:24:08,428 - MainProcess - INFO - Executing function directly (no parallelism)...
+2025-09-04 21:24:18,296 - MainProcess - INFO - 
+================================================================================
+2025-09-04 21:24:18,296 - MainProcess - INFO - EXECUTION COMPLETED
+2025-09-04 21:24:18,296 - MainProcess - INFO - ================================================================================
+2025-09-04 21:24:18,296 - MainProcess - INFO - Result: ('lake-605-10-0050_2025-07-30', 9.866472482681274, {'original_records': 89677, 'clean_records': 89676, 'downsampled_records': 8981, 'change_points': 666, 'processing_time_seconds': 9.866, 'data_reduction_ratio': 0.1, 'status': 'success'})

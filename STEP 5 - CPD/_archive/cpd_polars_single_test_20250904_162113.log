@@ -1,0 +1,42 @@
+2025-09-04 16:21:13,209 - INFO - Starting Focused Single Device-Date Performance Test...
+2025-09-04 16:21:13,209 - INFO - ================================================================================
+2025-09-04 16:21:13,209 - INFO - TICKET-135: Final Fix - Algorithmic Bottleneck Solution Test
+2025-09-04 16:21:13,209 - INFO - ================================================================================
+2025-09-04 16:21:13,209 - INFO - Test device-date: lake-605-10-0050_2025-07-30
+2025-09-04 16:21:13,209 - INFO - Architecture: PostgreSQL COPY -> Polars -> Downsampling -> Ruptures PELT -> Bulk Insert
+2025-09-04 16:21:13,209 - INFO - Downsampling: 5-second rolling mean to solve O(n²) complexity
+2025-09-04 16:21:13,209 - INFO - Connecting to database...
+2025-09-04 16:21:13,219 - INFO - Target table 05_candidate_events verified
+2025-09-04 16:21:13,220 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 16:21:13,220 - INFO - Extracting data for device-date: lake-605-10-0050_2025-07-30
+2025-09-04 16:21:13,342 - INFO - COPY extraction completed in 0.119s
+2025-09-04 16:21:13,342 - INFO - Extracted 5474641 bytes (5.22 MB)
+2025-09-04 16:21:13,342 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 16:21:13,342 - INFO - Processing lake-605-10-0050_2025-07-30 with Polars vectorized engine
+2025-09-04 16:21:13,397 - INFO - Polars CSV parsing: 0.055s, loaded 89676 rows
+2025-09-04 16:21:13,397 - INFO - Data sample - first 5 rows:
+2025-09-04 16:21:13,397 - INFO -   shape: (5, 3)
+┌─────────────────────────────┬───────────────────────────────┬────────────────────────────┐
+│ device_date                 ┆ timestamp                     ┆ load_weight_rate_of_change │
+│ ---                         ┆ ---                           ┆ ---                        │
+│ str                         ┆ str                           ┆ f64                        │
+╞═════════════════════════════╪═══════════════════════════════╪════════════════════════════╡
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:00.605166+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:01.105714+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:01.606285+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:02.106961+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:02.60728+00  ┆ 0.0                        │
+└─────────────────────────────┴───────────────────────────────┴────────────────────────────┘
+2025-09-04 16:21:13,398 - INFO - Load weight stats: min=-9140.0, max=3220.0, null_count=0
+2025-09-04 16:21:13,511 - ERROR - Polars processing failed for lake-605-10-0050_2025-07-30: `strptime` / `to_datetime` was called with no format and no time zone, but a time zone is part of the data.
+
+This was previously allowed but led to unpredictable and erroneous results. Give a format string, set a time zone or perform the operation eagerly on a Series instead of on an Expr.
+2025-09-04 16:21:13,511 - ERROR - Single device performance test failed: `strptime` / `to_datetime` was called with no format and no time zone, but a time zone is part of the data.
+
+This was previously allowed but led to unpredictable and erroneous results. Give a format string, set a time zone or perform the operation eagerly on a Series instead of on an Expr.
+2025-09-04 16:21:13,512 - INFO - Database connection closed
+2025-09-04 16:21:13,512 - ERROR - Performance test execution failed: `strptime` / `to_datetime` was called with no format and no time zone, but a time zone is part of the data.
+
+This was previously allowed but led to unpredictable and erroneous results. Give a format string, set a time zone or perform the operation eagerly on a Series instead of on an Expr.

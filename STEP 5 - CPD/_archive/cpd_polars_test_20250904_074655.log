@@ -1,0 +1,14 @@
+2025-09-04 07:46:55,819 - INFO - Starting UDF-Free Polars Performance Test...
+2025-09-04 07:46:55,819 - INFO - ================================================================================
+2025-09-04 07:46:55,819 - INFO - TICKET-133: UDF-Free Polars Performance Benchmark
+2025-09-04 07:46:55,819 - INFO - ================================================================================
+2025-09-04 07:46:55,819 - INFO - Test chunk: 8 device-dates
+2025-09-04 07:46:55,819 - INFO - Device range: lake-605-10-0050_2025-07-30 to lake-605-10-0050_2025-08-06
+2025-09-04 07:46:55,819 - INFO - Connecting to database...
+2025-09-04 07:46:55,829 - ERROR - Failed to create target table: column "device_date" does not exist
+
+2025-09-04 07:46:55,830 - ERROR - Performance benchmark failed: column "device_date" does not exist
+
+2025-09-04 07:46:55,830 - INFO - Database connection closed
+2025-09-04 07:46:55,830 - ERROR - Benchmark execution failed: column "device_date" does not exist
+

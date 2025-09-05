@@ -1,0 +1,24 @@
+2025-08-27 18:51:16,303 - INFO - Logging to file: /home/ck/DataMine/labelstudio_output/lsprep_20250827_185116.log
+2025-08-27 18:51:16,303 - INFO - Script started successfully
+2025-08-27 18:51:16,303 - INFO - Connecting to database...
+2025-08-27 18:51:16,758 - INFO - Source table verified: 8,831,277 rows available
+2025-08-27 18:51:17,636 - INFO - Found 7 unique trucks: lake-605-10-0050, lake-605-8-0883, lake-605-8-0896, lake-605-8-0898, lake-605-8-0902, lake-775g-2-2262, lake-775g-2-2266
+2025-08-27 18:51:17,636 - INFO - All specified trucks validated: ['lake-605-10-0050']
+2025-08-27 18:51:17,638 - INFO - Planning to process 1 truck-date combinations:
+2025-08-27 18:51:17,639 - INFO - Trucks (1): lake-605-10-0050
+2025-08-27 18:51:17,639 - INFO - Dates (1): 2025-08-01 to 2025-08-01
+2025-08-27 18:51:17,639 - INFO - Starting data extraction and file generation...
+2025-08-27 18:51:17,639 - INFO - Processing truck 1/1: lake-605-10-0050
+2025-08-27 18:51:17,639 - INFO -   Processing date 1/1: 2025-08-01
+2025-08-27 18:51:18,995 - INFO - Extracted 103902 records for truck lake-605-10-0050 on 2025-08-01 00:00:00
+2025-08-27 18:51:19,320 - INFO - Created CSV file: /home/ck/DataMine/labelstudio_output/lake-605-10-0050_2025-08-01_data.csv (103902 records)
+2025-08-27 18:51:19,320 - INFO - Created Label Studio JSON task file: /home/ck/DataMine/labelstudio_output/lake-605-10-0050_2025-08-01_labelstudio.json
+2025-08-27 18:51:19,333 - INFO -     SUCCESS: 103902 records -> /home/ck/DataMine/labelstudio_output/lake-605-10-0050_2025-08-01_data.csv, /home/ck/DataMine/labelstudio_output/lake-605-10-0050_2025-08-01_labelstudio.json
+2025-08-27 18:51:19,333 - INFO - === PROCESSING SUMMARY ===
+2025-08-27 18:51:19,333 - INFO - Total truck-date combinations processed: 1
+2025-08-27 18:51:19,333 - INFO - Successful: 1
+2025-08-27 18:51:19,333 - INFO - Failed/No Data: 0
+2025-08-27 18:51:19,333 - INFO - Total telemetry records processed: 103,902
+2025-08-27 18:51:19,333 - INFO - Summary report created: /home/ck/DataMine/labelstudio_output/processing_summary_20250827_185119.json
+2025-08-27 18:51:19,333 - INFO - Database connection closed.
+2025-08-27 18:51:19,333 - INFO - === SCRIPT COMPLETED SUCCESSFULLY ===

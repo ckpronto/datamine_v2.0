@@ -1,0 +1,1324 @@
+2025-09-04 00:55:38,713 - INFO - ================================================================================
+2025-09-04 00:55:38,713 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 00:55:38,713 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 00:55:38,713 - INFO - ================================================================================
+2025-09-04 00:55:38,713 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 00:55:38,713 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 00:55:38,713 - INFO - ================================================================================
+2025-09-04 00:55:38,723 - INFO - ✓ Test table ready
+2025-09-04 00:55:38,723 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 00:55:38,723 - INFO - Using 24 device-date combinations per test
+2025-09-04 00:55:38,723 - INFO - --------------------------------------------------------------------------------
+2025-09-04 00:55:38,723 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 00:55:38,723 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 00:55:38,733 - INFO - ✓ Cleaned test table
+2025-09-04 00:55:39,299 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 00:55:39,299 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 02:17:09,336 - INFO - ================================================================================
+2025-09-04 02:17:09,336 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 02:17:09,336 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 02:17:09,336 - INFO - ================================================================================
+2025-09-04 02:17:09,336 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 02:17:09,337 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 02:17:09,337 - INFO - ================================================================================
+2025-09-04 02:17:09,346 - INFO - ✓ Test table ready
+2025-09-04 02:17:09,346 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 02:17:09,346 - INFO - Using 24 device-date combinations per test
+2025-09-04 02:17:09,346 - INFO - --------------------------------------------------------------------------------
+2025-09-04 02:17:09,346 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 02:17:09,346 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 02:17:09,355 - INFO - ✓ Cleaned test table
+2025-09-04 02:17:09,931 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 02:17:09,932 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 03:04:23,940 - INFO - ================================================================================
+2025-09-04 03:04:23,940 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 03:04:23,940 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 03:04:23,940 - INFO - ================================================================================
+2025-09-04 03:04:23,940 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 03:04:23,940 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 03:04:23,940 - INFO - ================================================================================
+2025-09-04 03:04:23,950 - INFO - ✓ Test table ready
+2025-09-04 03:04:23,950 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 03:04:23,950 - INFO - Using 24 device-date combinations per test
+2025-09-04 03:04:23,950 - INFO - --------------------------------------------------------------------------------
+2025-09-04 03:04:23,950 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 03:04:23,950 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 03:04:23,960 - INFO - ✓ Cleaned test table
+2025-09-04 03:04:24,523 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 03:04:24,523 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 03:07:24,025 - ERROR - Worker   1 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:07:24,025 - ERROR - Worker   4 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:07:24,028 - ERROR - Worker   3 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:07:24,028 - ERROR - Worker   2 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:07:24,029 - ERROR - Worker   0 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:07:24,031 - ERROR - Worker   5 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:08:19,717 - INFO - ================================================================================
+2025-09-04 03:08:19,717 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 03:08:19,717 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 03:08:19,717 - INFO - ================================================================================
+2025-09-04 03:08:19,717 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 03:08:19,717 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 03:08:19,717 - INFO - ================================================================================
+2025-09-04 03:08:19,728 - INFO - ✓ Test table ready
+2025-09-04 03:08:19,728 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 03:08:19,728 - INFO - Using 1 device-date combinations per test
+2025-09-04 03:08:19,728 - INFO - --------------------------------------------------------------------------------
+2025-09-04 03:08:19,728 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 03:08:19,728 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 03:08:19,737 - INFO - ✓ Cleaned test table
+2025-09-04 03:08:20,301 - INFO - ✓ Retrieved 1 device-date combinations for testing
+2025-09-04 03:08:20,301 - INFO -    Created 1 chunks from 1 device-dates
+2025-09-04 03:13:55,904 - ERROR - Worker   0 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:14:08,842 - INFO - ================================================================================
+2025-09-04 03:14:08,842 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 03:14:08,842 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 03:14:08,842 - INFO - ================================================================================
+2025-09-04 03:14:08,842 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 03:14:08,842 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 03:14:08,842 - INFO - ================================================================================
+2025-09-04 03:14:08,854 - INFO - ✓ Test table ready
+2025-09-04 03:14:08,854 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 03:14:08,854 - INFO - Using 4 device-date combinations per test
+2025-09-04 03:14:08,854 - INFO - --------------------------------------------------------------------------------
+2025-09-04 03:14:08,854 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 03:14:08,854 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 03:14:08,864 - INFO - ✓ Cleaned test table
+2025-09-04 03:14:09,437 - INFO - ✓ Retrieved 4 device-date combinations for testing
+2025-09-04 03:14:09,437 - INFO -    Created 1 chunks from 4 device-dates
+2025-09-04 03:16:27,555 - ERROR - Worker   0 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:16:27,556 - INFO -    ✓ Throughput: 0.03 device-dates/sec
+2025-09-04 03:16:27,556 - INFO -    ✓ Total Duration: 138.11s
+2025-09-04 03:16:27,556 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 03:16:27,556 - INFO -    ✓ Events Detected: 0
+2025-09-04 03:16:29,556 - INFO - Test 2/20: workers=32, chunk_size=8
+2025-09-04 03:16:29,557 - INFO - 🧪 Testing: num_workers=32, chunk_size=8
+2025-09-04 03:16:29,557 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,557 - INFO - Test 3/20: workers=32, chunk_size=16
+2025-09-04 03:16:29,557 - INFO - 🧪 Testing: num_workers=32, chunk_size=16
+2025-09-04 03:16:29,557 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,557 - INFO - Test 4/20: workers=32, chunk_size=32
+2025-09-04 03:16:29,558 - INFO - 🧪 Testing: num_workers=32, chunk_size=32
+2025-09-04 03:16:29,558 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,558 - INFO - Test 5/20: workers=50, chunk_size=4
+2025-09-04 03:16:29,558 - INFO - 🧪 Testing: num_workers=50, chunk_size=4
+2025-09-04 03:16:29,558 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,558 - INFO - Test 6/20: workers=50, chunk_size=8
+2025-09-04 03:16:29,558 - INFO - 🧪 Testing: num_workers=50, chunk_size=8
+2025-09-04 03:16:29,558 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,558 - INFO - Test 7/20: workers=50, chunk_size=16
+2025-09-04 03:16:29,558 - INFO - 🧪 Testing: num_workers=50, chunk_size=16
+2025-09-04 03:16:29,558 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,558 - INFO - Test 8/20: workers=50, chunk_size=32
+2025-09-04 03:16:29,558 - INFO - 🧪 Testing: num_workers=50, chunk_size=32
+2025-09-04 03:16:29,559 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,559 - INFO - Test 9/20: workers=100, chunk_size=4
+2025-09-04 03:16:29,559 - INFO - 🧪 Testing: num_workers=100, chunk_size=4
+2025-09-04 03:16:29,559 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,559 - INFO - Test 10/20: workers=100, chunk_size=8
+2025-09-04 03:16:29,559 - INFO - 🧪 Testing: num_workers=100, chunk_size=8
+2025-09-04 03:16:29,559 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,559 - INFO - Test 11/20: workers=100, chunk_size=16
+2025-09-04 03:16:29,559 - INFO - 🧪 Testing: num_workers=100, chunk_size=16
+2025-09-04 03:16:29,559 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,559 - INFO - Test 12/20: workers=100, chunk_size=32
+2025-09-04 03:16:29,559 - INFO - 🧪 Testing: num_workers=100, chunk_size=32
+2025-09-04 03:16:29,560 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,560 - INFO - Test 13/20: workers=150, chunk_size=4
+2025-09-04 03:16:29,560 - INFO - 🧪 Testing: num_workers=150, chunk_size=4
+2025-09-04 03:16:29,560 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,560 - INFO - Test 14/20: workers=150, chunk_size=8
+2025-09-04 03:16:29,560 - INFO - 🧪 Testing: num_workers=150, chunk_size=8
+2025-09-04 03:16:29,560 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,560 - INFO - Test 15/20: workers=150, chunk_size=16
+2025-09-04 03:16:29,560 - INFO - 🧪 Testing: num_workers=150, chunk_size=16
+2025-09-04 03:16:29,560 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,560 - INFO - Test 16/20: workers=150, chunk_size=32
+2025-09-04 03:16:29,560 - INFO - 🧪 Testing: num_workers=150, chunk_size=32
+2025-09-04 03:16:29,560 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,560 - INFO - Test 17/20: workers=200, chunk_size=4
+2025-09-04 03:16:29,561 - INFO - 🧪 Testing: num_workers=200, chunk_size=4
+2025-09-04 03:16:29,561 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,561 - INFO - Test 18/20: workers=200, chunk_size=8
+2025-09-04 03:16:29,561 - INFO - 🧪 Testing: num_workers=200, chunk_size=8
+2025-09-04 03:16:29,561 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,561 - INFO - Test 19/20: workers=200, chunk_size=16
+2025-09-04 03:16:29,561 - INFO - 🧪 Testing: num_workers=200, chunk_size=16
+2025-09-04 03:16:29,561 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,561 - INFO - Test 20/20: workers=200, chunk_size=32
+2025-09-04 03:16:29,561 - INFO - 🧪 Testing: num_workers=200, chunk_size=32
+2025-09-04 03:16:29,561 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:16:29,561 - INFO - ================================================================================
+2025-09-04 03:16:29,561 - INFO - 📊 TUNING RESULTS ANALYSIS
+2025-09-04 03:16:29,561 - INFO - ================================================================================
+2025-09-04 03:16:29,561 - INFO - 🏆 TOP 5 CONFIGURATIONS (by device-dates/second):
+2025-09-04 03:16:29,561 - INFO -  1. workers= 32, chunk_size= 4 → 0.03 device-dates/sec (138.1s total)
+2025-09-04 03:16:29,562 - INFO - ================================================================================
+2025-09-04 03:16:29,562 - INFO - 🎯 OPTIMAL CONFIGURATION:
+2025-09-04 03:16:29,562 - INFO -    • num_workers: 32
+2025-09-04 03:16:29,562 - INFO -    • chunk_size: 4
+2025-09-04 03:16:29,562 - INFO -    • Throughput: 0.03 device-dates/second
+2025-09-04 03:16:29,562 - INFO -    • Estimated Full Pipeline Time: 3314.7 seconds
+2025-09-04 03:16:29,562 - INFO - ================================================================================
+2025-09-04 03:16:29,562 - INFO - 📁 Detailed results saved to: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/cpd_tuning_results_20250904_031629.json
+2025-09-04 03:16:29,562 - INFO - ✅ Parameter tuning completed successfully!
+2025-09-04 03:16:29,562 - INFO - 💡 Recommendation: Update main() function with:
+2025-09-04 03:16:29,562 - INFO -     num_workers=32
+2025-09-04 03:16:29,562 - INFO -     chunk_size=4
+2025-09-04 03:16:59,208 - INFO - ================================================================================
+2025-09-04 03:16:59,208 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 03:16:59,208 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 03:16:59,208 - INFO - ================================================================================
+2025-09-04 03:16:59,208 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 03:16:59,208 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 03:16:59,208 - INFO - ================================================================================
+2025-09-04 03:16:59,221 - INFO - ✓ Test table ready
+2025-09-04 03:16:59,221 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 03:16:59,221 - INFO - Using 24 device-date combinations per test
+2025-09-04 03:16:59,221 - INFO - --------------------------------------------------------------------------------
+2025-09-04 03:16:59,221 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 03:16:59,221 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 03:16:59,231 - INFO - ✓ Cleaned test table
+2025-09-04 03:16:59,793 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 03:16:59,793 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 03:17:34,634 - ERROR - Worker   1 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:17:34,635 - ERROR - Worker   2 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:17:34,635 - ERROR - Worker   0 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:17:34,636 - ERROR - Worker   4 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:17:34,636 - ERROR - Worker   5 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:17:34,637 - ERROR - Worker   3 failed: SSL SYSCALL error: EOF detected
+
+2025-09-04 03:17:34,638 - INFO -    ✓ Throughput: 0.69 device-dates/sec
+2025-09-04 03:17:34,638 - INFO -    ✓ Total Duration: 34.84s
+2025-09-04 03:17:34,638 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 03:17:34,638 - INFO -    ✓ Events Detected: 0
+2025-09-04 03:17:36,638 - INFO - Test 2/20: workers=32, chunk_size=8
+2025-09-04 03:17:36,638 - INFO - 🧪 Testing: num_workers=32, chunk_size=8
+2025-09-04 03:17:36,639 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,639 - INFO - Test 3/20: workers=32, chunk_size=16
+2025-09-04 03:17:36,639 - INFO - 🧪 Testing: num_workers=32, chunk_size=16
+2025-09-04 03:17:36,639 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,639 - INFO - Test 4/20: workers=32, chunk_size=32
+2025-09-04 03:17:36,640 - INFO - 🧪 Testing: num_workers=32, chunk_size=32
+2025-09-04 03:17:36,640 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,640 - INFO - Test 5/20: workers=50, chunk_size=4
+2025-09-04 03:17:36,640 - INFO - 🧪 Testing: num_workers=50, chunk_size=4
+2025-09-04 03:17:36,640 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,640 - INFO - Test 6/20: workers=50, chunk_size=8
+2025-09-04 03:17:36,640 - INFO - 🧪 Testing: num_workers=50, chunk_size=8
+2025-09-04 03:17:36,640 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,640 - INFO - Test 7/20: workers=50, chunk_size=16
+2025-09-04 03:17:36,640 - INFO - 🧪 Testing: num_workers=50, chunk_size=16
+2025-09-04 03:17:36,640 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,640 - INFO - Test 8/20: workers=50, chunk_size=32
+2025-09-04 03:17:36,640 - INFO - 🧪 Testing: num_workers=50, chunk_size=32
+2025-09-04 03:17:36,641 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,641 - INFO - Test 9/20: workers=100, chunk_size=4
+2025-09-04 03:17:36,641 - INFO - 🧪 Testing: num_workers=100, chunk_size=4
+2025-09-04 03:17:36,641 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,641 - INFO - Test 10/20: workers=100, chunk_size=8
+2025-09-04 03:17:36,641 - INFO - 🧪 Testing: num_workers=100, chunk_size=8
+2025-09-04 03:17:36,641 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,641 - INFO - Test 11/20: workers=100, chunk_size=16
+2025-09-04 03:17:36,641 - INFO - 🧪 Testing: num_workers=100, chunk_size=16
+2025-09-04 03:17:36,641 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,641 - INFO - Test 12/20: workers=100, chunk_size=32
+2025-09-04 03:17:36,641 - INFO - 🧪 Testing: num_workers=100, chunk_size=32
+2025-09-04 03:17:36,642 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,642 - INFO - Test 13/20: workers=150, chunk_size=4
+2025-09-04 03:17:36,642 - INFO - 🧪 Testing: num_workers=150, chunk_size=4
+2025-09-04 03:17:36,642 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,642 - INFO - Test 14/20: workers=150, chunk_size=8
+2025-09-04 03:17:36,642 - INFO - 🧪 Testing: num_workers=150, chunk_size=8
+2025-09-04 03:17:36,642 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,642 - INFO - Test 15/20: workers=150, chunk_size=16
+2025-09-04 03:17:36,642 - INFO - 🧪 Testing: num_workers=150, chunk_size=16
+2025-09-04 03:17:36,642 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,642 - INFO - Test 16/20: workers=150, chunk_size=32
+2025-09-04 03:17:36,642 - INFO - 🧪 Testing: num_workers=150, chunk_size=32
+2025-09-04 03:17:36,642 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,642 - INFO - Test 17/20: workers=200, chunk_size=4
+2025-09-04 03:17:36,642 - INFO - 🧪 Testing: num_workers=200, chunk_size=4
+2025-09-04 03:17:36,643 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,643 - INFO - Test 18/20: workers=200, chunk_size=8
+2025-09-04 03:17:36,643 - INFO - 🧪 Testing: num_workers=200, chunk_size=8
+2025-09-04 03:17:36,643 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,643 - INFO - Test 19/20: workers=200, chunk_size=16
+2025-09-04 03:17:36,643 - INFO - 🧪 Testing: num_workers=200, chunk_size=16
+2025-09-04 03:17:36,643 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,643 - INFO - Test 20/20: workers=200, chunk_size=32
+2025-09-04 03:17:36,643 - INFO - 🧪 Testing: num_workers=200, chunk_size=32
+2025-09-04 03:17:36,643 - ERROR - Test failed: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-09-04 03:17:36,643 - INFO - ================================================================================
+2025-09-04 03:17:36,643 - INFO - 📊 TUNING RESULTS ANALYSIS
+2025-09-04 03:17:36,643 - INFO - ================================================================================
+2025-09-04 03:17:36,643 - INFO - 🏆 TOP 5 CONFIGURATIONS (by device-dates/second):
+2025-09-04 03:17:36,643 - INFO -  1. workers= 32, chunk_size= 4 → 0.69 device-dates/sec (34.8s total)
+2025-09-04 03:17:36,644 - INFO - ================================================================================
+2025-09-04 03:17:36,644 - INFO - 🎯 OPTIMAL CONFIGURATION:
+2025-09-04 03:17:36,644 - INFO -    • num_workers: 32
+2025-09-04 03:17:36,644 - INFO -    • chunk_size: 4
+2025-09-04 03:17:36,644 - INFO -    • Throughput: 0.69 device-dates/second
+2025-09-04 03:17:36,644 - INFO -    • Estimated Full Pipeline Time: 139.3 seconds
+2025-09-04 03:17:36,644 - INFO - ================================================================================
+2025-09-04 03:17:36,644 - INFO - 📁 Detailed results saved to: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/cpd_tuning_results_20250904_031736.json
+2025-09-04 03:17:36,644 - INFO - ✅ Parameter tuning completed successfully!
+2025-09-04 03:17:36,644 - INFO - 💡 Recommendation: Update main() function with:
+2025-09-04 03:17:36,644 - INFO -     num_workers=32
+2025-09-04 03:17:36,644 - INFO -     chunk_size=4
+2025-09-04 03:19:13,190 - INFO - ================================================================================
+2025-09-04 03:19:13,191 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 03:19:13,193 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 03:19:13,193 - INFO - ================================================================================
+2025-09-04 03:19:13,194 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 03:19:13,194 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 03:19:13,194 - INFO - ================================================================================
+2025-09-04 03:19:13,206 - INFO - ✓ Test table ready
+2025-09-04 03:19:13,206 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 03:19:13,206 - INFO - Using 24 device-date combinations per test
+2025-09-04 03:19:13,206 - INFO - --------------------------------------------------------------------------------
+2025-09-04 03:19:13,206 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 03:19:13,206 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 03:19:13,216 - INFO - ✓ Cleaned test table
+2025-09-04 03:19:13,784 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 03:19:13,784 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 04:21:21,295 - INFO - ================================================================================
+2025-09-04 04:21:21,295 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 04:21:21,295 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 04:21:21,295 - INFO - ================================================================================
+2025-09-04 04:21:21,295 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 04:21:21,295 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 04:21:21,295 - INFO - ================================================================================
+2025-09-04 04:21:21,304 - INFO - ✓ Test table ready
+2025-09-04 04:21:21,304 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 04:21:21,305 - INFO - Using 24 device-date combinations per test
+2025-09-04 04:21:21,305 - INFO - --------------------------------------------------------------------------------
+2025-09-04 04:21:21,305 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 04:21:21,305 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 04:21:21,315 - INFO - ✓ Cleaned test table
+2025-09-04 04:21:21,877 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 04:21:21,877 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 05:55:08,100 - INFO - ================================================================================
+2025-09-04 05:55:08,100 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 05:55:08,101 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 05:55:08,101 - INFO - ================================================================================
+2025-09-04 05:55:08,101 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 05:55:08,101 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 05:55:08,101 - INFO - ================================================================================
+2025-09-04 05:55:08,112 - INFO - ✓ Test table ready
+2025-09-04 05:55:08,113 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 05:55:08,113 - INFO - Using 24 device-date combinations per test
+2025-09-04 05:55:08,113 - INFO - --------------------------------------------------------------------------------
+2025-09-04 05:55:08,113 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 05:55:08,113 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 05:55:08,123 - INFO - ✓ Cleaned test table
+2025-09-04 05:55:08,410 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 05:55:08,410 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:25:47,580 - INFO - ================================================================================
+2025-09-04 06:25:47,580 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 06:25:47,580 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 06:25:47,580 - INFO - ================================================================================
+2025-09-04 06:25:47,580 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 06:25:47,580 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 06:25:47,580 - INFO - ================================================================================
+2025-09-04 06:25:47,590 - INFO - ✓ Test table ready
+2025-09-04 06:25:47,590 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 06:25:47,590 - INFO - Using 24 device-date combinations per test
+2025-09-04 06:25:47,590 - INFO - --------------------------------------------------------------------------------
+2025-09-04 06:25:47,590 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 06:25:47,590 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 06:25:47,598 - INFO - ✓ Cleaned test table
+2025-09-04 06:25:47,855 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:25:47,855 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:25:47,866 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:47,874 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:47,882 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:47,890 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:47,890 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:47,898 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:47,899 - INFO -    ✓ Throughput: 678.42 device-dates/sec
+2025-09-04 06:25:47,899 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:25:47,899 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:25:47,899 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:25:49,900 - INFO - Test 2/20: workers=32, chunk_size=8
+2025-09-04 06:25:49,900 - INFO - 🧪 Testing: num_workers=32, chunk_size=8
+2025-09-04 06:25:49,910 - INFO - ✓ Cleaned test table
+2025-09-04 06:25:50,191 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:25:50,191 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:25:50,201 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:50,209 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:50,217 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:50,218 - INFO -    ✓ Throughput: 1318.39 device-dates/sec
+2025-09-04 06:25:50,218 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:25:50,218 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:25:50,218 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:25:52,218 - INFO - Test 3/20: workers=32, chunk_size=16
+2025-09-04 06:25:52,219 - INFO - 🧪 Testing: num_workers=32, chunk_size=16
+2025-09-04 06:25:52,228 - INFO - ✓ Cleaned test table
+2025-09-04 06:25:52,485 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:25:52,485 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:25:52,494 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:52,503 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:52,503 - INFO -    ✓ Throughput: 2289.47 device-dates/sec
+2025-09-04 06:25:52,503 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:25:52,503 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:25:52,503 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:25:54,504 - INFO - Test 4/20: workers=32, chunk_size=32
+2025-09-04 06:25:54,504 - INFO - 🧪 Testing: num_workers=32, chunk_size=32
+2025-09-04 06:25:54,513 - INFO - ✓ Cleaned test table
+2025-09-04 06:25:54,764 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:25:54,764 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:25:54,774 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:54,774 - INFO -    ✓ Throughput: 11423.43 device-dates/sec
+2025-09-04 06:25:54,774 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:25:54,774 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:25:54,774 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:25:56,775 - INFO - Test 5/20: workers=50, chunk_size=4
+2025-09-04 06:25:56,775 - INFO - 🧪 Testing: num_workers=50, chunk_size=4
+2025-09-04 06:25:56,785 - INFO - ✓ Cleaned test table
+2025-09-04 06:25:57,051 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:25:57,051 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:25:57,060 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:57,068 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:57,075 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:57,084 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:57,084 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:57,092 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:57,093 - INFO -    ✓ Throughput: 699.79 device-dates/sec
+2025-09-04 06:25:57,093 - INFO -    ✓ Total Duration: 0.03s
+2025-09-04 06:25:57,093 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:25:57,093 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:25:59,093 - INFO - Test 6/20: workers=50, chunk_size=8
+2025-09-04 06:25:59,094 - INFO - 🧪 Testing: num_workers=50, chunk_size=8
+2025-09-04 06:25:59,103 - INFO - ✓ Cleaned test table
+2025-09-04 06:25:59,376 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:25:59,377 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:25:59,386 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:59,394 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:59,402 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:25:59,403 - INFO -    ✓ Throughput: 1332.51 device-dates/sec
+2025-09-04 06:25:59,403 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:25:59,403 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:25:59,403 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:01,403 - INFO - Test 7/20: workers=50, chunk_size=16
+2025-09-04 06:26:01,404 - INFO - 🧪 Testing: num_workers=50, chunk_size=16
+2025-09-04 06:26:01,415 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:01,679 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:01,679 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:26:01,689 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:01,697 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:01,698 - INFO -    ✓ Throughput: 2406.08 device-dates/sec
+2025-09-04 06:26:01,698 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:26:01,698 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:01,698 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:03,698 - INFO - Test 8/20: workers=50, chunk_size=32
+2025-09-04 06:26:03,698 - INFO - 🧪 Testing: num_workers=50, chunk_size=32
+2025-09-04 06:26:03,708 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:03,968 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:03,968 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:26:03,978 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:03,978 - INFO -    ✓ Throughput: 15222.03 device-dates/sec
+2025-09-04 06:26:03,978 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:26:03,978 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:03,978 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:05,978 - INFO - Test 9/20: workers=100, chunk_size=4
+2025-09-04 06:26:05,979 - INFO - 🧪 Testing: num_workers=100, chunk_size=4
+2025-09-04 06:26:05,987 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:06,249 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:06,250 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:26:06,259 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:06,267 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:06,275 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:06,275 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:06,283 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:06,292 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:06,293 - INFO -    ✓ Throughput: 676.76 device-dates/sec
+2025-09-04 06:26:06,293 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:26:06,293 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:06,293 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:08,293 - INFO - Test 10/20: workers=100, chunk_size=8
+2025-09-04 06:26:08,294 - INFO - 🧪 Testing: num_workers=100, chunk_size=8
+2025-09-04 06:26:08,302 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:08,569 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:08,570 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:26:08,579 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:08,587 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:08,595 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:08,596 - INFO -    ✓ Throughput: 1333.59 device-dates/sec
+2025-09-04 06:26:08,596 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:26:08,596 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:08,596 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:10,596 - INFO - Test 11/20: workers=100, chunk_size=16
+2025-09-04 06:26:10,596 - INFO - 🧪 Testing: num_workers=100, chunk_size=16
+2025-09-04 06:26:10,605 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:10,859 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:10,859 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:26:10,869 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:10,877 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:10,877 - INFO -    ✓ Throughput: 2383.80 device-dates/sec
+2025-09-04 06:26:10,877 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:26:10,878 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:10,878 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:12,878 - INFO - Test 12/20: workers=100, chunk_size=32
+2025-09-04 06:26:12,878 - INFO - 🧪 Testing: num_workers=100, chunk_size=32
+2025-09-04 06:26:12,886 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:13,154 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:13,155 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:26:13,164 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:13,165 - INFO -    ✓ Throughput: 14851.47 device-dates/sec
+2025-09-04 06:26:13,165 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:26:13,165 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:13,165 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:15,165 - INFO - Test 13/20: workers=150, chunk_size=4
+2025-09-04 06:26:15,165 - INFO - 🧪 Testing: num_workers=150, chunk_size=4
+2025-09-04 06:26:15,174 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:15,430 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:15,430 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:26:15,440 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:15,448 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:15,456 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:15,456 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:15,464 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:15,473 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:15,474 - INFO -    ✓ Throughput: 685.61 device-dates/sec
+2025-09-04 06:26:15,474 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:26:15,474 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:15,474 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:17,474 - INFO - Test 14/20: workers=150, chunk_size=8
+2025-09-04 06:26:17,474 - INFO - 🧪 Testing: num_workers=150, chunk_size=8
+2025-09-04 06:26:17,483 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:17,749 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:17,750 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:26:17,759 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:17,767 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:17,775 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:17,776 - INFO -    ✓ Throughput: 1308.64 device-dates/sec
+2025-09-04 06:26:17,776 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:26:17,776 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:17,776 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:19,776 - INFO - Test 15/20: workers=150, chunk_size=16
+2025-09-04 06:26:19,776 - INFO - 🧪 Testing: num_workers=150, chunk_size=16
+2025-09-04 06:26:19,785 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:20,046 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:20,046 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:26:20,055 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:20,063 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:20,063 - INFO -    ✓ Throughput: 2392.13 device-dates/sec
+2025-09-04 06:26:20,063 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:26:20,063 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:20,064 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:22,064 - INFO - Test 16/20: workers=150, chunk_size=32
+2025-09-04 06:26:22,064 - INFO - 🧪 Testing: num_workers=150, chunk_size=32
+2025-09-04 06:26:22,081 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:22,341 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:22,341 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:26:22,350 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:22,350 - INFO -    ✓ Throughput: 14862.44 device-dates/sec
+2025-09-04 06:26:22,350 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:26:22,350 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:22,350 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:24,350 - INFO - Test 17/20: workers=200, chunk_size=4
+2025-09-04 06:26:24,351 - INFO - 🧪 Testing: num_workers=200, chunk_size=4
+2025-09-04 06:26:24,359 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:24,611 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:24,611 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:26:24,619 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:24,628 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:24,636 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:24,645 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:24,645 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:24,653 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:24,654 - INFO -    ✓ Throughput: 666.14 device-dates/sec
+2025-09-04 06:26:24,654 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:26:24,654 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:24,654 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:26,655 - INFO - Test 18/20: workers=200, chunk_size=8
+2025-09-04 06:26:26,655 - INFO - 🧪 Testing: num_workers=200, chunk_size=8
+2025-09-04 06:26:26,664 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:26,927 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:26,927 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:26:26,936 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:26,945 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:26,953 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:26,953 - INFO -    ✓ Throughput: 1333.73 device-dates/sec
+2025-09-04 06:26:26,953 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:26:26,953 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:26,953 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:28,954 - INFO - Test 19/20: workers=200, chunk_size=16
+2025-09-04 06:26:28,954 - INFO - 🧪 Testing: num_workers=200, chunk_size=16
+2025-09-04 06:26:28,963 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:29,241 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:29,241 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:26:29,251 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:29,260 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:29,260 - INFO -    ✓ Throughput: 2339.86 device-dates/sec
+2025-09-04 06:26:29,260 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:26:29,260 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:29,260 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:31,261 - INFO - Test 20/20: workers=200, chunk_size=32
+2025-09-04 06:26:31,261 - INFO - 🧪 Testing: num_workers=200, chunk_size=32
+2025-09-04 06:26:31,270 - INFO - ✓ Cleaned test table
+2025-09-04 06:26:31,524 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:26:31,525 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:26:31,534 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:26:31,534 - INFO -    ✓ Throughput: 16966.68 device-dates/sec
+2025-09-04 06:26:31,534 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:26:31,534 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:26:31,534 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:26:33,535 - INFO - ================================================================================
+2025-09-04 06:26:33,535 - INFO - 📊 TUNING RESULTS ANALYSIS
+2025-09-04 06:26:33,535 - INFO - ================================================================================
+2025-09-04 06:26:33,535 - INFO - 🏆 TOP 5 CONFIGURATIONS (by device-dates/second):
+2025-09-04 06:26:33,535 - INFO -  1. workers=200, chunk_size=32 → 16966.68 device-dates/sec (0.0s total)
+2025-09-04 06:26:33,535 - INFO -  2. workers= 50, chunk_size=32 → 15222.03 device-dates/sec (0.0s total)
+2025-09-04 06:26:33,535 - INFO -  3. workers=150, chunk_size=32 → 14862.44 device-dates/sec (0.0s total)
+2025-09-04 06:26:33,535 - INFO -  4. workers=100, chunk_size=32 → 14851.47 device-dates/sec (0.0s total)
+2025-09-04 06:26:33,535 - INFO -  5. workers= 32, chunk_size=32 → 11423.43 device-dates/sec (0.0s total)
+2025-09-04 06:26:33,535 - INFO - ================================================================================
+2025-09-04 06:26:33,535 - INFO - 🎯 OPTIMAL CONFIGURATION:
+2025-09-04 06:26:33,535 - INFO -    • num_workers: 200
+2025-09-04 06:26:33,535 - INFO -    • chunk_size: 32
+2025-09-04 06:26:33,535 - INFO -    • Throughput: 16966.68 device-dates/second
+2025-09-04 06:26:33,536 - INFO -    • Estimated Full Pipeline Time: 0.0 seconds
+2025-09-04 06:26:33,536 - INFO - ================================================================================
+2025-09-04 06:26:33,536 - INFO - 📁 Detailed results saved to: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/cpd_tuning_results_20250904_062633.json
+2025-09-04 06:26:33,536 - INFO - ✅ Parameter tuning completed successfully!
+2025-09-04 06:26:33,536 - INFO - 💡 Recommendation: Update main() function with:
+2025-09-04 06:26:33,536 - INFO -     num_workers=200
+2025-09-04 06:26:33,536 - INFO -     chunk_size=32
+2025-09-04 06:52:31,234 - INFO - ================================================================================
+2025-09-04 06:52:31,234 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 06:52:31,234 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 06:52:31,234 - INFO - ================================================================================
+2025-09-04 06:52:31,234 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 06:52:31,234 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 06:52:31,234 - INFO - ================================================================================
+2025-09-04 06:52:31,245 - INFO - ✓ Test table ready
+2025-09-04 06:52:31,245 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 06:52:31,245 - INFO - Using 24 device-date combinations per test
+2025-09-04 06:52:31,245 - INFO - --------------------------------------------------------------------------------
+2025-09-04 06:52:31,245 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 06:52:31,245 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 06:52:31,254 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:31,531 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:31,531 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:52:31,542 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:31,550 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:31,558 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:31,566 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:31,567 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:31,575 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:31,576 - INFO -    ✓ Throughput: 666.76 device-dates/sec
+2025-09-04 06:52:31,576 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:52:31,576 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:31,576 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:33,576 - INFO - Test 2/20: workers=32, chunk_size=8
+2025-09-04 06:52:33,576 - INFO - 🧪 Testing: num_workers=32, chunk_size=8
+2025-09-04 06:52:33,585 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:33,847 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:33,847 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:52:33,856 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:33,864 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:33,873 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:33,873 - INFO -    ✓ Throughput: 1304.13 device-dates/sec
+2025-09-04 06:52:33,873 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:52:33,873 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:33,873 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:35,873 - INFO - Test 3/20: workers=32, chunk_size=16
+2025-09-04 06:52:35,874 - INFO - 🧪 Testing: num_workers=32, chunk_size=16
+2025-09-04 06:52:35,883 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:36,137 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:36,138 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:52:36,146 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:36,155 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:36,155 - INFO -    ✓ Throughput: 2338.94 device-dates/sec
+2025-09-04 06:52:36,155 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:52:36,155 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:36,155 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:38,156 - INFO - Test 4/20: workers=32, chunk_size=32
+2025-09-04 06:52:38,156 - INFO - 🧪 Testing: num_workers=32, chunk_size=32
+2025-09-04 06:52:38,165 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:38,424 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:38,425 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:52:38,434 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:38,434 - INFO -    ✓ Throughput: 15375.48 device-dates/sec
+2025-09-04 06:52:38,434 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:52:38,435 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:38,435 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:40,435 - INFO - Test 5/20: workers=50, chunk_size=4
+2025-09-04 06:52:40,435 - INFO - 🧪 Testing: num_workers=50, chunk_size=4
+2025-09-04 06:52:40,444 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:40,709 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:40,709 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:52:40,718 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:40,726 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:40,734 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:40,742 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:40,743 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:40,751 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:40,753 - INFO -    ✓ Throughput: 659.62 device-dates/sec
+2025-09-04 06:52:40,753 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:52:40,753 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:40,753 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:42,753 - INFO - Test 6/20: workers=50, chunk_size=8
+2025-09-04 06:52:42,753 - INFO - 🧪 Testing: num_workers=50, chunk_size=8
+2025-09-04 06:52:42,762 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:43,021 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:43,021 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:52:43,030 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:43,038 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:43,046 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:43,047 - INFO -    ✓ Throughput: 1281.81 device-dates/sec
+2025-09-04 06:52:43,047 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:52:43,047 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:43,047 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:45,047 - INFO - Test 7/20: workers=50, chunk_size=16
+2025-09-04 06:52:45,048 - INFO - 🧪 Testing: num_workers=50, chunk_size=16
+2025-09-04 06:52:45,057 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:45,318 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:45,318 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:52:45,327 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:45,335 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:45,335 - INFO -    ✓ Throughput: 2325.43 device-dates/sec
+2025-09-04 06:52:45,336 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:52:45,336 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:45,336 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:47,336 - INFO - Test 8/20: workers=50, chunk_size=32
+2025-09-04 06:52:47,336 - INFO - 🧪 Testing: num_workers=50, chunk_size=32
+2025-09-04 06:52:47,344 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:47,612 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:47,612 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:52:47,621 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:47,621 - INFO -    ✓ Throughput: 15242.78 device-dates/sec
+2025-09-04 06:52:47,621 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:52:47,621 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:47,622 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:49,622 - INFO - Test 9/20: workers=100, chunk_size=4
+2025-09-04 06:52:49,622 - INFO - 🧪 Testing: num_workers=100, chunk_size=4
+2025-09-04 06:52:49,635 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:49,900 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:49,900 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:52:49,908 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:49,916 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:49,924 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:49,924 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:49,933 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:49,941 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:49,942 - INFO -    ✓ Throughput: 683.13 device-dates/sec
+2025-09-04 06:52:49,943 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:52:49,943 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:49,943 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:51,943 - INFO - Test 10/20: workers=100, chunk_size=8
+2025-09-04 06:52:51,943 - INFO - 🧪 Testing: num_workers=100, chunk_size=8
+2025-09-04 06:52:51,952 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:52,211 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:52,211 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:52:52,220 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:52,229 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:52,237 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:52,238 - INFO -    ✓ Throughput: 1246.42 device-dates/sec
+2025-09-04 06:52:52,238 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:52:52,238 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:52,238 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:54,238 - INFO - Test 11/20: workers=100, chunk_size=16
+2025-09-04 06:52:54,239 - INFO - 🧪 Testing: num_workers=100, chunk_size=16
+2025-09-04 06:52:54,248 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:54,515 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:54,515 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:52:54,525 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:54,533 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:54,533 - INFO -    ✓ Throughput: 2429.07 device-dates/sec
+2025-09-04 06:52:54,534 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:52:54,534 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:54,534 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:56,534 - INFO - Test 12/20: workers=100, chunk_size=32
+2025-09-04 06:52:56,534 - INFO - 🧪 Testing: num_workers=100, chunk_size=32
+2025-09-04 06:52:56,542 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:56,795 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:56,795 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:52:56,803 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:56,804 - INFO -    ✓ Throughput: 16785.61 device-dates/sec
+2025-09-04 06:52:56,804 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:52:56,804 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:56,804 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:52:58,804 - INFO - Test 13/20: workers=150, chunk_size=4
+2025-09-04 06:52:58,804 - INFO - 🧪 Testing: num_workers=150, chunk_size=4
+2025-09-04 06:52:58,813 - INFO - ✓ Cleaned test table
+2025-09-04 06:52:59,076 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:52:59,077 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:52:59,086 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:59,093 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:59,102 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:59,110 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:59,111 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:59,118 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:52:59,120 - INFO -    ✓ Throughput: 674.80 device-dates/sec
+2025-09-04 06:52:59,120 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:52:59,120 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:52:59,120 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:01,120 - INFO - Test 14/20: workers=150, chunk_size=8
+2025-09-04 06:53:01,120 - INFO - 🧪 Testing: num_workers=150, chunk_size=8
+2025-09-04 06:53:01,129 - INFO - ✓ Cleaned test table
+2025-09-04 06:53:01,396 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:53:01,396 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:53:01,405 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:01,413 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:01,421 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:01,422 - INFO -    ✓ Throughput: 1345.21 device-dates/sec
+2025-09-04 06:53:01,422 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:53:01,422 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:53:01,422 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:03,422 - INFO - Test 15/20: workers=150, chunk_size=16
+2025-09-04 06:53:03,422 - INFO - 🧪 Testing: num_workers=150, chunk_size=16
+2025-09-04 06:53:03,432 - INFO - ✓ Cleaned test table
+2025-09-04 06:53:03,718 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:53:03,719 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:53:03,728 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:03,736 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:03,736 - INFO -    ✓ Throughput: 2648.96 device-dates/sec
+2025-09-04 06:53:03,736 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:53:03,736 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:53:03,736 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:05,736 - INFO - Test 16/20: workers=150, chunk_size=32
+2025-09-04 06:53:05,737 - INFO - 🧪 Testing: num_workers=150, chunk_size=32
+2025-09-04 06:53:05,745 - INFO - ✓ Cleaned test table
+2025-09-04 06:53:06,001 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:53:06,001 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:53:06,013 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:06,014 - INFO -    ✓ Throughput: 15335.66 device-dates/sec
+2025-09-04 06:53:06,014 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:53:06,014 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:53:06,014 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:08,014 - INFO - Test 17/20: workers=200, chunk_size=4
+2025-09-04 06:53:08,014 - INFO - 🧪 Testing: num_workers=200, chunk_size=4
+2025-09-04 06:53:08,023 - INFO - ✓ Cleaned test table
+2025-09-04 06:53:08,278 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:53:08,278 - INFO -    Created 6 chunks from 24 device-dates
+2025-09-04 06:53:08,287 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-01', 'lake-605-10-0050_2025-08-02')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:08,296 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:08,304 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-09', 'lake-605-10-0050_2025-08-10')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:08,304 - ERROR - Worker   3 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:08,314 - ERROR - Worker   4 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-03', 'lake-605-8-0883_2025-08-04')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:08,324 - ERROR - Worker   5 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:08,325 - INFO -    ✓ Throughput: 614.61 device-dates/sec
+2025-09-04 06:53:08,325 - INFO -    ✓ Total Duration: 0.04s
+2025-09-04 06:53:08,325 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:53:08,325 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:10,325 - INFO - Test 18/20: workers=200, chunk_size=8
+2025-09-04 06:53:10,325 - INFO - 🧪 Testing: num_workers=200, chunk_size=8
+2025-09-04 06:53:10,334 - INFO - ✓ Cleaned test table
+2025-09-04 06:53:10,604 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:53:10,604 - INFO -    Created 3 chunks from 24 device-dates
+2025-09-04 06:53:10,614 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...0-0050_2025-08-05', 'lake-605-10-0050_2025-08-06')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:10,622 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:10,631 - ERROR - Worker   2 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:10,631 - INFO -    ✓ Throughput: 1281.52 device-dates/sec
+2025-09-04 06:53:10,631 - INFO -    ✓ Total Duration: 0.02s
+2025-09-04 06:53:10,632 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:53:10,632 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:12,632 - INFO - Test 19/20: workers=200, chunk_size=16
+2025-09-04 06:53:12,632 - INFO - 🧪 Testing: num_workers=200, chunk_size=16
+2025-09-04 06:53:12,641 - INFO - ✓ Cleaned test table
+2025-09-04 06:53:12,897 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:53:12,897 - INFO -    Created 2 chunks from 24 device-dates
+2025-09-04 06:53:12,905 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-07-30', 'lake-605-8-0883_2025-07-31')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:12,912 - ERROR - Worker   1 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:12,912 - INFO -    ✓ Throughput: 2832.00 device-dates/sec
+2025-09-04 06:53:12,912 - INFO -    ✓ Total Duration: 0.01s
+2025-09-04 06:53:12,912 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:53:12,912 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:14,913 - INFO - Test 20/20: workers=200, chunk_size=32
+2025-09-04 06:53:14,913 - INFO - 🧪 Testing: num_workers=200, chunk_size=32
+2025-09-04 06:53:14,922 - INFO - ✓ Cleaned test table
+2025-09-04 06:53:15,176 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:53:15,176 - INFO -    Created 1 chunks from 24 device-dates
+2025-09-04 06:53:15,185 - ERROR - Worker   0 failed: cannot cast type record to text[]
+LINE 11: ...-8-0883_2025-08-07', 'lake-605-8-0883_2025-08-08')::TEXT[]) ...
+                                                              ^
+
+2025-09-04 06:53:15,185 - INFO -    ✓ Throughput: 17290.16 device-dates/sec
+2025-09-04 06:53:15,185 - INFO -    ✓ Total Duration: 0.00s
+2025-09-04 06:53:15,185 - INFO -    ✓ Avg Chunk Duration: 0.00s
+2025-09-04 06:53:15,185 - INFO -    ✓ Events Detected: 0
+2025-09-04 06:53:17,186 - INFO - ================================================================================
+2025-09-04 06:53:17,186 - INFO - 📊 TUNING RESULTS ANALYSIS
+2025-09-04 06:53:17,186 - INFO - ================================================================================
+2025-09-04 06:53:17,186 - INFO - 🏆 TOP 5 CONFIGURATIONS (by device-dates/second):
+2025-09-04 06:53:17,186 - INFO -  1. workers=200, chunk_size=32 → 17290.16 device-dates/sec (0.0s total)
+2025-09-04 06:53:17,186 - INFO -  2. workers=100, chunk_size=32 → 16785.61 device-dates/sec (0.0s total)
+2025-09-04 06:53:17,186 - INFO -  3. workers= 32, chunk_size=32 → 15375.48 device-dates/sec (0.0s total)
+2025-09-04 06:53:17,186 - INFO -  4. workers=150, chunk_size=32 → 15335.66 device-dates/sec (0.0s total)
+2025-09-04 06:53:17,186 - INFO -  5. workers= 50, chunk_size=32 → 15242.78 device-dates/sec (0.0s total)
+2025-09-04 06:53:17,186 - INFO - ================================================================================
+2025-09-04 06:53:17,186 - INFO - 🎯 OPTIMAL CONFIGURATION:
+2025-09-04 06:53:17,186 - INFO -    • num_workers: 200
+2025-09-04 06:53:17,187 - INFO -    • chunk_size: 32
+2025-09-04 06:53:17,187 - INFO -    • Throughput: 17290.16 device-dates/second
+2025-09-04 06:53:17,187 - INFO -    • Estimated Full Pipeline Time: 0.0 seconds
+2025-09-04 06:53:17,187 - INFO - ================================================================================
+2025-09-04 06:53:17,187 - INFO - 📁 Detailed results saved to: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/cpd_tuning_results_20250904_065317.json
+2025-09-04 06:53:17,187 - INFO - ✅ Parameter tuning completed successfully!
+2025-09-04 06:53:17,187 - INFO - 💡 Recommendation: Update main() function with:
+2025-09-04 06:53:17,187 - INFO -     num_workers=200
+2025-09-04 06:53:17,187 - INFO -     chunk_size=32
+2025-09-04 06:54:27,525 - INFO - ================================================================================
+2025-09-04 06:54:27,525 - INFO - DataMine V2 - CPD Parameter Tuning
+2025-09-04 06:54:27,525 - INFO - TICKET-124: Step 2.2 - Worker and Chunk Size Optimization
+2025-09-04 06:54:27,525 - INFO - ================================================================================
+2025-09-04 06:54:27,525 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 06:54:27,525 - INFO - 🚀 Starting Comprehensive CPD Parameter Tuning
+2025-09-04 06:54:27,525 - INFO - ================================================================================
+2025-09-04 06:54:27,535 - INFO - ✓ Test table ready
+2025-09-04 06:54:27,535 - INFO - Testing 5 worker configs × 4 chunk sizes
+2025-09-04 06:54:27,536 - INFO - Using 24 device-date combinations per test
+2025-09-04 06:54:27,536 - INFO - --------------------------------------------------------------------------------
+2025-09-04 06:54:27,536 - INFO - Test 1/20: workers=32, chunk_size=4
+2025-09-04 06:54:27,536 - INFO - 🧪 Testing: num_workers=32, chunk_size=4
+2025-09-04 06:54:27,544 - INFO - ✓ Cleaned test table
+2025-09-04 06:54:27,828 - INFO - ✓ Retrieved 24 device-date combinations for testing
+2025-09-04 06:54:27,828 - INFO -    Created 6 chunks from 24 device-dates

@@ -1,0 +1,45 @@
+2025-09-04 23:32:40,268 - MainProcess - INFO - ================================================================================
+2025-09-04 23:32:40,268 - MainProcess - INFO - MASSIVELY PARALLEL CPD ORCHESTRATOR - PRODUCTION SCALE
+2025-09-04 23:32:40,268 - MainProcess - INFO - ================================================================================
+2025-09-04 23:32:40,268 - MainProcess - INFO - Target: Process entire telemetry dataset with sub-hour performance
+2025-09-04 23:32:40,268 - MainProcess - INFO - Architecture: Parquet -> Parallel Workers -> PELT -> Aggregated Results
+2025-09-04 23:32:40,268 - MainProcess - INFO - Detection method: polars_parallel_v2
+2025-09-04 23:32:40,268 - MainProcess - INFO - Start time: 2025-09-04 23:32:40.268641
+2025-09-04 23:32:40,268 - MainProcess - INFO - --- Environment Validation ---
+2025-09-04 23:32:40,292 - MainProcess - INFO - Environment validation passed
+2025-09-04 23:32:40,292 - MainProcess - INFO - Schema validated with 32 columns
+2025-09-04 23:32:40,292 - MainProcess - INFO - Test partition: device_date=lake-605-8-0896_2025-08-10
+2025-09-04 23:32:40,293 - MainProcess - INFO - Cleaned existing temp_results directory
+2025-09-04 23:32:40,293 - MainProcess - INFO - Created temp_results directory: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/temp_results
+2025-09-04 23:32:40,295 - MainProcess - INFO - CPU cores (logical): 100
+2025-09-04 23:32:40,295 - MainProcess - INFO - CPU cores (physical): 100
+2025-09-04 23:32:40,295 - MainProcess - INFO - Total memory: 288.1 GB
+2025-09-04 23:32:40,296 - MainProcess - INFO - Available memory: 283.0 GB
+2025-09-04 23:32:40,296 - MainProcess - INFO - Optimal worker count: 90
+2025-09-04 23:32:40,296 - MainProcess - INFO - Memory per worker: 3.1 GB
+2025-09-04 23:32:40,296 - MainProcess - INFO - ================================================================================
+2025-09-04 23:32:40,296 - MainProcess - INFO - WORKLOAD DISCOVERY PHASE
+2025-09-04 23:32:40,296 - MainProcess - INFO - ================================================================================
+2025-09-04 23:32:40,296 - MainProcess - INFO - Scanning Parquet directory: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/features.parquet
+2025-09-04 23:32:40,296 - MainProcess - INFO - Discovered 96 device_date partitions
+2025-09-04 23:32:40,296 - MainProcess - INFO - Partition range: lake-605-10-0050_2025-07-30 to lake-775g-2-2266_2025-08-12
+2025-09-04 23:32:40,296 - MainProcess - INFO - Sample partitions: ['lake-605-10-0050_2025-07-30', 'lake-605-10-0050_2025-07-31', 'lake-605-10-0050_2025-08-01', 'lake-605-10-0050_2025-08-02', 'lake-605-10-0050_2025-08-03']
+2025-09-04 23:32:40,296 - MainProcess - INFO - 
+--- Workload Estimation ---
+2025-09-04 23:32:40,296 - MainProcess - INFO - Total partitions: 96
+2025-09-04 23:32:40,297 - MainProcess - INFO - Estimated per-partition time: 2-10 seconds (based on single-test)
+2025-09-04 23:32:40,297 - MainProcess - INFO - Sequential processing time: 8.0 minutes
+2025-09-04 23:32:40,297 - MainProcess - INFO - Parallel processing target: <60 minutes
+2025-09-04 23:32:40,297 - MainProcess - INFO - 
+================================================================================
+2025-09-04 23:32:40,297 - MainProcess - INFO - PARALLEL CPD EXECUTION PHASE
+2025-09-04 23:32:40,297 - MainProcess - INFO - ================================================================================
+2025-09-04 23:32:40,297 - MainProcess - INFO - Partitions to process: 96
+2025-09-04 23:32:40,297 - MainProcess - INFO - Worker processes: 90
+2025-09-04 23:32:40,297 - MainProcess - INFO - Target architecture: ProcessPoolExecutor with isolated Polars processing
+2025-09-04 23:32:40,298 - MainProcess - INFO - Submitting 96 parallel jobs...
+2025-09-04 23:32:40,432 - MainProcess - INFO - Processing results as they complete...
+2025-09-04 23:33:07,165 - MainProcess - INFO - Progress: 20/96 (20.8%) | Elapsed: 0.4m | ETA: 1.7m | Latest: lake-605-10-0050_2025-08-10 -> 454 events
+2025-09-04 23:33:30,993 - MainProcess - INFO - Progress: 40/96 (41.7%) | Elapsed: 0.8m | ETA: 1.2m | Latest: lake-605-8-0898_2025-08-05 -> 553 events
+2025-09-04 23:33:54,571 - MainProcess - INFO - Progress: 60/96 (62.5%) | Elapsed: 1.2m | ETA: 0.7m | Latest: lake-775g-2-2262_2025-08-09 -> 636 events
+2025-09-04 23:34:24,829 - MainProcess - INFO - Progress: 80/96 (83.3%) | Elapsed: 1.7m | ETA: 0.3m | Latest: lake-605-8-0898_2025-08-03 -> 444 events

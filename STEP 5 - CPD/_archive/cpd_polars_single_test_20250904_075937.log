@@ -1,0 +1,17 @@
+2025-09-04 07:59:37,598 - INFO - Starting Focused Single Device-Date Performance Test...
+2025-09-04 07:59:37,598 - INFO - ================================================================================
+2025-09-04 07:59:37,598 - INFO - TICKET-134: Focused Single Device-Date Performance Test
+2025-09-04 07:59:37,598 - INFO - ================================================================================
+2025-09-04 07:59:37,598 - INFO - Test device-date: lake-605-10-0050_2025-07-30
+2025-09-04 07:59:37,598 - INFO - Architecture: PostgreSQL COPY -> Polars -> Ruptures PELT -> Bulk Insert
+2025-09-04 07:59:37,598 - INFO - Connecting to database...
+2025-09-04 07:59:37,608 - INFO - Target table 05_candidate_events verified
+2025-09-04 07:59:37,624 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 07:59:37,624 - INFO - Extracting data for device-date: lake-605-10-0050_2025-07-30
+2025-09-04 07:59:37,731 - INFO - COPY extraction completed in 0.105s
+2025-09-04 07:59:37,731 - INFO - Extracted 5474641 bytes (5.22 MB)
+2025-09-04 07:59:37,731 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 07:59:37,731 - INFO - Processing lake-605-10-0050_2025-07-30 with Polars vectorized engine
+2025-09-04 07:59:37,781 - INFO - Polars CSV parsing: 0.050s, loaded 89676 rows

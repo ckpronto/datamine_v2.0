@@ -1,0 +1,8 @@
+{
+  "load_timestamp": "2025-09-04T23:41:53.809813",
+  "records_loaded": 46083,
+  "load_time_seconds": 0.40859222412109375,
+  "load_rate_per_second": 112784.81889646158,
+  "csv_file": "/home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_final.csv",
+  "validation_passed": true
+}

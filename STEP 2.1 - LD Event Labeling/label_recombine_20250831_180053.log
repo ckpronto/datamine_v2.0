@@ -1,0 +1,3 @@
+2025-08-31 18:00:53,724 - INFO - Logging to file: /home/ck/DataMine/APPLICATION/STEP 2.1 - LD Neural Net Training/label_recombine_20250831_180053.log
+2025-08-31 18:00:53,724 - INFO - Label recombination script started successfully
+2025-08-31 18:00:53,724 - ERROR - Script execution failed: Input directory does not exist: /home/ck/DataMine/labelstudio_output

@@ -1,0 +1,15 @@
+2025-09-04 07:59:15,256 - INFO - Starting Focused Single Device-Date Performance Test...
+2025-09-04 07:59:15,256 - INFO - ================================================================================
+2025-09-04 07:59:15,256 - INFO - TICKET-134: Focused Single Device-Date Performance Test
+2025-09-04 07:59:15,257 - INFO - ================================================================================
+2025-09-04 07:59:15,257 - INFO - Test device-date: lake-605-10-0050_2025-07-30
+2025-09-04 07:59:15,257 - INFO - Architecture: PostgreSQL COPY -> Polars -> Ruptures PELT -> Bulk Insert
+2025-09-04 07:59:15,257 - INFO - Connecting to database...
+2025-09-04 07:59:15,267 - INFO - Target table 05_candidate_events verified
+2025-09-04 07:59:15,267 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 07:59:15,267 - INFO - Extracting data for device-date: lake-605-10-0050_2025-07-30
+2025-09-04 07:59:15,267 - ERROR - Data extraction failed for lake-605-10-0050_2025-07-30: function takes at most 3 arguments (4 given)
+2025-09-04 07:59:15,267 - ERROR - Single device performance test failed: function takes at most 3 arguments (4 given)
+2025-09-04 07:59:15,267 - INFO - Database connection closed
+2025-09-04 07:59:15,267 - ERROR - Performance test execution failed: function takes at most 3 arguments (4 given)

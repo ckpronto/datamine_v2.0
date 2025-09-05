@@ -1,0 +1,197 @@
+{
+  "experiment_name": "XGBoost V1.3 Load/Dump Event Detection - Stable Velocity Features",
+  "experiment_date": "2025-09-02T03:23:42.393119",
+  "model_version": "1.1_all_labels",
+  "model_type": "XGBoost Classifier (3-class: background, load_event, dump_event)",
+  "task": "Load/Dump Event Detection",
+  "enhancement": "Dynamic loading of all Label Studio files including stockpile operations",
+  "data_source": "All labelstudio_output/*.json files + 00_ground_truth_xgboost_training_data",
+  "classes": [
+    "background",
+    "dump_event",
+    "load_event"
+  ],
+  "feature_names": [
+    "longitude",
+    "latitude",
+    "altitude",
+    "current_speed",
+    "load_weight_filtered",
+    "load_weight_velocity",
+    "altitude_velocity",
+    "is_stationary",
+    "speed_squared",
+    "load_squared",
+    "system_engaged",
+    "parking_brake_applied",
+    "prndl_drive",
+    "prndl_neutral",
+    "prndl_reverse",
+    "prndl_unknown",
+    "state_dumping",
+    "state_hauling",
+    "state_idle",
+    "state_loading",
+    "state_stopped",
+    "state_unknown",
+    "sw_state_autonomous",
+    "sw_state_fault",
+    "sw_state_intervention",
+    "sw_state_manual"
+  ],
+  "num_features": 26,
+  "state_features_included": true,
+  "training_time_seconds": 60.060979,
+  "training_samples": 1395234,
+  "test_samples": 348809,
+  "hyperparameters": {
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "max_depth": 8,
+    "learning_rate": 0.1,
+    "n_estimators": 500,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42,
+    "tree_method": "hist",
+    "enable_categorical": false,
+    "n_jobs": 100
+  },
+  "test_accuracy": 0.9652044528667552,
+  "classification_report": {
+    "background": {
+      "precision": 0.9726444104405144,
+      "recall": 0.9825726356937688,
+      "f1-score": 0.9775833162347661,
+      "support": 269117.0
+    },
+    "dump_event": {
+      "precision": 0.872346002621232,
+      "recall": 0.8196236823958231,
+      "f1-score": 0.8451634202707164,
+      "support": 20302.0
+    },
+    "load_event": {
+      "precision": 0.9608605495075169,
+      "recall": 0.9362687321097828,
+      "f1-score": 0.948405253283302,
+      "support": 59390.0
+    },
+    "accuracy": 0.9652044528667552,
+    "macro avg": {
+      "precision": 0.9352836541897543,
+      "recall": 0.9128216833997915,
+      "f1-score": 0.923717329929595,
+      "support": 348809.0
+    },
+    "weighted avg": {
+      "precision": 0.9648002843532923,
+      "recall": 0.9652044528667552,
+      "f1-score": 0.964907972747214,
+      "support": 348809.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      264427,
+      2425,
+      2265
+    ],
+    [
+      3662,
+      16640,
+      0
+    ],
+    [
+      3775,
+      10,
+      55605
+    ]
+  ],
+  "baseline_comparison": {
+    "state_machine_baseline": 0.6035,
+    "original_xgboost": 0.9555,
+    "improvement_vs_original": 0.009704452866755142,
+    "improvement_vs_baseline": 0.3617044528667551,
+    "exceeds_original": true,
+    "exceeds_baseline": true
+  },
+  "predictions_sample": {
+    "true_labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "predicted_labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "prediction_probabilities": [
+      [
+        0.09806830435991287,
+        0.9017610549926758,
+        0.00017065153224393725
+      ],
+      [
+        0.9999899864196777,
+        9.769159078132361e-06,
+        2.4100418727357464e-07
+      ],
+      [
+        0.999365508556366,
+        0.000633956806268543,
+        5.319705564943433e-07
+      ],
+      [
+        0.9999998807907104,
+        2.9301617132659885e-08,
+        1.2940247984261077e-07
+      ],
+      [
+        0.4970625936985016,
+        0.5029327869415283,
+        4.598871782945935e-06
+      ],
+      [
+        0.5760794281959534,
+        1.042100734593987e-06,
+        0.42391952872276306
+      ],
+      [
+        0.0002204048214480281,
+        4.418249773152638e-06,
+        0.999775230884552
+      ],
+      [
+        0.9943555593490601,
+        2.5527148750370543e-07,
+        0.005644253455102444
+      ],
+      [
+        0.9467061758041382,
+        1.024499511004251e-06,
+        0.053292788565158844
+      ],
+      [
+        1.0,
+        1.249042824724711e-08,
+        3.352073818518875e-08
+      ]
+    ]
+  }
+}

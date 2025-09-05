@@ -1,0 +1,526 @@
+2025-09-04 00:36:38,844 - INFO - ================================================================================
+2025-09-04 00:36:38,844 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 00:36:38,844 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 00:36:38,844 - INFO - ================================================================================
+2025-09-04 00:36:38,845 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 00:36:38,845 - INFO - Initialized CPD Orchestrator with 32 workers, chunk size 8
+2025-09-04 00:36:38,845 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 00:36:38,855 - INFO - ✓ Candidate events table ready
+2025-09-04 00:36:38,855 - INFO - 📋 Getting workload...
+2025-09-04 00:36:39,337 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 00:36:39,337 - INFO - 🔀 Chunking workload...
+2025-09-04 00:36:39,337 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 00:36:39,337 - INFO - ⚡ Processing 12 chunks with 32 workers...
+2025-09-04 00:36:39,339 - INFO - Worker   0 (Thread 127740489496256) starting with 8 device-dates
+2025-09-04 00:36:39,339 - INFO - Worker   1 (Thread 127740481103552) starting with 8 device-dates
+2025-09-04 00:36:39,339 - INFO - Worker   2 (Thread 127740472710848) starting with 8 device-dates
+2025-09-04 00:36:39,340 - INFO - Worker   3 (Thread 127740464318144) starting with 8 device-dates
+2025-09-04 00:36:39,340 - INFO - Worker   4 (Thread 127740246226624) starting with 8 device-dates
+2025-09-04 00:36:39,341 - INFO - Worker   5 (Thread 127740237833920) starting with 8 device-dates
+2025-09-04 00:36:39,341 - INFO - Worker   6 (Thread 127740229441216) starting with 8 device-dates
+2025-09-04 00:36:39,342 - INFO - Worker   7 (Thread 127740221048512) starting with 8 device-dates
+2025-09-04 00:36:39,342 - INFO - Worker   8 (Thread 127740212655808) starting with 8 device-dates
+2025-09-04 00:36:39,342 - INFO - Worker   9 (Thread 127740204263104) starting with 8 device-dates
+2025-09-04 00:36:39,343 - INFO - Worker  10 (Thread 127740195870400) starting with 8 device-dates
+2025-09-04 00:36:39,343 - INFO - Worker  11 (Thread 127739642246848) starting with 8 device-dates
+2025-09-04 00:52:17,122 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 00:52:17,130 - INFO - Initialized CPD Orchestrator with 2 workers, chunk size 1
+2025-09-04 00:52:17,130 - INFO - Connection pool initialized: 7 max connections
+2025-09-04 00:52:17,131 - INFO - ✓ Connection pool closed
+2025-09-04 01:05:37,339 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:05:37,349 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 01:05:37,350 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 01:05:37,820 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:05:37,820 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 01:05:37,825 - INFO - ✓ Connection pool closed
+2025-09-04 01:05:37,825 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:05:37,834 - INFO - Initialized CPD Orchestrator with 100 workers, chunk size 8
+2025-09-04 01:05:37,834 - INFO - Connection pool initialized: 105 max connections
+2025-09-04 01:05:38,298 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:05:38,298 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 01:05:38,298 - INFO - ✓ Connection pool closed
+2025-09-04 01:05:38,299 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:05:38,307 - INFO - Initialized CPD Orchestrator with 150 workers, chunk size 8
+2025-09-04 01:05:38,307 - INFO - Connection pool initialized: 155 max connections
+2025-09-04 01:05:38,776 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:05:38,776 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 01:05:38,776 - INFO - ✓ Connection pool closed
+2025-09-04 01:05:38,777 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:05:38,785 - INFO - Initialized CPD Orchestrator with 100 workers, chunk size 4
+2025-09-04 01:05:38,785 - INFO - Connection pool initialized: 105 max connections
+2025-09-04 01:05:39,252 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:05:39,253 - INFO - ✓ Divided workload into 24 chunks of ~4 items each
+2025-09-04 01:05:39,253 - INFO - ✓ Connection pool closed
+2025-09-04 01:05:39,253 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:05:39,261 - INFO - Initialized CPD Orchestrator with 100 workers, chunk size 16
+2025-09-04 01:05:39,261 - INFO - Connection pool initialized: 105 max connections
+2025-09-04 01:05:39,728 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:05:39,729 - INFO - ✓ Divided workload into 6 chunks of ~16 items each
+2025-09-04 01:05:39,729 - INFO - ✓ Connection pool closed
+2025-09-04 01:11:51,461 - INFO - ================================================================================
+2025-09-04 01:11:51,461 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 01:11:51,461 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 01:11:51,462 - INFO - ================================================================================
+2025-09-04 01:11:51,462 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:11:51,471 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 01:11:51,471 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 01:11:51,471 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 01:11:51,472 - INFO - ✓ Candidate events table ready
+2025-09-04 01:11:51,472 - INFO - 📋 Getting workload...
+2025-09-04 01:11:51,940 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:11:51,941 - INFO - 🔀 Chunking workload...
+2025-09-04 01:11:51,953 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 01:11:51,953 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 01:11:51,955 - INFO - Worker   0 (Thread 133337215661760) starting with 8 device-dates
+2025-09-04 01:11:51,955 - INFO - Worker   1 (Thread 133337207269056) starting with 8 device-dates
+2025-09-04 01:11:51,956 - INFO - Worker   2 (Thread 133337125484224) starting with 8 device-dates
+2025-09-04 01:11:51,956 - INFO - Worker   3 (Thread 133337117091520) starting with 8 device-dates
+2025-09-04 01:11:51,957 - INFO - Worker   4 (Thread 133337108698816) starting with 8 device-dates
+2025-09-04 01:11:51,957 - INFO - Worker   5 (Thread 133337100306112) starting with 8 device-dates
+2025-09-04 01:11:51,958 - INFO - Worker   6 (Thread 133337091913408) starting with 8 device-dates
+2025-09-04 01:11:51,958 - INFO - Worker   7 (Thread 133337083520704) starting with 8 device-dates
+2025-09-04 01:11:51,959 - INFO - Worker   8 (Thread 133337075128000) starting with 8 device-dates
+2025-09-04 01:11:51,959 - INFO - Worker   9 (Thread 133336521504448) starting with 8 device-dates
+2025-09-04 01:11:51,960 - INFO - Worker  10 (Thread 133336513111744) starting with 8 device-dates
+2025-09-04 01:11:51,960 - INFO - Worker  11 (Thread 133336504719040) starting with 8 device-dates
+2025-09-04 01:14:00,430 - INFO - ================================================================================
+2025-09-04 01:14:00,430 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 01:14:00,430 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 01:14:00,431 - INFO - ================================================================================
+2025-09-04 01:14:00,431 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:14:00,440 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 01:14:00,440 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 01:14:00,440 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 01:43:13,172 - INFO - ================================================================================
+2025-09-04 01:43:13,173 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 01:43:13,173 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 01:43:13,173 - INFO - ================================================================================
+2025-09-04 01:43:13,173 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:43:13,183 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 01:43:13,183 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 01:43:13,183 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 01:43:13,184 - INFO - ✓ Candidate events table ready
+2025-09-04 01:43:13,184 - INFO - 📋 Getting workload...
+2025-09-04 01:43:13,644 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:43:13,644 - INFO - 🔀 Chunking workload...
+2025-09-04 01:43:13,644 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 01:43:13,644 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 01:43:13,646 - INFO - Worker   0 (Thread 126983151285952) starting with 8 device-dates
+2025-09-04 01:43:13,646 - INFO - Worker   1 (Thread 126983142893248) starting with 8 device-dates
+2025-09-04 01:43:13,647 - INFO - Worker   2 (Thread 126983134500544) starting with 8 device-dates
+2025-09-04 01:43:13,647 - INFO - Worker   3 (Thread 126982922696384) starting with 8 device-dates
+2025-09-04 01:43:13,648 - INFO - Worker   4 (Thread 126982914303680) starting with 8 device-dates
+2025-09-04 01:43:13,648 - INFO - Worker   5 (Thread 126982905910976) starting with 8 device-dates
+2025-09-04 01:43:13,649 - INFO - Worker   6 (Thread 126982897518272) starting with 8 device-dates
+2025-09-04 01:43:13,649 - INFO - Worker   7 (Thread 126982889125568) starting with 8 device-dates
+2025-09-04 01:43:13,650 - INFO - Worker   8 (Thread 126982880732864) starting with 8 device-dates
+2025-09-04 01:43:13,650 - INFO - Worker   9 (Thread 126982872340160) starting with 8 device-dates
+2025-09-04 01:43:13,651 - INFO - Worker  10 (Thread 126982385825472) starting with 8 device-dates
+2025-09-04 01:43:13,651 - INFO - Worker  11 (Thread 126982377432768) starting with 8 device-dates
+2025-09-04 01:45:24,671 - INFO - ================================================================================
+2025-09-04 01:45:24,671 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 01:45:24,671 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 01:45:24,671 - INFO - ================================================================================
+2025-09-04 01:45:24,671 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 01:45:24,680 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 01:45:24,680 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 01:45:24,680 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 01:45:24,682 - INFO - ✓ Candidate events table ready
+2025-09-04 01:45:24,682 - INFO - 📋 Getting workload...
+2025-09-04 01:45:25,150 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 01:45:25,150 - INFO - 🔀 Chunking workload...
+2025-09-04 01:45:25,150 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 01:45:25,150 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 01:45:25,152 - INFO - Worker   0 (Thread 131972343002816) starting with 8 device-dates
+2025-09-04 01:45:25,152 - INFO - Worker   1 (Thread 131972334610112) starting with 8 device-dates
+2025-09-04 01:45:25,153 - INFO - Worker   2 (Thread 131972326217408) starting with 8 device-dates
+2025-09-04 01:45:25,153 - INFO - Worker   3 (Thread 131972317824704) starting with 8 device-dates
+2025-09-04 01:45:25,153 - INFO - Worker   4 (Thread 131972309432000) starting with 8 device-dates
+2025-09-04 01:45:25,154 - INFO - Worker   5 (Thread 131972301039296) starting with 8 device-dates
+2025-09-04 01:45:25,154 - INFO - Worker   6 (Thread 131972292646592) starting with 8 device-dates
+2025-09-04 01:45:25,155 - INFO - Worker   7 (Thread 131972284253888) starting with 8 device-dates
+2025-09-04 01:45:25,155 - INFO - Worker   8 (Thread 131972275861184) starting with 8 device-dates
+2025-09-04 01:45:25,156 - INFO - Worker   9 (Thread 131971728537280) starting with 8 device-dates
+2025-09-04 01:45:25,156 - INFO - Worker  10 (Thread 131971720144576) starting with 8 device-dates
+2025-09-04 01:45:25,156 - INFO - Worker  11 (Thread 131971711751872) starting with 8 device-dates
+2025-09-04 02:04:51,156 - INFO - ================================================================================
+2025-09-04 02:04:51,156 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 02:04:51,156 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 02:04:51,156 - INFO - ================================================================================
+2025-09-04 02:04:51,156 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 02:04:51,167 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 02:04:51,167 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 02:04:51,167 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 02:04:51,168 - INFO - ✓ Candidate events table ready
+2025-09-04 02:04:51,168 - INFO - 📋 Getting workload...
+2025-09-04 02:04:53,246 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 02:04:53,246 - INFO - 🔀 Chunking workload...
+2025-09-04 02:04:53,246 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 02:04:53,246 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 02:04:53,248 - INFO - Worker   0 (Thread 123700804318912) starting with 8 device-dates
+2025-09-04 02:04:53,248 - INFO - Worker   1 (Thread 123700795926208) starting with 8 device-dates
+2025-09-04 02:04:53,249 - INFO - Worker   2 (Thread 123700787533504) starting with 8 device-dates
+2025-09-04 02:04:53,249 - INFO - Worker   3 (Thread 123700779140800) starting with 8 device-dates
+2025-09-04 02:04:53,250 - INFO - Worker   4 (Thread 123700561049280) starting with 8 device-dates
+2025-09-04 02:04:53,250 - INFO - Worker   5 (Thread 123700552656576) starting with 8 device-dates
+2025-09-04 02:04:53,251 - INFO - Worker   6 (Thread 123700544263872) starting with 8 device-dates
+2025-09-04 02:04:53,251 - INFO - Worker   7 (Thread 123700535871168) starting with 8 device-dates
+2025-09-04 02:04:53,251 - INFO - Worker   8 (Thread 123700527478464) starting with 8 device-dates
+2025-09-04 02:04:53,252 - INFO - Worker   9 (Thread 123700519085760) starting with 8 device-dates
+2025-09-04 02:04:53,252 - INFO - Worker  10 (Thread 123700510693056) starting with 8 device-dates
+2025-09-04 02:04:53,252 - INFO - Worker  11 (Thread 123699957069504) starting with 8 device-dates
+2025-09-04 02:07:22,819 - INFO - ================================================================================
+2025-09-04 02:07:22,819 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 02:07:22,819 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 02:07:22,819 - INFO - ================================================================================
+2025-09-04 02:07:22,819 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 02:07:22,827 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 02:07:22,827 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 02:07:22,827 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 02:07:22,828 - INFO - ✓ Candidate events table ready
+2025-09-04 02:07:22,828 - INFO - 📋 Getting workload...
+2025-09-04 02:07:24,915 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 02:07:24,915 - INFO - 🔀 Chunking workload...
+2025-09-04 02:07:24,915 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 02:07:24,915 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 02:07:24,917 - INFO - Worker   0 (Thread 134704374216384) starting with 8 device-dates
+2025-09-04 02:07:24,917 - INFO - Worker   1 (Thread 134704365823680) starting with 8 device-dates
+2025-09-04 02:07:24,918 - INFO - Worker   2 (Thread 134704357430976) starting with 8 device-dates
+2025-09-04 02:07:24,918 - INFO - Worker   3 (Thread 134704349038272) starting with 8 device-dates
+2025-09-04 02:07:24,919 - INFO - Worker   4 (Thread 134704133043904) starting with 8 device-dates
+2025-09-04 02:07:24,919 - INFO - Worker   5 (Thread 134704124651200) starting with 8 device-dates
+2025-09-04 02:07:24,919 - INFO - Worker   6 (Thread 134704116258496) starting with 8 device-dates
+2025-09-04 02:07:24,920 - INFO - Worker   7 (Thread 134704107865792) starting with 8 device-dates
+2025-09-04 02:07:24,920 - INFO - Worker   8 (Thread 134704099473088) starting with 8 device-dates
+2025-09-04 02:07:24,921 - INFO - Worker   9 (Thread 134704091080384) starting with 8 device-dates
+2025-09-04 02:07:24,921 - INFO - Worker  10 (Thread 134704082687680) starting with 8 device-dates
+2025-09-04 02:07:24,921 - INFO - Worker  11 (Thread 134703529064128) starting with 8 device-dates
+2025-09-04 02:15:39,575 - INFO - ================================================================================
+2025-09-04 02:15:39,575 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 02:15:39,575 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 02:15:39,575 - INFO - ================================================================================
+2025-09-04 02:15:39,575 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 02:15:39,583 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 02:15:39,583 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 02:15:39,583 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 02:15:39,585 - INFO - ✓ Candidate events table ready
+2025-09-04 02:15:39,585 - INFO - 📋 Getting workload...
+2025-09-04 02:15:41,692 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 02:15:41,693 - INFO - 🔀 Chunking workload...
+2025-09-04 02:15:41,693 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 02:15:41,693 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 02:15:41,695 - INFO - Worker   0 (Thread 124826480015040) starting with 8 device-dates
+2025-09-04 02:15:41,695 - INFO - Worker   1 (Thread 124826471622336) starting with 8 device-dates
+2025-09-04 02:15:41,696 - INFO - Worker   2 (Thread 124826463229632) starting with 8 device-dates
+2025-09-04 02:15:41,696 - INFO - Worker   3 (Thread 124826245134016) starting with 8 device-dates
+2025-09-04 02:15:41,696 - INFO - Worker   4 (Thread 124826236741312) starting with 8 device-dates
+2025-09-04 02:15:41,697 - INFO - Worker   5 (Thread 124826228348608) starting with 8 device-dates
+2025-09-04 02:15:41,697 - INFO - Worker   6 (Thread 124826219955904) starting with 8 device-dates
+2025-09-04 02:15:41,698 - INFO - Worker   7 (Thread 124826211563200) starting with 8 device-dates
+2025-09-04 02:15:41,698 - INFO - Worker   8 (Thread 124826203170496) starting with 8 device-dates
+2025-09-04 02:15:41,699 - INFO - Worker   9 (Thread 124826194777792) starting with 8 device-dates
+2025-09-04 02:15:41,699 - INFO - Worker  10 (Thread 124825708263104) starting with 8 device-dates
+2025-09-04 02:15:41,700 - INFO - Worker  11 (Thread 124825699870400) starting with 8 device-dates
+2025-09-04 02:31:52,845 - INFO - ================================================================================
+2025-09-04 02:31:52,845 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 02:31:52,845 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 02:31:52,845 - INFO - ================================================================================
+2025-09-04 02:31:52,845 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 02:31:52,853 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 02:31:52,853 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 02:31:52,853 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 02:31:52,854 - INFO - ✓ Candidate events table ready
+2025-09-04 02:31:52,854 - INFO - 📋 Getting workload...
+2025-09-04 02:31:53,316 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 02:31:53,316 - INFO - 🔀 Chunking workload...
+2025-09-04 02:31:53,316 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 02:31:53,316 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 02:31:53,318 - INFO - Worker   0 (Thread 123279748626112) starting with 8 device-dates
+2025-09-04 02:31:53,318 - INFO - Worker   1 (Thread 123279740233408) starting with 8 device-dates
+2025-09-04 02:31:53,318 - INFO - Worker   2 (Thread 123279731840704) starting with 8 device-dates
+2025-09-04 02:31:53,319 - INFO - Worker   3 (Thread 123279520036544) starting with 8 device-dates
+2025-09-04 02:31:53,320 - INFO - Worker   4 (Thread 123279511643840) starting with 8 device-dates
+2025-09-04 02:31:53,320 - INFO - Worker   5 (Thread 123279503251136) starting with 8 device-dates
+2025-09-04 02:31:53,320 - INFO - Worker   6 (Thread 123279494858432) starting with 8 device-dates
+2025-09-04 02:31:53,321 - INFO - Worker   7 (Thread 123279486465728) starting with 8 device-dates
+2025-09-04 02:31:53,321 - INFO - Worker   8 (Thread 123279478073024) starting with 8 device-dates
+2025-09-04 02:31:53,321 - INFO - Worker   9 (Thread 123279469680320) starting with 8 device-dates
+2025-09-04 02:31:53,322 - INFO - Worker  10 (Thread 123278983165632) starting with 8 device-dates
+2025-09-04 02:31:53,322 - INFO - Worker  11 (Thread 123278974772928) starting with 8 device-dates
+2025-09-04 02:56:55,896 - INFO - ================================================================================
+2025-09-04 02:56:55,896 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 02:56:55,896 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 02:56:55,896 - INFO - ================================================================================
+2025-09-04 02:56:55,896 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 02:56:55,906 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 02:56:55,906 - INFO - Connection pool initialized: 80 max connections
+2025-09-04 02:56:55,906 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 02:56:55,907 - INFO - ✓ Candidate events table ready
+2025-09-04 02:56:55,907 - INFO - 📋 Getting workload...
+2025-09-04 02:56:56,374 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 02:56:56,374 - INFO - 🔀 Chunking workload...
+2025-09-04 02:56:56,374 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 02:56:56,374 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 02:56:56,376 - INFO - Worker   0 (Thread 139283256047296) starting with 8 device-dates
+2025-09-04 02:56:56,376 - INFO - Worker   1 (Thread 139283172161216) starting with 8 device-dates
+2025-09-04 02:56:56,377 - INFO - Worker   2 (Thread 139283163768512) starting with 8 device-dates
+2025-09-04 02:56:56,377 - INFO - Worker   3 (Thread 139283155375808) starting with 8 device-dates
+2025-09-04 02:56:56,377 - INFO - Worker   4 (Thread 139283146983104) starting with 8 device-dates
+2025-09-04 02:56:56,378 - INFO - Worker   5 (Thread 139283138590400) starting with 8 device-dates
+2025-09-04 02:56:56,378 - INFO - Worker   6 (Thread 139283130197696) starting with 8 device-dates
+2025-09-04 02:56:56,378 - INFO - Worker   7 (Thread 139283121804992) starting with 8 device-dates
+2025-09-04 02:56:56,379 - INFO - Worker   8 (Thread 139282635290304) starting with 8 device-dates
+2025-09-04 02:56:56,379 - INFO - Worker   9 (Thread 139282626897600) starting with 8 device-dates
+2025-09-04 02:56:56,379 - INFO - Worker  10 (Thread 139282618504896) starting with 8 device-dates
+2025-09-04 02:56:56,380 - INFO - Worker  11 (Thread 139282610112192) starting with 8 device-dates
+2025-09-04 05:49:43,880 - INFO - ================================================================================
+2025-09-04 05:49:43,880 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 05:49:43,880 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 05:49:43,880 - INFO - ================================================================================
+2025-09-04 05:49:43,880 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 05:49:43,880 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 05:49:43,880 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 05:49:43,880 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 05:49:43,890 - ERROR - 💥 Pipeline failed: must be owner of table 05_candidate_events
+
+2025-09-04 05:49:43,890 - ERROR - ❌ Pipeline failed!
+2025-09-04 05:50:16,059 - INFO - ================================================================================
+2025-09-04 05:50:16,059 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 05:50:16,059 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 05:50:16,059 - INFO - ================================================================================
+2025-09-04 05:50:16,059 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 05:50:16,059 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 05:50:16,059 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 05:50:16,059 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 05:50:16,069 - INFO - ✓ Candidate events table ready
+2025-09-04 05:50:16,069 - INFO - 📋 Getting workload...
+2025-09-04 05:50:16,079 - ERROR - 💥 Pipeline failed: permission denied for table 04_primary_feature_table
+
+2025-09-04 05:50:16,079 - ERROR - ❌ Pipeline failed!
+2025-09-04 05:50:33,267 - INFO - ================================================================================
+2025-09-04 05:50:33,267 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 05:50:33,267 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 05:50:33,267 - INFO - ================================================================================
+2025-09-04 05:50:33,268 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 05:50:33,268 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 05:50:33,268 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 05:50:33,268 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 05:50:33,277 - INFO - ✓ Candidate events table ready
+2025-09-04 05:50:33,277 - INFO - 📋 Getting workload...
+2025-09-04 05:50:33,563 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 05:50:33,563 - INFO - 🔀 Chunking workload...
+2025-09-04 05:50:33,564 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 05:50:33,564 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 05:50:33,614 - INFO - Worker   0 (Process 852614) starting with 8 device-dates
+2025-09-04 05:50:33,614 - INFO - Worker   1 (Process 852615) starting with 8 device-dates
+2025-09-04 05:50:33,615 - INFO - Worker   2 (Process 852616) starting with 8 device-dates
+2025-09-04 05:50:33,615 - INFO - Worker   4 (Process 852618) starting with 8 device-dates
+2025-09-04 05:50:33,615 - INFO - Worker   3 (Process 852617) starting with 8 device-dates
+2025-09-04 05:50:33,615 - INFO - Worker   5 (Process 852619) starting with 8 device-dates
+2025-09-04 05:50:33,615 - INFO - Worker   6 (Process 852620) starting with 8 device-dates
+2025-09-04 05:50:33,615 - INFO - Worker   7 (Process 852621) starting with 8 device-dates
+2025-09-04 05:50:33,616 - INFO - Worker   9 (Process 852623) starting with 8 device-dates
+2025-09-04 05:50:33,616 - INFO - Worker   8 (Process 852622) starting with 8 device-dates
+2025-09-04 05:50:33,616 - INFO - Worker  10 (Process 852624) starting with 8 device-dates
+2025-09-04 05:50:33,616 - INFO - Worker  11 (Process 852626) starting with 8 device-dates
+2025-09-04 06:02:38,783 - INFO - ================================================================================
+2025-09-04 06:02:38,783 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 06:02:38,783 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 06:02:38,783 - INFO - ================================================================================
+2025-09-04 06:02:38,784 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 06:02:38,784 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 06:02:38,784 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 06:02:38,784 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 06:29:20,902 - INFO - ================================================================================
+2025-09-04 06:29:20,902 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 06:29:20,902 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 06:29:20,902 - INFO - ================================================================================
+2025-09-04 06:29:20,902 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 06:29:20,902 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 06:29:20,902 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 06:29:20,902 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 06:29:20,912 - INFO - ✓ Candidate events table ready
+2025-09-04 06:29:20,912 - INFO - 📋 Getting workload...
+2025-09-04 06:29:21,198 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 06:29:21,198 - INFO - 🔀 Chunking workload...
+2025-09-04 06:29:21,198 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 06:29:21,198 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 06:29:21,253 - INFO - Worker   1 (Process 899500) starting with 8 device-dates
+2025-09-04 06:29:21,253 - INFO - Worker   0 (Process 899499) starting with 8 device-dates
+2025-09-04 06:29:21,253 - INFO - Worker   2 (Process 899501) starting with 8 device-dates
+2025-09-04 06:29:21,253 - INFO - Worker   3 (Process 899502) starting with 8 device-dates
+2025-09-04 06:29:21,253 - INFO - Worker   4 (Process 899503) starting with 8 device-dates
+2025-09-04 06:29:21,253 - INFO - Worker   5 (Process 899504) starting with 8 device-dates
+2025-09-04 06:29:21,254 - INFO - Worker   6 (Process 899505) starting with 8 device-dates
+2025-09-04 06:29:21,254 - INFO - Worker   7 (Process 899506) starting with 8 device-dates
+2025-09-04 06:29:21,254 - INFO - Worker   8 (Process 899507) starting with 8 device-dates
+2025-09-04 06:29:21,254 - INFO - Worker   9 (Process 899508) starting with 8 device-dates
+2025-09-04 06:29:21,254 - INFO - Worker  10 (Process 899509) starting with 8 device-dates
+2025-09-04 06:29:21,254 - INFO - Worker  11 (Process 899510) starting with 8 device-dates
+2025-09-04 06:29:21,264 - ERROR - Worker   2 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,264 - ERROR - Worker   4 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,265 - ERROR - Worker   3 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,265 - ERROR - Worker   5 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,265 - ERROR - Worker   6 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,265 - ERROR - Worker   8 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,265 - ERROR - Worker   9 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,265 - ERROR - Worker   7 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,265 - ERROR - Worker  10 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,266 - ERROR - Worker   1 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,266 - ERROR - Worker   0 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,267 - ERROR - Worker  11 failed: column "change_point_index" is of type integer but expression is of type text
+LINE 61:     change_point_index
+             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-09-04 06:29:21,279 - INFO - 🎉 CPD Pipeline Execution Complete!
+2025-09-04 06:29:21,280 - INFO - 📊 Results Summary:
+2025-09-04 06:29:21,280 - INFO -    • Duration: 0:00:00.377081
+2025-09-04 06:29:21,280 - INFO -    • Total Events Detected: 0
+2025-09-04 06:29:21,280 - INFO -    • Devices Processed: 0
+2025-09-04 06:29:21,280 - INFO -    • Chunks Processed: 0/12
+2025-09-04 06:29:21,280 - INFO -    • Average Events/Chunk: 0.0
+2025-09-04 06:29:21,280 - WARNING - ⚠️ 12 chunks failed - check logs for details
+2025-09-04 06:29:21,280 - INFO - ✅ Pipeline completed successfully!
+2025-09-04 06:29:45,840 - INFO - ================================================================================
+2025-09-04 06:29:45,840 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 06:29:45,840 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 06:29:45,840 - INFO - ================================================================================
+2025-09-04 06:29:45,840 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 06:29:45,840 - INFO - Initialized CPD Orchestrator with 75 workers, chunk size 8
+2025-09-04 06:29:45,840 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 06:29:45,840 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 06:29:45,850 - INFO - ✓ Candidate events table ready
+2025-09-04 06:29:45,850 - INFO - 📋 Getting workload...
+2025-09-04 06:29:46,123 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 06:29:46,123 - INFO - 🔀 Chunking workload...
+2025-09-04 06:29:46,123 - INFO - ✓ Divided workload into 12 chunks of ~8 items each
+2025-09-04 06:29:46,123 - INFO - ⚡ Processing 12 chunks with 75 workers...
+2025-09-04 06:29:46,177 - INFO - Worker   0 (Process 900130) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   1 (Process 900131) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   2 (Process 900132) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   3 (Process 900133) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   4 (Process 900134) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   5 (Process 900135) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   6 (Process 900136) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   7 (Process 900137) starting with 8 device-dates
+2025-09-04 06:29:46,178 - INFO - Worker   8 (Process 900138) starting with 8 device-dates
+2025-09-04 06:29:46,179 - INFO - Worker   9 (Process 900139) starting with 8 device-dates
+2025-09-04 06:29:46,179 - INFO - Worker  10 (Process 900140) starting with 8 device-dates
+2025-09-04 06:29:46,179 - INFO - Worker  11 (Process 900141) starting with 8 device-dates
+2025-09-04 07:27:14,448 - INFO - ================================================================================
+2025-09-04 07:27:14,448 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 07:27:14,449 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 07:27:14,449 - INFO - ================================================================================
+2025-09-04 07:27:14,449 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 07:27:14,449 - INFO - Initialized CPD Orchestrator with 24 workers, chunk size 32
+2025-09-04 07:27:14,449 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 07:27:14,449 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 07:27:14,458 - INFO - ✓ Candidate events table ready
+2025-09-04 07:27:14,458 - INFO - 📋 Getting workload...
+2025-09-04 07:27:14,851 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 07:27:14,852 - INFO - 🔀 Chunking workload...
+2025-09-04 07:27:14,852 - INFO - ✓ Divided workload into 3 chunks of ~32 items each
+2025-09-04 07:27:14,852 - INFO - ⚡ Processing 3 chunks with 24 workers...
+2025-09-04 07:27:14,878 - INFO - Worker   0 (Process 967834) starting with 32 device-dates
+2025-09-04 07:27:14,878 - INFO - Worker   1 (Process 967835) starting with 32 device-dates
+2025-09-04 07:27:14,879 - INFO - Worker   2 (Process 967836) starting with 32 device-dates
+2025-09-04 07:27:14,888 - ERROR - Worker   0 failed: column "data_point_count" does not exist
+LINE 25:         data_point_count as raw_data_points,
+                 ^
+
+2025-09-04 07:27:14,889 - ERROR - Worker   2 failed: column "data_point_count" does not exist
+LINE 25:         data_point_count as raw_data_points,
+                 ^
+
+2025-09-04 07:27:14,889 - ERROR - Worker   1 failed: column "data_point_count" does not exist
+LINE 25:         data_point_count as raw_data_points,
+                 ^
+
+2025-09-04 07:27:14,894 - INFO - 🎉 CPD Pipeline Execution Complete!
+2025-09-04 07:27:14,894 - INFO - 📊 Results Summary:
+2025-09-04 07:27:14,894 - INFO -    • Duration: 0:00:00.444764
+2025-09-04 07:27:14,894 - INFO -    • Total Events Detected: 0
+2025-09-04 07:27:14,894 - INFO -    • Devices Processed: 0
+2025-09-04 07:27:14,894 - INFO -    • Chunks Processed: 0/3
+2025-09-04 07:27:14,894 - INFO -    • Average Events/Chunk: 0.0
+2025-09-04 07:27:14,894 - WARNING - ⚠️ 3 chunks failed - check logs for details
+2025-09-04 07:27:14,894 - INFO - ✅ Pipeline completed successfully!
+2025-09-04 07:28:10,062 - INFO - ================================================================================
+2025-09-04 07:28:10,062 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 07:28:10,062 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 07:28:10,062 - INFO - ================================================================================
+2025-09-04 07:28:10,062 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 07:28:10,062 - INFO - Initialized CPD Orchestrator with 24 workers, chunk size 32
+2025-09-04 07:28:10,062 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 07:28:10,062 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 07:28:10,072 - INFO - ✓ Candidate events table ready
+2025-09-04 07:28:10,072 - INFO - 📋 Getting workload...
+2025-09-04 07:28:10,458 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 07:28:10,458 - INFO - 🔀 Chunking workload...
+2025-09-04 07:28:10,459 - INFO - ✓ Divided workload into 3 chunks of ~32 items each
+2025-09-04 07:28:10,459 - INFO - ⚡ Processing 3 chunks with 24 workers...
+2025-09-04 07:28:10,485 - INFO - Worker   0 (Process 969003) starting with 32 device-dates
+2025-09-04 07:28:10,485 - INFO - Worker   1 (Process 969004) starting with 32 device-dates
+2025-09-04 07:28:10,485 - INFO - Worker   2 (Process 969005) starting with 32 device-dates
+2025-09-04 07:29:46,196 - INFO - ================================================================================
+2025-09-04 07:29:46,196 - INFO - DataMine V2 - Massively Parallel CPD Pipeline
+2025-09-04 07:29:46,196 - INFO - TICKET-116: Final Parallelization Implementation
+2025-09-04 07:29:46,196 - INFO - ================================================================================
+2025-09-04 07:29:46,196 - INFO - ✓ Loaded worker SQL script: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_cpd_worker.sql
+2025-09-04 07:29:46,197 - INFO - Initialized CPD Orchestrator with 24 workers, chunk size 32
+2025-09-04 07:29:46,197 - INFO - Using ProcessPoolExecutor - each worker creates its own database connection
+2025-09-04 07:29:46,197 - INFO - 🚀 Starting Massively Parallel CPD Pipeline
+2025-09-04 07:29:46,208 - INFO - ✓ Candidate events table ready
+2025-09-04 07:29:46,208 - INFO - 📋 Getting workload...
+2025-09-04 07:29:46,544 - INFO - ✓ Retrieved 96 device-date combinations to process
+2025-09-04 07:29:46,545 - INFO - 🔀 Chunking workload...
+2025-09-04 07:29:46,545 - INFO - ✓ Divided workload into 3 chunks of ~32 items each
+2025-09-04 07:29:46,545 - INFO - ⚡ Processing 3 chunks with 24 workers...
+2025-09-04 07:29:46,568 - INFO - Worker   0 (Process 971216) starting with 32 device-dates
+2025-09-04 07:29:46,569 - INFO - Worker   1 (Process 971217) starting with 32 device-dates
+2025-09-04 07:29:46,569 - INFO - Worker   2 (Process 971219) starting with 32 device-dates

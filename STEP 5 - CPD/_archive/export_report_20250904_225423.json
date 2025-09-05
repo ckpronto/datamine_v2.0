@@ -1,0 +1,41 @@
+{
+  "export_timestamp": "2025-09-04T22:54:23.936991+00:00",
+  "source_table": "04_primary_feature_table",
+  "total_records_processed": 8831277,
+  "unique_partitions": 96,
+  "output_directory": "/home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/features.parquet",
+  "export_configuration": {
+    "output_dir": "features.parquet",
+    "partition_cols": [
+      "device_date"
+    ],
+    "compression": "snappy",
+    "row_group_size": 100000,
+    "use_dictionary": true
+  },
+  "performance_metrics": {
+    "extraction_time_seconds": 78.688,
+    "conversion_time_seconds": 95.737,
+    "data_size_mb": 7764.4,
+    "records_extracted": 8831277,
+    "columns_exported": 33,
+    "export_time_seconds": 2.806,
+    "output_path": "/home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/features.parquet",
+    "partition_column": "device_date",
+    "compression": "snappy",
+    "row_group_size": 100000,
+    "partitions_created": 96,
+    "sample_records_read": 8831277,
+    "validation_passed": true,
+    "dataset_schema_columns": 33,
+    "partition_directories": [
+      "device_date=lake-605-8-0896_2025-08-10",
+      "device_date=lake-605-10-0050_2025-08-01",
+      "device_date=lake-605-8-0902_2025-08-07",
+      "device_date=lake-605-10-0050_2025-08-04",
+      "device_date=lake-605-8-0896_2025-08-06"
+    ]
+  },
+  "export_success": true,
+  "total_pipeline_time_seconds": 185.818
+}

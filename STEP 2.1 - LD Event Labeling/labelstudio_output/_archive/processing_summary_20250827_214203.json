@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-08-27T21:42:03.424645",
+  "total_combinations": 2,
+  "successful": 2,
+  "failed": 0,
+  "total_records": 191591,
+  "output_directory": "/home/ck/DataMine/labelstudio_output",
+  "results": [
+    {
+      "truck_id": "lake-775g-2-2262",
+      "date": "2025-08-01",
+      "csv_file": "/home/ck/DataMine/labelstudio_output/lake-775g-2-2262_2025-08-01_data.csv",
+      "json_file": "/home/ck/DataMine/labelstudio_output/lake-775g-2-2262_2025-08-01_labelstudio.json",
+      "record_count": 99272,
+      "status": "success"
+    },
+    {
+      "truck_id": "lake-605-8-0883",
+      "date": "2025-08-01",
+      "csv_file": "/home/ck/DataMine/labelstudio_output/lake-605-8-0883_2025-08-01_data.csv",
+      "json_file": "/home/ck/DataMine/labelstudio_output/lake-605-8-0883_2025-08-01_labelstudio.json",
+      "record_count": 92319,
+      "status": "success"
+    }
+  ]
+}

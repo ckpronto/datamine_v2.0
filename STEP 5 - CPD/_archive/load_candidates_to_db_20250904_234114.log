@@ -1,0 +1,20 @@
+2025-09-04 23:41:14,053 - INFO - ================================================================================
+2025-09-04 23:41:14,053 - INFO - CPD CANDIDATE EVENTS DATABASE LOADER - PRODUCTION
+2025-09-04 23:41:14,053 - INFO - ================================================================================
+2025-09-04 23:41:14,053 - INFO - Start time: 2025-09-04 23:41:14.053933
+2025-09-04 23:41:14,062 - INFO - Database connection established successfully
+2025-09-04 23:41:14,068 - INFO - Schema validation passed - 4 columns found
+2025-09-04 23:41:14,068 - INFO - Current table row count: 0
+2025-09-04 23:41:14,076 - INFO - CSV validation passed - 3 columns, 46,083 rows
+2025-09-04 23:41:14,076 - INFO - Ready to load 46,083 records
+2025-09-04 23:41:14,076 - INFO - Truncating 05_candidate_events table...
+2025-09-04 23:41:14,129 - INFO - Table truncated successfully
+2025-09-04 23:41:14,129 - INFO - Starting COPY operation from: /home/ck/DataMine/APPLICATION/V2/STEP 5 - CPD/05_candidate_events_final.csv
+2025-09-04 23:41:14,596 - INFO - COPY completed successfully:
+2025-09-04 23:41:14,596 - INFO -   Rows loaded: 46,083
+2025-09-04 23:41:14,596 - INFO -   Load time: 0.47 seconds
+2025-09-04 23:41:14,596 - INFO -   Rate: 98,625 rows/second
+2025-09-04 23:41:14,596 - INFO - Performing post-load validation...
+2025-09-04 23:41:14,623 - ERROR - Data validation failed: not enough values to unpack (expected 6, got 4)
+2025-09-04 23:41:14,623 - ERROR - Data validation failed - rolling back transaction
+2025-09-04 23:41:14,626 - INFO - Database connection closed

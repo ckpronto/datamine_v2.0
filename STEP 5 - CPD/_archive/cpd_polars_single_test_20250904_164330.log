@@ -1,0 +1,70 @@
+2025-09-04 16:43:30,467 - INFO - Starting Focused Single Device-Date Performance Test...
+2025-09-04 16:43:30,467 - INFO - ================================================================================
+2025-09-04 16:43:30,467 - INFO - TICKET-135: Final Fix - Algorithmic Bottleneck Solution Test
+2025-09-04 16:43:30,467 - INFO - ================================================================================
+2025-09-04 16:43:30,467 - INFO - Test device-date: lake-605-10-0050_2025-07-30
+2025-09-04 16:43:30,467 - INFO - Architecture: PostgreSQL COPY -> Polars -> Downsampling -> Ruptures PELT -> Bulk Insert
+2025-09-04 16:43:30,467 - INFO - Downsampling: 5-second rolling mean to solve O(n²) complexity
+2025-09-04 16:43:30,467 - INFO - Connecting to database...
+2025-09-04 16:43:30,478 - INFO - Target table 05_candidate_events verified
+2025-09-04 16:43:30,478 - INFO - 
+--- Phase 1: Data Extraction ---
+2025-09-04 16:43:30,478 - INFO - Extracting data for device-date: lake-605-10-0050_2025-07-30
+2025-09-04 16:43:30,587 - INFO - COPY extraction completed in 0.106s
+2025-09-04 16:43:30,587 - INFO - Extracted 5474641 bytes (5.22 MB)
+2025-09-04 16:43:30,587 - INFO - 
+--- Phase 2: Polars Processing ---
+2025-09-04 16:43:30,587 - INFO - Processing lake-605-10-0050_2025-07-30 with Polars vectorized engine
+2025-09-04 16:43:30,638 - INFO - Polars CSV parsing: 0.051s, loaded 89676 rows
+2025-09-04 16:43:30,638 - INFO - Data sample - first 5 rows:
+2025-09-04 16:43:30,638 - INFO -   shape: (5, 3)
+┌─────────────────────────────┬───────────────────────────────┬────────────────────────────┐
+│ device_date                 ┆ timestamp                     ┆ load_weight_rate_of_change │
+│ ---                         ┆ ---                           ┆ ---                        │
+│ str                         ┆ str                           ┆ f64                        │
+╞═════════════════════════════╪═══════════════════════════════╪════════════════════════════╡
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:00.605166+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:01.105714+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:01.606285+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:02.106961+00 ┆ 0.0                        │
+│ lake-605-10-0050_2025-07-30 ┆ 2025-07-30 00:00:02.60728+00  ┆ 0.0                        │
+└─────────────────────────────┴───────────────────────────────┴────────────────────────────┘
+2025-09-04 16:43:30,639 - INFO - Load weight stats: min=-9140.0, max=3220.0, null_count=0
+2025-09-04 16:43:30,740 - INFO - Starting downsampling process to reduce O(n²) complexity...
+2025-09-04 16:43:30,740 - INFO - Original data frequency: ~2Hz, target: 5-second intervals (0.2Hz)
+2025-09-04 16:43:30,761 - INFO - Downsampling completed: 0.021s
+2025-09-04 16:43:30,761 - INFO - Data reduced from 89676 to 8981 points (10.0%)
+2025-09-04 16:43:30,766 - INFO - Data conversion completed: 0.005s
+2025-09-04 16:43:30,766 - INFO - Skipping timestamp conversion for PELT performance
+2025-09-04 16:43:30,766 - INFO - Starting PELT algorithm on 8981 data points
+2025-09-04 16:43:30,766 - INFO - Fitting PELT model...
+2025-09-04 16:43:30,766 - INFO - Predicting change points...
+2025-09-04 16:43:40,005 - INFO - Raw change point indices: 666
+2025-09-04 16:43:40,392 - INFO - PELT processed 8981 points for lake-605-10-0050_2025-07-30
+2025-09-04 16:43:40,392 - INFO - Found 666 change points
+2025-09-04 16:43:40,392 - INFO - PELT algorithm completed: 9.626s
+2025-09-04 16:43:40,393 - INFO - Polars processing completed: 9.805s
+2025-09-04 16:43:40,393 - INFO -   - Parsing: 0.051s
+2025-09-04 16:43:40,393 - INFO -   - Downsampling: 0.021s
+2025-09-04 16:43:40,393 - INFO -   - PELT algorithm: 9.632s
+2025-09-04 16:43:40,393 - INFO -   - Change points detected: 666
+2025-09-04 16:43:40,393 - INFO -   - Data reduction: 89676 -> 8981 points (10.0%)
+2025-09-04 16:43:40,394 - INFO - 
+--- Phase 3: Bulk Insert ---
+2025-09-04 16:43:40,394 - INFO - Bulk inserting 666 change points
+2025-09-04 16:43:40,418 - INFO - Bulk insert completed in 0.024s
+2025-09-04 16:43:40,418 - INFO - 
+================================================================================
+2025-09-04 16:43:40,418 - INFO - SINGLE DEVICE-DATE PERFORMANCE RESULTS
+2025-09-04 16:43:40,418 - INFO - ================================================================================
+2025-09-04 16:43:40,418 - INFO - Device-date tested: lake-605-10-0050_2025-07-30
+2025-09-04 16:43:40,418 - INFO - Total execution time: 9.951s
+2025-09-04 16:43:40,418 - INFO - Data extraction (COPY): 0.106s (1.1%)
+2025-09-04 16:43:40,418 - INFO - Polars processing: 9.805s (98.5%)
+2025-09-04 16:43:40,418 - INFO - Bulk insert: 0.024s (0.2%)
+2025-09-04 16:43:40,418 - INFO - Change points detected: 666
+2025-09-04 16:43:40,419 - INFO - ================================================================================
+2025-09-04 16:43:40,419 - INFO - 
+Precise metrics: {'device_date': 'lake-605-10-0050_2025-07-30', 'total_time_seconds': 9.951, 'extraction_time_seconds': 0.106, 'processing_time_seconds': 9.805, 'insert_time_seconds': 0.024, 'change_points_detected': 666, 'extraction_percentage': 1.1, 'processing_percentage': 98.5, 'insert_percentage': 0.2, 'architecture': 'polars_single_device', 'test_timestamp': '2025-09-04T16:43:40.419059+00:00'}
+2025-09-04 16:43:40,419 - INFO - Database connection closed
+2025-09-04 16:43:40,419 - INFO - Performance test completed successfully!

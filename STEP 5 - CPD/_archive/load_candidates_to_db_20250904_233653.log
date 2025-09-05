@@ -1,0 +1,7 @@
+2025-09-04 23:36:53,650 - INFO - ================================================================================
+2025-09-04 23:36:53,650 - INFO - CPD CANDIDATE EVENTS DATABASE LOADER - PRODUCTION
+2025-09-04 23:36:53,650 - INFO - ================================================================================
+2025-09-04 23:36:53,650 - INFO - Start time: 2025-09-04 23:36:53.650340
+2025-09-04 23:36:53,659 - INFO - Database connection established successfully
+2025-09-04 23:36:53,665 - ERROR - Missing required columns: {'detection_method', 'timestamp_end', 'raw_data_points', 'cpd_confidence_score', 'change_point_index'}
+2025-09-04 23:36:53,665 - INFO - Database connection closed
