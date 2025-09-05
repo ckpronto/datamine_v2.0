@@ -1,0 +1,29 @@
+# Large data files
+RAW TELEMETRY DATA/*.csv
+*.csv
+
+# Database files
+*.db
+*.sqlite
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+temp_results/
